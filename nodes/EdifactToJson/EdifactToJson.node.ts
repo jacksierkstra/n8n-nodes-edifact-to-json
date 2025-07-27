@@ -91,7 +91,7 @@ const edifactToJsonProperties: INodeProperties[] = [
 export class EdifactToJson implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'EDIFACT to JSON',
-		icon: { light: 'file:EdifactoToJson.light.svg', dark: 'file:EdifactoToJson.dark.svg' },
+		icon: { light: 'file:EdifactToJson.light.svg', dark: 'file:EdifactToJson.dark.svg' },
 		name: 'edifactToJson', // Changed name for clarity
 		group: ['transform'],
 		version: 1,
