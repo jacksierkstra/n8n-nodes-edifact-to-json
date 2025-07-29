@@ -1,6 +1,3 @@
-// nodes/__tests__/EdifactToJson.spec.ts
-
-
 import {
   IExecuteFunctions,
   INodeExecutionData,
