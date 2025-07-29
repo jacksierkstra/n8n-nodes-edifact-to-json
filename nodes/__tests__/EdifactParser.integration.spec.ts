@@ -1,15 +1,15 @@
-// import { assert } from 'n8n-workflow';
-// import { Edifact, InterchangeBuilder, Reader, ResultType } from 'ts-edifact';
 
 import { EdifactParser } from "../EdifactToJson/parser";
 
 
-describe('ts‑edifact real parsing', () => {
+describe('Edifact parsing', () => {
 
-  it('correctly parses a basic EDIFACT message into a JSON structure', () => {
+  it('correctly parses a basic DESADV EDIFACT message into an Object structure', () => {
   
     // TODO find a message that conforms to the spec.
-    const sampleEdifact = `UNH+ME000001+DESADV:D:01B:UN:EAN007'
+    const sampleEdifact = `UNA:+.? '
+UNB+UNOC:3+1234567891234:14+4321987654321:14+250725:1503+38190'
+UNH+3819000001+DESADV:D:01B:UN:EAN007'
 BGM+351+DES587441+9'
 DTM+137:20020401:102'
 DTM+11:20020403:102'
@@ -27,12 +27,15 @@ MEA+PD+WD+MMT:800'
 MEA+PD+LN+MMT:1200'
 LIN+1++5410738000152:SRV'
 QTY+12:20'
-UNT+23+ME000001'`;
+UNT+21+3819000001'
+UNZ+1+38190'`;
 
     const parser = new EdifactParser(sampleEdifact);
     var result = parser.parse();
 
-    expect(result).toEqual('');
+    expect(result.sender.id).toEqual('1234567891234');
+    expect(result.receiver.id).toEqual('4321987654321');
+    expect(result.date).toEqual('250725');
 
   });
 

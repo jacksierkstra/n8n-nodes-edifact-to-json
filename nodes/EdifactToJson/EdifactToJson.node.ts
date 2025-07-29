@@ -8,12 +8,8 @@ import {
 	NodeOperationError
 } from 'n8n-workflow';
 
-// Import Reader, Separators, and EdifactSeparatorsBuilder
-import { EdifactSeparatorsBuilder, Reader, Separators } from 'ts-edifact';
+import { EdifactParser } from './parser';
 
-/**
- * Defines the properties for the EdifactToJson node.
- */
 const edifactToJsonProperties: INodeProperties[] = [
 	{
 		displayName: 'Input Type',
@@ -61,28 +57,8 @@ const edifactToJsonProperties: INodeProperties[] = [
 				mainInputType: ['binary'],
 			},
 		},
-	},
-	{
-		displayName: 'Has UNA Segment?',
-		name: 'hasUnaSegment',
-		type: 'boolean',
-		default: true,
-		description: 'Whether set to true if the EDIFACT input string includes a UNA segment. If false, you must provide custom delimiter characters.',
-	},
-	{
-		displayName: 'Custom Delimiter Characters',
-		name: 'customDelimiterCharacters',
-		type: 'string',
-		default: ":+.? '", // Default EDIFACT delimiters
-		placeholder: ":+.? '",
-		description: 'Specify the 6 EDIFACT delimiter characters (component, data element, decimal, release, blank space, segment terminator). Only used if "Has UNA Segment?" is false.',
-		displayOptions: {
-			show: {
-				hasUnaSegment: [false], // Only show if hasUnaSegment is false
-			},
-		},
-		// No 'validation' property here, as per previous correction.
-	},
+	}
+
 ];
 
 /**
@@ -115,9 +91,6 @@ export class EdifactToJson implements INodeType {
 
 		for (let i = 0; i < items.length; i++) {
 			const mainInputType = this.getNodeParameter('mainInputType', i) as string;
-			const hasUnaSegment = this.getNodeParameter('hasUnaSegment', i) as boolean;
-			const customDelimiterCharacters = this.getNodeParameter('customDelimiterCharacters', i) as string;
-
 			let edifactString: string;
 
 			// Determine input type and get the EDIFACT string
@@ -140,30 +113,10 @@ export class EdifactToJson implements INodeType {
 			}
 
 			try {
-				let reader = new Reader(); // Instantiate Reader without messageSpecDir in constructor
-
-				// If UNA segment is not present, build custom Separators instance and assign to reader.separators
-				if (!hasUnaSegment) {
-					if (!customDelimiterCharacters || customDelimiterCharacters.length !== 6) {
-						throw new NodeOperationError(this.getNode(), 'Custom Delimiter Characters must be exactly 6 characters long when "Has UNA Segment?" is false.');
-					}
-
-					// Use EdifactSeparatorsBuilder to create a Separators instance
-					const customSeparators: Separators = new EdifactSeparatorsBuilder()
-						.componentSeparator(customDelimiterCharacters[0])
-						.elementSeparator(customDelimiterCharacters[1])
-						.decimalSeparator(customDelimiterCharacters[2])
-						.releaseIndicator(customDelimiterCharacters[3])
-						.blankSpace(customDelimiterCharacters[4]) // Assuming blank space is the 5th character
-						.segmentTerminator(customDelimiterCharacters[5])
-						.build();
-
-					reader.separators = customSeparators; // Assign the Separators instance to the reader
-				}
-				// If hasUnaSegment is true, the Reader will automatically detect them from the UNA segment
+				const parser = new EdifactParser(edifactString, {});
 
 				// Parse the EDIFACT string
-				const result = reader.parse(edifactString);
+				const result = parser.parse();
 
 				// Push the parsed JSON result to the output
 				returnData.push({ json: { edifactJson: result } });
