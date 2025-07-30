@@ -1,5 +1,5 @@
 
-import { EdifactParser } from "../EdifactToJson/parser";
+import { EdifactConversionService } from "../EdifactToJson/EdifactConversionService";
 
 
 describe('Edifact parsing', () => {
@@ -30,8 +30,8 @@ QTY+12:20'
 UNT+21+3819000001'
 UNZ+1+38190'`;
 
-    const parser = new EdifactParser(sampleEdifact);
-    var result = parser.parse();
+    const service = new EdifactConversionService();
+    const result = service.parse(sampleEdifact);
 
     expect(result.sender.id).toEqual('1234567891234');
     expect(result.receiver.id).toEqual('4321987654321');

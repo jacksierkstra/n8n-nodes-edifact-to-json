@@ -8,7 +8,8 @@ import {
 	NodeOperationError
 } from 'n8n-workflow';
 
-import { EdifactParser } from './parser';
+import { InputResolver } from './InputResolver';
+import { EdifactConversionService } from './EdifactConversionService';
 
 const edifactToJsonProperties: INodeProperties[] = [
 	{
@@ -85,58 +86,34 @@ export class EdifactToJson implements INodeType {
 	 * @param this IExecuteFunctions context provided by n8n.
 	 * @returns A promise that resolves to an array of INodeExecutionData arrays.
 	 */
-	async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
-		const items = this.getInputData();
-		const returnData: INodeExecutionData[] = [];
+        async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
+                const items = this.getInputData();
+                const returnData: INodeExecutionData[] = [];
+                const resolver = new InputResolver(this);
+                const converter = new EdifactConversionService();
 
-		for (let i = 0; i < items.length; i++) {
-			const mainInputType = this.getNodeParameter('mainInputType', i) as string;
-			let edifactString: string;
+                for (let i = 0; i < items.length; i++) {
+                        const edifactString = await resolver.getEdifactString(i);
 
-			// Determine input type and get the EDIFACT string
-			if (mainInputType === 'string') {
-				edifactString = this.getNodeParameter('edifactInput', i) as string;
-			} else { // mainInputType === 'binary'
-				const binaryPropertyName = this.getNodeParameter('binaryPropertyName', i) as string;
+                        try {
+                                const result = converter.parse(edifactString);
+                                returnData.push({ json: { edifactJson: result } });
+                        } catch (error) {
+                                if (error instanceof Error) {
+                                        throw new NodeOperationError(this.getNode(), error, {
+                                                message: `Failed to convert EDIFACT to JSON: ${error.message}`,
+                                                itemIndex: i,
+                                        });
+                                }
 
-				// Ensure binary data exists for the current item
-				if (!items[i].binary || !items[i].binary![binaryPropertyName]) {
-					throw new NodeOperationError(this.getNode(), `No binary data found for property "${binaryPropertyName}" on item ${i}.`, {
-						itemIndex: i,
-					});
-				}
+                                throw new NodeOperationError(
+                                        this.getNode(),
+                                        `An unknown error occurred during EDIFACT to JSON conversion: ${error}`,
+                                        { itemIndex: i },
+                                );
+                        }
+                }
 
-				// Get the binary data buffer and convert to string
-				// Assuming UTF-8 encoding for EDIFACT binary input, adjust if needed (e.g., 'latin1')
-				const dataBuffer = await this.helpers.getBinaryDataBuffer(i, binaryPropertyName);
-				edifactString = dataBuffer.toString('utf8');
-			}
-
-			try {
-				const parser = new EdifactParser(edifactString, {});
-
-				// Parse the EDIFACT string
-				const result = parser.parse();
-
-				// Push the parsed JSON result to the output
-				returnData.push({ json: { edifactJson: result } });
-			} catch (error) {
-				// Catch any errors during parsing and throw an n8n NodeOperationError
-				if (error instanceof Error) {
-					throw new NodeOperationError(this.getNode(), error, {
-						message: `Failed to convert EDIFACT to JSON: ${error.message}`,
-						itemIndex: i, // Add itemIndex for better debugging in n8n
-					});
-				} else {
-					throw new NodeOperationError(this.getNode(), `An unknown error occurred during EDIFACT to JSON conversion: ${error}`, {
-						message: 'An unknown error occurred during EDIFACT to JSON conversion.',
-						itemIndex: i, // Add itemIndex
-					});
-				}
-			}
-		}
-
-		// Prepare and return the output data
-		return this.prepareOutputData(returnData);
-	}
+                return this.prepareOutputData(returnData);
+        }
 }
