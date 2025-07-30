@@ -10,7 +10,7 @@ export class InputResolver {
         }
 
         const prop = this.ctx.getNodeParameter('binaryPropertyName', index) as string;
-        const item = this.ctx.getInputData(index);
+        const item = this.ctx.getInputData()[index];
 
         if (!item.binary?.[prop]) {
             throw new NodeOperationError(this.ctx.getNode(), `No binary data found for property "${prop}" on item ${index}.`, { itemIndex: index });
