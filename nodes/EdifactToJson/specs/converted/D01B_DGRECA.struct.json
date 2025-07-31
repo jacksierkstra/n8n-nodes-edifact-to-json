@@ -1,0 +1,137 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "DGRECA"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": [
+      {
+        "content": "RFF",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 9
+      }
+    ],
+    "mandatory": false,
+    "repetition": 9,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "TDT",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": true,
+        "repetition": 2
+      },
+      {
+        "content": "LOC",
+        "mandatory": true,
+        "repetition": 2
+      },
+      {
+        "content": "RFF",
+        "mandatory": false,
+        "repetition": 2
+      },
+      {
+        "content": "MEA",
+        "mandatory": false,
+        "repetition": 1
+      }
+    ],
+    "mandatory": true,
+    "repetition": 1,
+    "name": "Segment group 2"
+  },
+  {
+    "content": [
+      {
+        "content": "NAD",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "CTA",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "COM",
+            "mandatory": false,
+            "repetition": 3
+          }
+        ],
+        "mandatory": false,
+        "repetition": 1,
+        "name": "Segment group 4"
+      }
+    ],
+    "mandatory": true,
+    "repetition": 1,
+    "name": "Segment group 3"
+  },
+  {
+    "content": [
+      {
+        "content": "DGS",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "FTX",
+        "mandatory": true,
+        "repetition": 9
+      },
+      {
+        "content": "MEA",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "LOC",
+        "mandatory": false,
+        "repetition": 99
+      },
+      {
+        "content": "SGP",
+        "mandatory": false,
+        "repetition": 99
+      }
+    ],
+    "mandatory": true,
+    "repetition": 999,
+    "name": "Segment group 5"
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]

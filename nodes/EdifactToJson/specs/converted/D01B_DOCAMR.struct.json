@@ -1,0 +1,128 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "DOCAMR"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "RFF",
+    "mandatory": true,
+    "repetition": 2
+  },
+  {
+    "content": "FCA",
+    "mandatory": false,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": false,
+    "repetition": 4
+  },
+  {
+    "content": "MOA",
+    "mandatory": false,
+    "repetition": 2
+  },
+  {
+    "content": "LOC",
+    "mandatory": false,
+    "repetition": 3
+  },
+  {
+    "content": "TSR",
+    "mandatory": false,
+    "repetition": 1
+  },
+  {
+    "content": "FTX",
+    "mandatory": false,
+    "repetition": 10
+  },
+  {
+    "content": [
+      {
+        "content": "FII",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "RFF",
+        "mandatory": false,
+        "repetition": 2
+      },
+      {
+        "content": "CTA",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "COM",
+        "mandatory": false,
+        "repetition": 5
+      }
+    ],
+    "mandatory": true,
+    "repetition": 5,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "NAD",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "RFF",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "CTA",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "COM",
+        "mandatory": false,
+        "repetition": 5
+      }
+    ],
+    "mandatory": true,
+    "repetition": 9,
+    "name": "Segment group 2"
+  },
+  {
+    "content": [
+      {
+        "content": "AUT",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 1
+      }
+    ],
+    "mandatory": false,
+    "repetition": 1,
+    "name": "Segment group 3"
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]

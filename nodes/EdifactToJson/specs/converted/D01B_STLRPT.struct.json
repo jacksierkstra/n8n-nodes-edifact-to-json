@@ -1,0 +1,416 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "STLRPT"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": true,
+    "repetition": 2
+  },
+  {
+    "content": "NAD",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": [
+      {
+        "content": "CUX",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "EQN",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "MOA",
+        "mandatory": true,
+        "repetition": 6
+      }
+    ],
+    "mandatory": false,
+    "repetition": 999,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "DTM",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "GIS",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "CUX",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "EQN",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "MOA",
+            "mandatory": true,
+            "repetition": 6
+          },
+          {
+            "content": "QVR",
+            "mandatory": false,
+            "repetition": 1
+          }
+        ],
+        "mandatory": false,
+        "repetition": 999,
+        "name": "Segment group 3"
+      },
+      {
+        "content": [
+          {
+            "content": "RFF",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "LOC",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "FTX",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": [
+              {
+                "content": "CUX",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "MOA",
+                "mandatory": true,
+                "repetition": 9
+              },
+              {
+                "content": "QVR",
+                "mandatory": false,
+                "repetition": 1
+              }
+            ],
+            "mandatory": false,
+            "repetition": 999,
+            "name": "Segment group 5"
+          },
+          {
+            "content": [
+              {
+                "content": "BUS",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": [
+                  {
+                    "content": "CUX",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "MOA",
+                    "mandatory": true,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "QVR",
+                    "mandatory": false,
+                    "repetition": 1
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 999,
+                "name": "Segment group 7"
+              },
+              {
+                "content": [
+                  {
+                    "content": "LIN",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "DTM",
+                    "mandatory": false,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "RFF",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "NAD",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "LOC",
+                    "mandatory": false,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "CUX",
+                    "mandatory": false,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "GIS",
+                    "mandatory": false,
+                    "repetition": 2
+                  },
+                  {
+                    "content": "IMD",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "MOA",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "ALC",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "FTX",
+                    "mandatory": false,
+                    "repetition": 99
+                  },
+                  {
+                    "content": "TAX",
+                    "mandatory": false,
+                    "repetition": 999
+                  },
+                  {
+                    "content": [
+                      {
+                        "content": "DOC",
+                        "mandatory": true,
+                        "repetition": 1
+                      },
+                      {
+                        "content": "DTM",
+                        "mandatory": true,
+                        "repetition": 1
+                      },
+                      {
+                        "content": "FTX",
+                        "mandatory": false,
+                        "repetition": 1
+                      },
+                      {
+                        "content": "PIA",
+                        "mandatory": false,
+                        "repetition": 1
+                      },
+                      {
+                        "content": "SEQ",
+                        "mandatory": false,
+                        "repetition": 1
+                      }
+                    ],
+                    "mandatory": false,
+                    "repetition": 99,
+                    "name": "Segment group 9"
+                  },
+                  {
+                    "content": [
+                      {
+                        "content": "PAT",
+                        "mandatory": true,
+                        "repetition": 1
+                      },
+                      {
+                        "content": "MOA",
+                        "mandatory": false,
+                        "repetition": 9
+                      },
+                      {
+                        "content": "RFF",
+                        "mandatory": false,
+                        "repetition": 9
+                      },
+                      {
+                        "content": "DTM",
+                        "mandatory": false,
+                        "repetition": 2
+                      },
+                      {
+                        "content": "AGR",
+                        "mandatory": false,
+                        "repetition": 1
+                      },
+                      {
+                        "content": "GIS",
+                        "mandatory": false,
+                        "repetition": 2
+                      },
+                      {
+                        "content": "NAD",
+                        "mandatory": false,
+                        "repetition": 1
+                      },
+                      {
+                        "content": "FTX",
+                        "mandatory": false,
+                        "repetition": 9
+                      },
+                      {
+                        "content": "IMD",
+                        "mandatory": false,
+                        "repetition": 2
+                      }
+                    ],
+                    "mandatory": false,
+                    "repetition": 9999,
+                    "name": "Segment group 10"
+                  },
+                  {
+                    "content": [
+                      {
+                        "content": "GIR",
+                        "mandatory": true,
+                        "repetition": 1
+                      },
+                      {
+                        "content": "IMD",
+                        "mandatory": false,
+                        "repetition": 2
+                      },
+                      {
+                        "content": "GIN",
+                        "mandatory": false,
+                        "repetition": 2
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": "SEQ",
+                            "mandatory": true,
+                            "repetition": 1
+                          },
+                          {
+                            "content": "FTX",
+                            "mandatory": false,
+                            "repetition": 99
+                          },
+                          {
+                            "content": "ALC",
+                            "mandatory": false,
+                            "repetition": 1
+                          },
+                          {
+                            "content": "GIN",
+                            "mandatory": false,
+                            "repetition": 1
+                          },
+                          {
+                            "content": "RFF",
+                            "mandatory": false,
+                            "repetition": 2
+                          },
+                          {
+                            "content": "IMD",
+                            "mandatory": false,
+                            "repetition": 9
+                          },
+                          {
+                            "content": "NAD",
+                            "mandatory": false,
+                            "repetition": 1
+                          },
+                          {
+                            "content": "TDT",
+                            "mandatory": false,
+                            "repetition": 1
+                          },
+                          {
+                            "content": "DTM",
+                            "mandatory": false,
+                            "repetition": 9
+                          },
+                          {
+                            "content": "LOC",
+                            "mandatory": false,
+                            "repetition": 9
+                          }
+                        ],
+                        "mandatory": false,
+                        "repetition": 99,
+                        "name": "Segment group 12"
+                      }
+                    ],
+                    "mandatory": false,
+                    "repetition": 999,
+                    "name": "Segment group 11"
+                  }
+                ],
+                "mandatory": true,
+                "repetition": 99999,
+                "name": "Segment group 8"
+              }
+            ],
+            "mandatory": true,
+            "repetition": 99,
+            "name": "Segment group 6"
+          },
+          {
+            "content": "CNT",
+            "mandatory": true,
+            "repetition": 1
+          }
+        ],
+        "mandatory": true,
+        "repetition": 999999,
+        "name": "Segment group 4"
+      }
+    ],
+    "mandatory": true,
+    "repetition": 9,
+    "name": "Segment group 2"
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]

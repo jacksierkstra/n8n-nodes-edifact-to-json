@@ -1,0 +1,249 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "MEDPID"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": "RFF",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": "FTX",
+    "mandatory": false,
+    "repetition": 99
+  },
+  {
+    "content": [
+      {
+        "content": "PNA",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "ADR",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "CTA",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "COM",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "RFF",
+        "mandatory": false,
+        "repetition": 99
+      },
+      {
+        "content": "LAN",
+        "mandatory": false,
+        "repetition": 9
+      }
+    ],
+    "mandatory": true,
+    "repetition": 99,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "GIS",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "PNA",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "ADR",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "RFF",
+        "mandatory": false,
+        "repetition": 99
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "IHC",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "NAT",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "FTX",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "LAN",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "HAN",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "LOC",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "FII",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "CTA",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": [
+          {
+            "content": "PDI",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 9
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9,
+        "name": "Segment group 3"
+      },
+      {
+        "content": [
+          {
+            "content": "COM",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "CTA",
+            "mandatory": false,
+            "repetition": 9
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9,
+        "name": "Segment group 4"
+      },
+      {
+        "content": [
+          {
+            "content": "REL",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "PNA",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "ADR",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "RFF",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "PDI",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "IHC",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "NAT",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "LAN",
+            "mandatory": false,
+            "repetition": 9
+          }
+        ],
+        "mandatory": false,
+        "repetition": 99,
+        "name": "Segment group 5"
+      }
+    ],
+    "mandatory": true,
+    "repetition": 9999,
+    "name": "Segment group 2"
+  },
+  {
+    "content": [
+      {
+        "content": "AUT",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 9
+      }
+    ],
+    "mandatory": false,
+    "repetition": 9,
+    "name": "Segment group 6"
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]

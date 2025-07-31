@@ -1,0 +1,130 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "PRODEX"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": true,
+    "repetition": 2
+  },
+  {
+    "content": "MEA",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "NAD",
+    "mandatory": true,
+    "repetition": 2
+  },
+  {
+    "content": [
+      {
+        "content": "RFF",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 1
+      }
+    ],
+    "mandatory": true,
+    "repetition": 5,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "IMD",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "QTY",
+        "mandatory": false,
+        "repetition": 10
+      },
+      {
+        "content": [
+          {
+            "content": "LIN",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "GIS",
+            "mandatory": false,
+            "repetition": 2
+          },
+          {
+            "content": "LOC",
+            "mandatory": false,
+            "repetition": 2
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "MEA",
+            "mandatory": false,
+            "repetition": 5
+          },
+          {
+            "content": "QTY",
+            "mandatory": false,
+            "repetition": 5
+          },
+          {
+            "content": "TDT",
+            "mandatory": false,
+            "repetition": 5
+          },
+          {
+            "content": [
+              {
+                "content": "RFF",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "DTM",
+                "mandatory": false,
+                "repetition": 1
+              }
+            ],
+            "mandatory": false,
+            "repetition": 5,
+            "name": "Segment group 4"
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9999,
+        "name": "Segment group 3"
+      }
+    ],
+    "mandatory": true,
+    "repetition": 99,
+    "name": "Segment group 2"
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]

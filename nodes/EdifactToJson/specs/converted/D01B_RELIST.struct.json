@@ -1,0 +1,262 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "RELIST"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": true,
+    "repetition": 9
+  },
+  {
+    "content": "AGR",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "RFF",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": [
+      {
+        "content": "PNA",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "ATT",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "RFF",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": [
+          {
+            "content": "CTA",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "COM",
+            "mandatory": false,
+            "repetition": 9
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9,
+        "name": "Segment group 2"
+      }
+    ],
+    "mandatory": true,
+    "repetition": 99,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "IDE",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "ROD",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "RFF",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "FTX",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "PNA",
+            "mandatory": false,
+            "repetition": 99
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "QTY",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "NAT",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": [
+              {
+                "content": "PER",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": [
+                  {
+                    "content": "DTM",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "GEI",
+                    "mandatory": false,
+                    "repetition": 1
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 2,
+                "name": "Segment group 6"
+              }
+            ],
+            "mandatory": false,
+            "repetition": 9,
+            "name": "Segment group 5"
+          },
+          {
+            "content": [
+              {
+                "content": "ADR",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "DTM",
+                "mandatory": false,
+                "repetition": 9
+              }
+            ],
+            "mandatory": false,
+            "repetition": 9,
+            "name": "Segment group 7"
+          },
+          {
+            "content": [
+              {
+                "content": "ATT",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "APP",
+                "mandatory": false,
+                "repetition": 1
+              },
+              {
+                "content": "DTM",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "PCD",
+                "mandatory": false,
+                "repetition": 9
+              }
+            ],
+            "mandatory": false,
+            "repetition": 99,
+            "name": "Segment group 8"
+          },
+          {
+            "content": [
+              {
+                "content": "PRV",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "APP",
+                "mandatory": false,
+                "repetition": 1
+              },
+              {
+                "content": "MOA",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "RTE",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "DTM",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "QTY",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "ATT",
+                "mandatory": false,
+                "repetition": 99
+              },
+              {
+                "content": [
+                  {
+                    "content": "BAS",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "APP",
+                    "mandatory": false,
+                    "repetition": 1
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 9,
+                "name": "Segment group 10"
+              }
+            ],
+            "mandatory": false,
+            "repetition": 9,
+            "name": "Segment group 9"
+          }
+        ],
+        "mandatory": true,
+        "repetition": 999,
+        "name": "Segment group 4"
+      }
+    ],
+    "mandatory": true,
+    "repetition": 99,
+    "name": "Segment group 3"
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]

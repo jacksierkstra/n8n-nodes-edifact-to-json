@@ -1,0 +1,186 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "BOPBNK"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": true,
+    "repetition": 9
+  },
+  {
+    "content": [
+      {
+        "content": "RFF",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 1
+      }
+    ],
+    "mandatory": false,
+    "repetition": 9,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "NAD",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "CTA",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "COM",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "FTX",
+        "mandatory": false,
+        "repetition": 99
+      }
+    ],
+    "mandatory": true,
+    "repetition": 9,
+    "name": "Segment group 2"
+  },
+  {
+    "content": [
+      {
+        "content": "RFF",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "CUX",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "MOA",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "LOC",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "RCS",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "FTX",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": [
+              {
+                "content": "MOA",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "ATT",
+                "mandatory": false,
+                "repetition": 1
+              },
+              {
+                "content": "NAD",
+                "mandatory": false,
+                "repetition": 1
+              },
+              {
+                "content": [
+                  {
+                    "content": "GIR",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "QTY",
+                    "mandatory": false,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "PRI",
+                    "mandatory": false,
+                    "repetition": 1
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 1,
+                "name": "Segment group 6"
+              },
+              {
+                "content": [
+                  {
+                    "content": "RFF",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "DTM",
+                    "mandatory": false,
+                    "repetition": 1
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 1,
+                "name": "Segment group 7"
+              },
+              {
+                "content": "LOC",
+                "mandatory": true,
+                "repetition": 9
+              }
+            ],
+            "mandatory": true,
+            "repetition": 9999,
+            "name": "Segment group 5"
+          }
+        ],
+        "mandatory": true,
+        "repetition": 999,
+        "name": "Segment group 4"
+      }
+    ],
+    "mandatory": true,
+    "repetition": 999,
+    "name": "Segment group 3"
+  },
+  {
+    "content": "CNT",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]
