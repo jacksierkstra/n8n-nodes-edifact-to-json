@@ -1,0 +1,112 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "CASRES"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": true,
+    "repetition": 9
+  },
+  {
+    "content": "ERC",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": "LOC",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": "RFF",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": "MOA",
+    "mandatory": false,
+    "repetition": 99
+  },
+  {
+    "content": "FTX",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": [
+      {
+        "content": "NAD",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "SEQ",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "FTX",
+        "mandatory": false,
+        "repetition": 9
+      }
+    ],
+    "mandatory": false,
+    "repetition": 99,
+    "name": "Segment group 1",
+    "section": "detail"
+  },
+  {
+    "content": [
+      {
+        "content": "DOC",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "GIR",
+        "mandatory": false,
+        "repetition": 99
+      },
+      {
+        "content": "PAT",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "MOA",
+        "mandatory": false,
+        "repetition": 99
+      },
+      {
+        "content": "FTX",
+        "mandatory": false,
+        "repetition": 9
+      }
+    ],
+    "mandatory": false,
+    "repetition": 99,
+    "name": "Segment group 2"
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]

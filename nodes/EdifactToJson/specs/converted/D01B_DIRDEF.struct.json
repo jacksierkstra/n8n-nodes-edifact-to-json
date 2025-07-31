@@ -1,0 +1,333 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "DIRDEF"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DII",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": "FTX",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": [
+      {
+        "content": "NAD",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "CTA",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "COM",
+            "mandatory": false,
+            "repetition": 9
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9,
+        "name": "Segment group 2"
+      }
+    ],
+    "mandatory": false,
+    "repetition": 9,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "MSG",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "ATT",
+        "mandatory": false,
+        "repetition": 99
+      },
+      {
+        "content": "FTX",
+        "mandatory": false,
+        "repetition": 999
+      },
+      {
+        "content": "DTM",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "SGU",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "ATT",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "FTX",
+            "mandatory": false,
+            "repetition": 99
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": "FNT",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "REL",
+                    "mandatory": false,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "GIR",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "ATT",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "FTX",
+                    "mandatory": false,
+                    "repetition": 9
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 99,
+                "name": "Segment group 6"
+              }
+            ],
+            "mandatory": false,
+            "repetition": 1,
+            "name": "Segment group 5"
+          },
+          {
+            "content": [
+              {
+                "content": "SEG",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "ATT",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "FTX",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "ELU",
+                "mandatory": false,
+                "repetition": 99
+              },
+              {
+                "content": [
+                  {
+                    "content": "FNT",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "REL",
+                    "mandatory": false,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "GIR",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "ATT",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "FTX",
+                    "mandatory": false,
+                    "repetition": 9
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 99,
+                "name": "Segment group 8"
+              }
+            ],
+            "mandatory": false,
+            "repetition": 9999,
+            "name": "Segment group 7"
+          },
+          {
+            "content": [
+              {
+                "content": "CMP",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "ATT",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "FTX",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "ELU",
+                "mandatory": false,
+                "repetition": 99
+              },
+              {
+                "content": [
+                  {
+                    "content": "FNT",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "REL",
+                    "mandatory": false,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "GIR",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "ATT",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "FTX",
+                    "mandatory": false,
+                    "repetition": 9
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 99,
+                "name": "Segment group 10"
+              }
+            ],
+            "mandatory": false,
+            "repetition": 9999,
+            "name": "Segment group 9"
+          },
+          {
+            "content": [
+              {
+                "content": "ELM",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "ATT",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "FTX",
+                "mandatory": false,
+                "repetition": 9
+              }
+            ],
+            "mandatory": false,
+            "repetition": 9999,
+            "name": "Segment group 11"
+          },
+          {
+            "content": [
+              {
+                "content": "CDS",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "FTX",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": [
+                  {
+                    "content": "CDV",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "ATT",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "FTX",
+                    "mandatory": false,
+                    "repetition": 9
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 9999,
+                "name": "Segment group 13"
+              }
+            ],
+            "mandatory": false,
+            "repetition": 9999,
+            "name": "Segment group 12"
+          },
+          {
+            "content": "UNT",
+            "mandatory": true,
+            "repetition": 1
+          }
+        ],
+        "mandatory": false,
+        "repetition": 999,
+        "name": "Segment group 4"
+      }
+    ],
+    "mandatory": false,
+    "repetition": 9999,
+    "name": "Segment group 3"
+  }
+]

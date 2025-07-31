@@ -1,0 +1,621 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "RECADV"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": true,
+    "repetition": 10
+  },
+  {
+    "content": "ALI",
+    "mandatory": false,
+    "repetition": 5
+  },
+  {
+    "content": "CUX",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": "FTX",
+    "mandatory": false,
+    "repetition": 99
+  },
+  {
+    "content": [
+      {
+        "content": "RFF",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "GEI",
+        "mandatory": false,
+        "repetition": 99
+      },
+      {
+        "content": "MOA",
+        "mandatory": false,
+        "repetition": 99
+      },
+      {
+        "content": "ALC",
+        "mandatory": false,
+        "repetition": 1
+      }
+    ],
+    "mandatory": false,
+    "repetition": 10,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "DOC",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "CDI",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "INP",
+            "mandatory": false,
+            "repetition": 5
+          }
+        ],
+        "mandatory": false,
+        "repetition": 10,
+        "name": "Segment group 3"
+      }
+    ],
+    "mandatory": false,
+    "repetition": 10,
+    "name": "Segment group 2"
+  },
+  {
+    "content": [
+      {
+        "content": "NAD",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "LOC",
+        "mandatory": false,
+        "repetition": 10
+      },
+      {
+        "content": [
+          {
+            "content": "RFF",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 1
+          }
+        ],
+        "mandatory": false,
+        "repetition": 10,
+        "name": "Segment group 5"
+      },
+      {
+        "content": [
+          {
+            "content": "CTA",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "COM",
+            "mandatory": false,
+            "repetition": 5
+          }
+        ],
+        "mandatory": false,
+        "repetition": 10,
+        "name": "Segment group 6"
+      }
+    ],
+    "mandatory": true,
+    "repetition": 99,
+    "name": "Segment group 4"
+  },
+  {
+    "content": [
+      {
+        "content": "TOD",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "CDI",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "INP",
+            "mandatory": false,
+            "repetition": 5
+          }
+        ],
+        "mandatory": false,
+        "repetition": 10,
+        "name": "Segment group 8"
+      },
+      {
+        "content": [
+          {
+            "content": "LOC",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "CDI",
+            "mandatory": false,
+            "repetition": 10
+          }
+        ],
+        "mandatory": false,
+        "repetition": 10,
+        "name": "Segment group 9"
+      }
+    ],
+    "mandatory": false,
+    "repetition": 10,
+    "name": "Segment group 7"
+  },
+  {
+    "content": [
+      {
+        "content": "TDT",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 10
+      },
+      {
+        "content": "CDI",
+        "mandatory": false,
+        "repetition": 20
+      }
+    ],
+    "mandatory": false,
+    "repetition": 10,
+    "name": "Segment group 10"
+  },
+  {
+    "content": [
+      {
+        "content": "EQD",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "CDI",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "INP",
+            "mandatory": false,
+            "repetition": 5
+          }
+        ],
+        "mandatory": false,
+        "repetition": 10,
+        "name": "Segment group 12"
+      },
+      {
+        "content": [
+          {
+            "content": "SEL",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "CDI",
+            "mandatory": true,
+            "repetition": 10
+          }
+        ],
+        "mandatory": false,
+        "repetition": 25,
+        "name": "Segment group 13"
+      },
+      {
+        "content": [
+          {
+            "content": "EQA",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": [
+              {
+                "content": "CDI",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "INP",
+                "mandatory": false,
+                "repetition": 5
+              }
+            ],
+            "mandatory": false,
+            "repetition": 10,
+            "name": "Segment group 15"
+          }
+        ],
+        "mandatory": false,
+        "repetition": 10,
+        "name": "Segment group 14"
+      }
+    ],
+    "mandatory": false,
+    "repetition": 9999,
+    "name": "Segment group 11"
+  },
+  {
+    "content": [
+      {
+        "content": "CPS",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "PAC",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "QVR",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": [
+              {
+                "content": "PCI",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "RFF",
+                "mandatory": false,
+                "repetition": 1
+              },
+              {
+                "content": [
+                  {
+                    "content": "CDI",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "INP",
+                    "mandatory": false,
+                    "repetition": 5
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 10,
+                "name": "Segment group 19"
+              },
+              {
+                "content": [
+                  {
+                    "content": "GIN",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": [
+                      {
+                        "content": "CDI",
+                        "mandatory": true,
+                        "repetition": 1
+                      },
+                      {
+                        "content": "INP",
+                        "mandatory": false,
+                        "repetition": 5
+                      }
+                    ],
+                    "mandatory": false,
+                    "repetition": 10,
+                    "name": "Segment group 21"
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 999,
+                "name": "Segment group 20"
+              }
+            ],
+            "mandatory": false,
+            "repetition": 999,
+            "name": "Segment group 18"
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9999,
+        "name": "Segment group 17"
+      },
+      {
+        "content": [
+          {
+            "content": "LIN",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "PIA",
+            "mandatory": false,
+            "repetition": 10
+          },
+          {
+            "content": "IMD",
+            "mandatory": false,
+            "repetition": 25
+          },
+          {
+            "content": "QTY",
+            "mandatory": false,
+            "repetition": 10
+          },
+          {
+            "content": "QVR",
+            "mandatory": false,
+            "repetition": 10
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 5
+          },
+          {
+            "content": "PRI",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "FTX",
+            "mandatory": false,
+            "repetition": 99
+          },
+          {
+            "content": "NAD",
+            "mandatory": false,
+            "repetition": 99
+          },
+          {
+            "content": [
+              {
+                "content": "CDI",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "INP",
+                "mandatory": false,
+                "repetition": 5
+              }
+            ],
+            "mandatory": false,
+            "repetition": 10,
+            "name": "Segment group 23"
+          },
+          {
+            "content": [
+              {
+                "content": "DOC",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": [
+                  {
+                    "content": "CDI",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "INP",
+                    "mandatory": false,
+                    "repetition": 5
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 10,
+                "name": "Segment group 25"
+              }
+            ],
+            "mandatory": false,
+            "repetition": 10,
+            "name": "Segment group 24"
+          },
+          {
+            "content": [
+              {
+                "content": "GIN",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": [
+                  {
+                    "content": "CDI",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "INP",
+                    "mandatory": false,
+                    "repetition": 5
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 10,
+                "name": "Segment group 27"
+              }
+            ],
+            "mandatory": false,
+            "repetition": 99,
+            "name": "Segment group 26"
+          },
+          {
+            "content": [
+              {
+                "content": "RFF",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "DTM",
+                "mandatory": false,
+                "repetition": 1
+              },
+              {
+                "content": "GEI",
+                "mandatory": false,
+                "repetition": 99
+              },
+              {
+                "content": "MOA",
+                "mandatory": false,
+                "repetition": 99
+              },
+              {
+                "content": "ALC",
+                "mandatory": false,
+                "repetition": 1
+              }
+            ],
+            "mandatory": false,
+            "repetition": 10,
+            "name": "Segment group 28"
+          },
+          {
+            "content": [
+              {
+                "content": "PCI",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "QTY",
+                "mandatory": false,
+                "repetition": 1
+              },
+              {
+                "content": "QVR",
+                "mandatory": false,
+                "repetition": 1
+              },
+              {
+                "content": [
+                  {
+                    "content": "CDI",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "INP",
+                    "mandatory": false,
+                    "repetition": 5
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 10,
+                "name": "Segment group 30"
+              },
+              {
+                "content": [
+                  {
+                    "content": "GIN",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": [
+                      {
+                        "content": "CDI",
+                        "mandatory": true,
+                        "repetition": 1
+                      },
+                      {
+                        "content": "INP",
+                        "mandatory": false,
+                        "repetition": 5
+                      }
+                    ],
+                    "mandatory": false,
+                    "repetition": 10,
+                    "name": "Segment group 32"
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 10,
+                "name": "Segment group 31"
+              }
+            ],
+            "mandatory": false,
+            "repetition": 9999,
+            "name": "Segment group 29"
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9999,
+        "name": "Segment group 22"
+      }
+    ],
+    "mandatory": false,
+    "repetition": 9999,
+    "name": "Segment group 16"
+  },
+  {
+    "content": "CNT",
+    "mandatory": false,
+    "repetition": 1
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]

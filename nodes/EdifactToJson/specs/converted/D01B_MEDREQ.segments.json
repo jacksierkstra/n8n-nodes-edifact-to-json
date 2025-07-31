@@ -1,0 +1,347 @@
+{
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "ADR": {
+    "requires": 0,
+    "elements": [
+      "C817",
+      "C090",
+      "3164",
+      "3251",
+      "3207",
+      "C819",
+      "C517"
+    ]
+  },
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "PNA": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C206",
+      "C082",
+      "3403",
+      "3397",
+      "C816",
+      "C816",
+      "C816",
+      "C816",
+      "C816",
+      "1229"
+    ]
+  },
+  "FTX": {
+    "requires": 1,
+    "elements": [
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
+    ]
+  },
+  "LAN": {
+    "requires": 1,
+    "elements": [
+      "3455",
+      "C508"
+    ]
+  },
+  "IRQ": {
+    "requires": 1,
+    "elements": [
+      "C333"
+    ]
+  },
+  "REL": {
+    "requires": 1,
+    "elements": [
+      "9141",
+      "C941"
+    ]
+  },
+  "SEQ": {
+    "requires": 0,
+    "elements": [
+      "1229",
+      "C286"
+    ]
+  },
+  "RSL": {
+    "requires": 1,
+    "elements": [
+      "6087",
+      "6077",
+      "C831",
+      "C831",
+      "C848",
+      "6079"
+    ]
+  },
+  "IMD": {
+    "requires": 0,
+    "elements": [
+      "7077",
+      "C272",
+      "C273",
+      "7383"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
+  "SCC": {
+    "requires": 1,
+    "elements": [
+      "4017",
+      "4493",
+      "C329"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "DOC": {
+    "requires": 1,
+    "elements": [
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
+    ]
+  },
+  "LOC": {
+    "requires": 1,
+    "elements": [
+      "3227",
+      "C517",
+      "C519",
+      "C553",
+      "5479"
+    ]
+  },
+  "PAC": {
+    "requires": 0,
+    "elements": [
+      "7224",
+      "C531",
+      "C202",
+      "C402",
+      "C532"
+    ]
+  },
+  "STS": {
+    "requires": 0,
+    "elements": [
+      "C601",
+      "C555",
+      "C556",
+      "C556",
+      "C556",
+      "C556",
+      "C556"
+    ]
+  },
+  "DSG": {
+    "requires": 1,
+    "elements": [
+      "6085",
+      "C838"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
+    ]
+  },
+  "INP": {
+    "requires": 0,
+    "elements": [
+      "C849",
+      "C522",
+      "C850",
+      "1229"
+    ]
+  },
+  "ATT": {
+    "requires": 1,
+    "elements": [
+      "9017",
+      "C955",
+      "C956"
+    ]
+  },
+  "TEM": {
+    "requires": 0,
+    "elements": [
+      "C244",
+      "4419",
+      "3077",
+      "6311",
+      "7188",
+      "C515"
+    ]
+  },
+  "QTY": {
+    "requires": 1,
+    "elements": [
+      "C186"
+    ]
+  },
+  "CCI": {
+    "requires": 0,
+    "elements": [
+      "7059",
+      "C502",
+      "C240",
+      "4051"
+    ]
+  },
+  "FCA": {
+    "requires": 1,
+    "elements": [
+      "4471",
+      "C878"
+    ]
+  },
+  "HAN": {
+    "requires": 0,
+    "elements": [
+      "C524",
+      "C218"
+    ]
+  },
+  "CAV": {
+    "requires": 1,
+    "elements": [
+      "C889"
+    ]
+  },
+  "TDT": {
+    "requires": 1,
+    "elements": [
+      "8051",
+      "8028",
+      "C220",
+      "C228",
+      "C040",
+      "8101",
+      "C401",
+      "C222",
+      "8281"
+    ]
+  },
+  "CIN": {
+    "requires": 1,
+    "elements": [
+      "6415",
+      "C836",
+      "C837"
+    ]
+  },
+  "PTY": {
+    "requires": 1,
+    "elements": [
+      "4035",
+      "C585"
+    ]
+  },
+  "CLI": {
+    "requires": 1,
+    "elements": [
+      "9441",
+      "C828"
+    ]
+  },
+  "AUT": {
+    "requires": 1,
+    "elements": [
+      "9280",
+      "9282"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "EMP": {
+    "requires": 1,
+    "elements": [
+      "9003",
+      "C948",
+      "C951",
+      "C950",
+      "3494",
+      "9035"
+    ]
+  },
+  "PDI": {
+    "requires": 0,
+    "elements": [
+      "3499",
+      "C085",
+      "C101"
+    ]
+  },
+  "SPR": {
+    "requires": 1,
+    "elements": [
+      "7293",
+      "3079",
+      "C844"
+    ]
+  },
+  "PRC": {
+    "requires": 0,
+    "elements": [
+      "C242",
+      "C830"
+    ]
+  },
+  "QUA": {
+    "requires": 1,
+    "elements": [
+      "9037",
+      "C950"
+    ]
+  },
+  "PAS": {
+    "requires": 1,
+    "elements": [
+      "9443",
+      "C839",
+      "C840",
+      "C841"
+    ]
+  },
+  "NAT": {
+    "requires": 1,
+    "elements": [
+      "3493",
+      "C042"
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "VESDEP"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": "FTX",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": [
+      {
+        "content": "RFF",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 9
+      }
+    ],
+    "mandatory": false,
+    "repetition": 9,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "NAD",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "CTA",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "COM",
+            "mandatory": false,
+            "repetition": 9
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9,
+        "name": "Segment group 3"
+      }
+    ],
+    "mandatory": true,
+    "repetition": 9,
+    "name": "Segment group 2"
+  },
+  {
+    "content": [
+      {
+        "content": "TDT",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "RFF",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": [
+          {
+            "content": "LOC",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 9
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9,
+        "name": "Segment group 5"
+      },
+      {
+        "content": "MEA",
+        "mandatory": false,
+        "repetition": 9
+      }
+    ],
+    "mandatory": true,
+    "repetition": 1,
+    "name": "Segment group 4"
+  },
+  {
+    "content": [
+      {
+        "content": "QTY",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "FTX",
+        "mandatory": false,
+        "repetition": 1
+      }
+    ],
+    "mandatory": false,
+    "repetition": 9,
+    "name": "Segment group 6"
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]

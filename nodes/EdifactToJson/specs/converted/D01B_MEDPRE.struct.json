@@ -1,0 +1,768 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "MEDPRE"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": "FTX",
+    "mandatory": false,
+    "repetition": 9
+  },
+  {
+    "content": [
+      {
+        "content": "SEQ",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "PNA",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "IDE",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "SPR",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "QUA",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "EMP",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "ADR",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "COM",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "RFF",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "DOC",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "COM",
+            "mandatory": false,
+            "repetition": 1
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9,
+        "name": "Segment group 2"
+      }
+    ],
+    "mandatory": true,
+    "repetition": 99,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "ATT",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "PNA",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "PDI",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "IDE",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 2
+      },
+      {
+        "content": "NAT",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "AGR",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "CCI",
+        "mandatory": false,
+        "repetition": 2
+      },
+      {
+        "content": "STS",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "FTX",
+        "mandatory": false,
+        "repetition": 9
+      },
+      {
+        "content": "LAN",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "CAV",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": [
+          {
+            "content": "HAN",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "FTX",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 2
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9,
+        "name": "Segment group 4"
+      },
+      {
+        "content": [
+          {
+            "content": "ADR",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "COM",
+            "mandatory": false,
+            "repetition": 9
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9,
+        "name": "Segment group 5"
+      },
+      {
+        "content": [
+          {
+            "content": "REL",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "PNA",
+            "mandatory": true,
+            "repetition": 9
+          },
+          {
+            "content": "PDI",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "ADR",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "COM",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "LAN",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "CAV",
+            "mandatory": false,
+            "repetition": 1
+          }
+        ],
+        "mandatory": false,
+        "repetition": 99,
+        "name": "Segment group 6"
+      },
+      {
+        "content": [
+          {
+            "content": "LIN",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "CIN",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "PNA",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "LAN",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "FTX",
+            "mandatory": false,
+            "repetition": 99
+          },
+          {
+            "content": "RSL",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "CLI",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "CCI",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": [
+              {
+                "content": "IMD",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "STS",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "DSG",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "INP",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "FTX",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "SCC",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "QTY",
+                "mandatory": false,
+                "repetition": 9
+              }
+            ],
+            "mandatory": false,
+            "repetition": 1,
+            "name": "Segment group 8"
+          }
+        ],
+        "mandatory": false,
+        "repetition": 999,
+        "name": "Segment group 7"
+      }
+    ],
+    "mandatory": false,
+    "repetition": 1,
+    "name": "Segment group 3"
+  },
+  {
+    "content": [
+      {
+        "content": "GIS",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "IDE",
+        "mandatory": true,
+        "repetition": 9
+      },
+      {
+        "content": "DTM",
+        "mandatory": true,
+        "repetition": 9
+      },
+      {
+        "content": "PTY",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "AGR",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "LAN",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "STS",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "FTX",
+        "mandatory": false,
+        "repetition": 99
+      },
+      {
+        "content": [
+          {
+            "content": "DOC",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "IDE",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 1
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9,
+        "name": "Segment group 10"
+      },
+      {
+        "content": [
+          {
+            "content": "TOD",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "TDT",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "FTX",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "ADR",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "COM",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "PNA",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "PTY",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "PAC",
+            "mandatory": false,
+            "repetition": 1
+          }
+        ],
+        "mandatory": false,
+        "repetition": 1,
+        "name": "Segment group 11"
+      },
+      {
+        "content": [
+          {
+            "content": "FCA",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "PNA",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "IDE",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "RCS",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": [
+              {
+                "content": "ICD",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "ALC",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "PCD",
+                "mandatory": false,
+                "repetition": 1
+              },
+              {
+                "content": "MOA",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "IDE",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "DTM",
+                "mandatory": false,
+                "repetition": 9
+              }
+            ],
+            "mandatory": false,
+            "repetition": 9,
+            "name": "Segment group 13"
+          }
+        ],
+        "mandatory": false,
+        "repetition": 9,
+        "name": "Segment group 12"
+      },
+      {
+        "content": [
+          {
+            "content": "LIN",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "DSG",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "IMD",
+            "mandatory": true,
+            "repetition": 1
+          },
+          {
+            "content": "QTY",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "PGI",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "PNA",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "PAC",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "IDE",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "DLM",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "EQN",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "PRC",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "DTM",
+            "mandatory": false,
+            "repetition": 9
+          },
+          {
+            "content": "STS",
+            "mandatory": false,
+            "repetition": 1
+          },
+          {
+            "content": "CIN",
+            "mandatory": false,
+            "repetition": 99
+          },
+          {
+            "content": "FTX",
+            "mandatory": false,
+            "repetition": 99
+          },
+          {
+            "content": [
+              {
+                "content": "CAV",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "IMD",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "QTY",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "FTX",
+                "mandatory": false,
+                "repetition": 99
+              }
+            ],
+            "mandatory": false,
+            "repetition": 99,
+            "name": "Segment group 15"
+          },
+          {
+            "content": [
+              {
+                "content": "SEQ",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "DSG",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "QTY",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "INP",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "DTM",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "FTX",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "SCC",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "CIN",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "PCI",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "LAN",
+                "mandatory": false,
+                "repetition": 1
+              },
+              {
+                "content": "EQA",
+                "mandatory": false,
+                "repetition": 9
+              }
+            ],
+            "mandatory": false,
+            "repetition": 99,
+            "name": "Segment group 16"
+          },
+          {
+            "content": [
+              {
+                "content": "FCA",
+                "mandatory": true,
+                "repetition": 1
+              },
+              {
+                "content": "PNA",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "IDE",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": "RCS",
+                "mandatory": false,
+                "repetition": 9
+              },
+              {
+                "content": [
+                  {
+                    "content": "ICD",
+                    "mandatory": true,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "ALC",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "PCD",
+                    "mandatory": false,
+                    "repetition": 1
+                  },
+                  {
+                    "content": "MOA",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "IDE",
+                    "mandatory": false,
+                    "repetition": 9
+                  },
+                  {
+                    "content": "DTM",
+                    "mandatory": false,
+                    "repetition": 9
+                  }
+                ],
+                "mandatory": false,
+                "repetition": 9,
+                "name": "Segment group 18"
+              }
+            ],
+            "mandatory": false,
+            "repetition": 9,
+            "name": "Segment group 17"
+          }
+        ],
+        "mandatory": false,
+        "repetition": 99,
+        "name": "Segment group 14"
+      }
+    ],
+    "mandatory": true,
+    "repetition": 1,
+    "name": "Segment group 9"
+  },
+  {
+    "content": "CNT",
+    "mandatory": false,
+    "repetition": 1
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]

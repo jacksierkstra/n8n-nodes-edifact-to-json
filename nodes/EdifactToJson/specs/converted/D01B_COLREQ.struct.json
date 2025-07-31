@@ -1,0 +1,216 @@
+[
+  {
+    "content": "UNH",
+    "mandatory": true,
+    "repetition": 1,
+    "data": [
+      "D01B",
+      "COLREQ"
+    ],
+    "section": "header"
+  },
+  {
+    "content": "BGM",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DTM",
+    "mandatory": false,
+    "repetition": 1
+  },
+  {
+    "content": "FCA",
+    "mandatory": true,
+    "repetition": 1
+  },
+  {
+    "content": "DOC",
+    "mandatory": true,
+    "repetition": 40
+  },
+  {
+    "content": "INP",
+    "mandatory": false,
+    "repetition": 20
+  },
+  {
+    "content": "FTX",
+    "mandatory": false,
+    "repetition": 15
+  },
+  {
+    "content": [
+      {
+        "content": "FII",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "RFF",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "CTA",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "COM",
+        "mandatory": false,
+        "repetition": 5
+      }
+    ],
+    "mandatory": true,
+    "repetition": 7,
+    "name": "Segment group 1"
+  },
+  {
+    "content": [
+      {
+        "content": "NAD",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "RFF",
+        "mandatory": false,
+        "repetition": 3
+      },
+      {
+        "content": "CTA",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "COM",
+        "mandatory": false,
+        "repetition": 5
+      }
+    ],
+    "mandatory": true,
+    "repetition": 9,
+    "name": "Segment group 2"
+  },
+  {
+    "content": [
+      {
+        "content": "PAT",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "FTX",
+        "mandatory": false,
+        "repetition": 1
+      }
+    ],
+    "mandatory": true,
+    "repetition": 1,
+    "name": "Segment group 3"
+  },
+  {
+    "content": [
+      {
+        "content": "MOA",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "FTX",
+        "mandatory": false,
+        "repetition": 1
+      }
+    ],
+    "mandatory": true,
+    "repetition": 5,
+    "name": "Segment group 4"
+  },
+  {
+    "content": [
+      {
+        "content": "TDT",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "LOC",
+        "mandatory": false,
+        "repetition": 3
+      }
+    ],
+    "mandatory": false,
+    "repetition": 1,
+    "name": "Segment group 5"
+  },
+  {
+    "content": [
+      {
+        "content": "GIS",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "MOA",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "LOC",
+        "mandatory": false,
+        "repetition": 2
+      },
+      {
+        "content": "NAD",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "RCS",
+        "mandatory": false,
+        "repetition": 1
+      },
+      {
+        "content": "FTX",
+        "mandatory": false,
+        "repetition": 10
+      }
+    ],
+    "mandatory": false,
+    "repetition": 10,
+    "name": "Segment group 6"
+  },
+  {
+    "content": [
+      {
+        "content": "AUT",
+        "mandatory": true,
+        "repetition": 1
+      },
+      {
+        "content": "DTM",
+        "mandatory": false,
+        "repetition": 1
+      }
+    ],
+    "mandatory": false,
+    "repetition": 1,
+    "name": "Segment group 7"
+  },
+  {
+    "content": "UNT",
+    "mandatory": true,
+    "repetition": 1
+  }
+]

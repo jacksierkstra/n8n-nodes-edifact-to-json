@@ -1,0 +1,84 @@
+{
+  "6167": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "7077": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "7383": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "C280": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "n..18",
+      "n..18"
+    ]
+  },
+  "C507": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..35",
+      "an..3"
+    ]
+  },
+  "C272": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3"
+    ]
+  },
+  "C273": {
+    "requires": 0,
+    "components": [
+      "an..17",
+      "an..17",
+      "an..3",
+      "an..256",
+      "an..256",
+      "an..3"
+    ]
+  },
+  "C524": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..70"
+    ]
+  },
+  "C218": {
+    "requires": 0,
+    "components": [
+      "an..7",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C534": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..3",
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..3"
+    ]
+  }
+}

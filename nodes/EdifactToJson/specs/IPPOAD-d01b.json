@@ -1,0 +1,2188 @@
+{
+  "segmentTable": {
+    "entries": {
+      "QTY": {
+        "requires": 1,
+        "elements": [
+          "C186"
+        ]
+      },
+      "BGM": {
+        "requires": 0,
+        "elements": [
+          "C002",
+          "C106",
+          "1225",
+          "4343"
+        ]
+      },
+      "IDE": {
+        "requires": 1,
+        "elements": [
+          "7495",
+          "C206",
+          "C082",
+          "4405",
+          "1222",
+          "C778",
+          "C240"
+        ]
+      },
+      "EFI": {
+        "requires": 1,
+        "elements": [
+          "C077",
+          "C099",
+          "1050",
+          "9450"
+        ]
+      },
+      "RFF": {
+        "requires": 1,
+        "elements": [
+          "C506"
+        ]
+      },
+      "GEI": {
+        "requires": 1,
+        "elements": [
+          "9649",
+          "C012",
+          "7187"
+        ]
+      },
+      "ICD": {
+        "requires": 2,
+        "elements": [
+          "C330",
+          "C331"
+        ]
+      },
+      "DTM": {
+        "requires": 1,
+        "elements": [
+          "C507"
+        ]
+      },
+      "MOA": {
+        "requires": 1,
+        "elements": [
+          "C516"
+        ]
+      },
+      "ATT": {
+        "requires": 1,
+        "elements": [
+          "9017",
+          "C955",
+          "C956"
+        ]
+      },
+      "QRS": {
+        "requires": 1,
+        "elements": [
+          "7293",
+          "C811",
+          "C812"
+        ]
+      },
+      "ADR": {
+        "requires": 0,
+        "elements": [
+          "C817",
+          "C090",
+          "3164",
+          "3251",
+          "3207",
+          "C819",
+          "C517"
+        ]
+      },
+      "PCD": {
+        "requires": 1,
+        "elements": [
+          "C501",
+          "4405"
+        ]
+      },
+      "COM": {
+        "requires": 1,
+        "elements": [
+          "C076"
+        ]
+      },
+      "FTX": {
+        "requires": 1,
+        "elements": [
+          "4451",
+          "4453",
+          "C107",
+          "C108",
+          "3453",
+          "4447"
+        ]
+      },
+      "PCC": {
+        "requires": 0,
+        "elements": [
+          "C820",
+          "4522"
+        ]
+      },
+      "SEQ": {
+        "requires": 0,
+        "elements": [
+          "1229",
+          "C286"
+        ]
+      },
+      "CTA": {
+        "requires": 0,
+        "elements": [
+          "3139",
+          "C056"
+        ]
+      },
+      "EMP": {
+        "requires": 1,
+        "elements": [
+          "9003",
+          "C948",
+          "C951",
+          "C950",
+          "3494",
+          "9035"
+        ]
+      },
+      "ROD": {
+        "requires": 0,
+        "elements": [
+          "C851",
+          "C852"
+        ]
+      },
+      "COD": {
+        "requires": 0,
+        "elements": [
+          "C823",
+          "C824"
+        ]
+      },
+      "IMD": {
+        "requires": 0,
+        "elements": [
+          "7077",
+          "C272",
+          "C273",
+          "7383"
+        ]
+      },
+      "MEA": {
+        "requires": 1,
+        "elements": [
+          "6311",
+          "C502",
+          "C174",
+          "7383"
+        ]
+      },
+      "CUX": {
+        "requires": 0,
+        "elements": [
+          "C504",
+          "C504",
+          "5402",
+          "6341"
+        ]
+      },
+      "LOC": {
+        "requires": 1,
+        "elements": [
+          "3227",
+          "C517",
+          "C519",
+          "C553",
+          "5479"
+        ]
+      },
+      "EVE": {
+        "requires": 0,
+        "elements": [
+          "9635",
+          "C004",
+          "C030",
+          "C063",
+          "1229"
+        ]
+      },
+      "PNA": {
+        "requires": 1,
+        "elements": [
+          "3035",
+          "C206",
+          "C082",
+          "3403",
+          "3397",
+          "C816",
+          "C816",
+          "C816",
+          "C816",
+          "C816",
+          "1229"
+        ]
+      },
+      "FII": {
+        "requires": 1,
+        "elements": [
+          "3035",
+          "C078",
+          "C088",
+          "3207"
+        ]
+      },
+      "PYT": {
+        "requires": 1,
+        "elements": [
+          "4279",
+          "C019",
+          "2475",
+          "2009",
+          "2151",
+          "2152"
+        ]
+      }
+    }
+  },
+  "elementTable": {
+    "entries": {
+      "1050": {
+        "requires": 0,
+        "components": [
+          "an..10"
+        ]
+      },
+      "1222": {
+        "requires": 0,
+        "components": [
+          "n..2"
+        ]
+      },
+      "1225": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "1229": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "2009": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "2151": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "2152": {
+        "requires": 0,
+        "components": [
+          "n..3"
+        ]
+      },
+      "2475": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3035": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3139": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3164": {
+        "requires": 0,
+        "components": [
+          "an..35"
+        ]
+      },
+      "3207": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3227": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3251": {
+        "requires": 0,
+        "components": [
+          "an..17"
+        ]
+      },
+      "3397": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3403": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3453": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3494": {
+        "requires": 0,
+        "components": [
+          "an..35"
+        ]
+      },
+      "4279": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4343": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4405": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4447": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4451": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4453": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4522": {
+        "requires": 0,
+        "components": [
+          "an..35"
+        ]
+      },
+      "5402": {
+        "requires": 0,
+        "components": [
+          "n..12"
+        ]
+      },
+      "5479": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "6311": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "6341": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "7077": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "7187": {
+        "requires": 0,
+        "components": [
+          "an..17"
+        ]
+      },
+      "7293": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "7383": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "7495": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9003": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9017": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9035": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9450": {
+        "requires": 0,
+        "components": [
+          "an..35"
+        ]
+      },
+      "9635": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9649": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "C186": {
+        "requires": 2,
+        "components": [
+          "an..3",
+          "an..35",
+          "an..3"
+        ]
+      },
+      "C002": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C106": {
+        "requires": 0,
+        "components": [
+          "an..35",
+          "an..9",
+          "an..6"
+        ]
+      },
+      "C206": {
+        "requires": 1,
+        "components": [
+          "an..35",
+          "an..3",
+          "an..3"
+        ]
+      },
+      "C082": {
+        "requires": 1,
+        "components": [
+          "an..35",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C778": {
+        "requires": 0,
+        "components": [
+          "an..35",
+          "an..10"
+        ]
+      },
+      "C240": {
+        "requires": 1,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..35",
+          "an..35"
+        ]
+      },
+      "C077": {
+        "requires": 0,
+        "components": [
+          "an..35",
+          "an..256"
+        ]
+      },
+      "C099": {
+        "requires": 1,
+        "components": [
+          "an..17",
+          "an..9",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C506": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..70",
+          "an..6",
+          "an..35",
+          "an..6"
+        ]
+      },
+      "C012": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C330": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C331": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..35",
+          "an..35"
+        ]
+      },
+      "C507": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..35",
+          "an..3"
+        ]
+      },
+      "C516": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "n..35",
+          "an..3",
+          "an..3",
+          "an..3"
+        ]
+      },
+      "C955": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C956": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..256"
+        ]
+      },
+      "C811": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..256"
+        ]
+      },
+      "C812": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..256"
+        ]
+      },
+      "C817": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..3",
+          "an..3"
+        ]
+      },
+      "C090": {
+        "requires": 2,
+        "components": [
+          "an..3",
+          "an..70",
+          "an..70",
+          "an..70",
+          "an..70",
+          "an..70"
+        ]
+      },
+      "C819": {
+        "requires": 0,
+        "components": [
+          "an..9",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C517": {
+        "requires": 0,
+        "components": [
+          "an..25",
+          "an..17",
+          "an..3",
+          "an..256"
+        ]
+      },
+      "C501": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "n..10",
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C076": {
+        "requires": 2,
+        "components": [
+          "an..512",
+          "an..3"
+        ]
+      },
+      "C107": {
+        "requires": 1,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C108": {
+        "requires": 1,
+        "components": [
+          "an..512",
+          "an..512",
+          "an..512",
+          "an..512",
+          "an..512"
+        ]
+      },
+      "C820": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C286": {
+        "requires": 1,
+        "components": [
+          "an..10",
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C056": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..35"
+        ]
+      },
+      "C948": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C951": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35",
+          "an..35"
+        ]
+      },
+      "C950": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35",
+          "an..35"
+        ]
+      },
+      "C851": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C852": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C823": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C824": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C272": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C273": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..256",
+          "an..256",
+          "an..3"
+        ]
+      },
+      "C502": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..3",
+          "an..17",
+          "an..70"
+        ]
+      },
+      "C174": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..18",
+          "n..18",
+          "n..18",
+          "n..2"
+        ]
+      },
+      "C504": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..3",
+          "an..3",
+          "n..4"
+        ]
+      },
+      "C519": {
+        "requires": 0,
+        "components": [
+          "an..25",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C553": {
+        "requires": 0,
+        "components": [
+          "an..25",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C004": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C030": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C063": {
+        "requires": 0,
+        "components": [
+          "an..35",
+          "an..17",
+          "an..3",
+          "an..256"
+        ]
+      },
+      "C816": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..70",
+          "an..3",
+          "an..3"
+        ]
+      },
+      "C078": {
+        "requires": 0,
+        "components": [
+          "an..35",
+          "an..35",
+          "an..35",
+          "an..3"
+        ]
+      },
+      "C088": {
+        "requires": 0,
+        "components": [
+          "an..11",
+          "an..17",
+          "an..3",
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..70",
+          "an..70"
+        ]
+      },
+      "C019": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      }
+    }
+  },
+  "messageStructureDefinition": [
+    {
+      "content": "UNH",
+      "mandatory": true,
+      "repetition": 1,
+      "data": [
+        "D01B",
+        "IPPOAD"
+      ],
+      "section": "header"
+    },
+    {
+      "content": "BGM",
+      "mandatory": true,
+      "repetition": 1
+    },
+    {
+      "content": "ATT",
+      "mandatory": false,
+      "repetition": 9
+    },
+    {
+      "content": "RFF",
+      "mandatory": false,
+      "repetition": 9
+    },
+    {
+      "content": "DTM",
+      "mandatory": false,
+      "repetition": 9
+    },
+    {
+      "content": "QTY",
+      "mandatory": false,
+      "repetition": 9
+    },
+    {
+      "content": "SEQ",
+      "mandatory": false,
+      "repetition": 1
+    },
+    {
+      "content": [
+        {
+          "content": "PNA",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": [
+            {
+              "content": "RFF",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "DTM",
+              "mandatory": false,
+              "repetition": 9
+            }
+          ],
+          "mandatory": false,
+          "repetition": 9,
+          "name": "Segment group 2"
+        }
+      ],
+      "mandatory": false,
+      "repetition": 9,
+      "name": "Segment group 1"
+    },
+    {
+      "content": [
+        {
+          "content": "ICD",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "IDE",
+          "mandatory": true,
+          "repetition": 9
+        },
+        {
+          "content": "GEI",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "ATT",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "CUX",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "DTM",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "MOA",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "PCD",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "QTY",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "QRS",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "RFF",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "FTX",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": [
+            {
+              "content": "COD",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "IDE",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "GEI",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "ATT",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "COM",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "DTM",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "EFI",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "MOA",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "PCD",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "QRS",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "QTY",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "RFF",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "FTX",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": [
+                {
+                  "content": "PCC",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "IDE",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "ADR",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "ATT",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "DTM",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "MOA",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "PCD",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "QRS",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "QTY",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "FTX",
+                  "mandatory": false,
+                  "repetition": 9
+                }
+              ],
+              "mandatory": false,
+              "repetition": 99,
+              "name": "Segment group 5"
+            }
+          ],
+          "mandatory": false,
+          "repetition": 999,
+          "name": "Segment group 4"
+        }
+      ],
+      "mandatory": true,
+      "repetition": 999,
+      "name": "Segment group 3"
+    },
+    {
+      "content": [
+        {
+          "content": "PNA",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "IDE",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "GEI",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "ATT",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "COM",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "DTM",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "LOC",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "MOA",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "PCD",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "QRS",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "QTY",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "RFF",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "FTX",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": [
+            {
+              "content": "CTA",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "COM",
+              "mandatory": false,
+              "repetition": 9
+            }
+          ],
+          "mandatory": false,
+          "repetition": 9,
+          "name": "Segment group 7"
+        },
+        {
+          "content": [
+            {
+              "content": "COD",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "IDE",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "GEI",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "ADR",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "ATT",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "COM",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "DTM",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "EFI",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "EMP",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "FII",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "IMD",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "MOA",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "PCD",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "QRS",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "QTY",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "RFF",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "FTX",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": [
+                {
+                  "content": "PCC",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "IDE",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "ADR",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "ATT",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "DTM",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "MOA",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "PCD",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "QRS",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "QTY",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "FTX",
+                  "mandatory": false,
+                  "repetition": 9
+                }
+              ],
+              "mandatory": false,
+              "repetition": 99,
+              "name": "Segment group 9"
+            }
+          ],
+          "mandatory": false,
+          "repetition": 999,
+          "name": "Segment group 8"
+        }
+      ],
+      "mandatory": false,
+      "repetition": 9999,
+      "name": "Segment group 6"
+    },
+    {
+      "content": [
+        {
+          "content": "ROD",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "IDE",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "GEI",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "ATT",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "COM",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "DTM",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "MEA",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "MOA",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "PCD",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "QRS",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "QTY",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "RFF",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "FTX",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": [
+            {
+              "content": "COD",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "IDE",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "GEI",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "ADR",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "ATT",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "COM",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "DTM",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "EFI",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "EMP",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "IMD",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "MOA",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "MEA",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "PCD",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "QRS",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "QTY",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "RFF",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "FTX",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": [
+                {
+                  "content": "PCC",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "IDE",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "ADR",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "ATT",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "DTM",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "MOA",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "PCD",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "QRS",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "QTY",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "FTX",
+                  "mandatory": false,
+                  "repetition": 9
+                }
+              ],
+              "mandatory": false,
+              "repetition": 99,
+              "name": "Segment group 12"
+            }
+          ],
+          "mandatory": false,
+          "repetition": 999,
+          "name": "Segment group 11"
+        }
+      ],
+      "mandatory": false,
+      "repetition": 9999,
+      "name": "Segment group 10"
+    },
+    {
+      "content": [
+        {
+          "content": "EVE",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "IDE",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "GEI",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "ATT",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "DTM",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "MEA",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "MOA",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "PCD",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "QRS",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "QTY",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "RFF",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "FTX",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": [
+            {
+              "content": "COD",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "IDE",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "GEI",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "ADR",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "ATT",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "COM",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "DTM",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "EFI",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "EMP",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "MOA",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "PCD",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "QRS",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "QTY",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "RFF",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "FTX",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": [
+                {
+                  "content": "PCC",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "IDE",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "ADR",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "ATT",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "DTM",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "MOA",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "PCD",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "QRS",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "QTY",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "FTX",
+                  "mandatory": false,
+                  "repetition": 9
+                }
+              ],
+              "mandatory": false,
+              "repetition": 99,
+              "name": "Segment group 15"
+            }
+          ],
+          "mandatory": false,
+          "repetition": 999,
+          "name": "Segment group 14"
+        }
+      ],
+      "mandatory": false,
+      "repetition": 9999,
+      "name": "Segment group 13"
+    },
+    {
+      "content": [
+        {
+          "content": "SEQ",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "IDE",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "GEI",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "ATT",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "DTM",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "MOA",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "PCD",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "PNA",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "QRS",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "QTY",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "RFF",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "FTX",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": [
+            {
+              "content": "COD",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "IDE",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "GEI",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "ATT",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "DTM",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "MOA",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "PCD",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "PNA",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "QRS",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "QTY",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "RFF",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "FTX",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": [
+                {
+                  "content": "IMD",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "IDE",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "DTM",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "PNA",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "QRS",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "RFF",
+                  "mandatory": false,
+                  "repetition": 9
+                }
+              ],
+              "mandatory": false,
+              "repetition": 9,
+              "name": "Segment group 18"
+            }
+          ],
+          "mandatory": false,
+          "repetition": 99,
+          "name": "Segment group 17"
+        }
+      ],
+      "mandatory": false,
+      "repetition": 99,
+      "name": "Segment group 16"
+    },
+    {
+      "content": [
+        {
+          "content": "PYT",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "IDE",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "GEI",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "ATT",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "DTM",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "MOA",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "PCD",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "QRS",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "QTY",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "RFF",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "FTX",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": [
+            {
+              "content": "PCC",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "IDE",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "ADR",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "ATT",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "DTM",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "MOA",
+              "mandatory": true,
+              "repetition": 9
+            },
+            {
+              "content": "PCD",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "QRS",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "QTY",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "FTX",
+              "mandatory": false,
+              "repetition": 9
+            }
+          ],
+          "mandatory": false,
+          "repetition": 99,
+          "name": "Segment group 20"
+        }
+      ],
+      "mandatory": false,
+      "repetition": 9,
+      "name": "Segment group 19"
+    },
+    {
+      "content": "UNT",
+      "mandatory": true,
+      "repetition": 1
+    }
+  ],
+  "messageType": "IPPOAD",
+  "version": "D",
+  "release": "01B",
+  "controllingAgency": "UN"
+}

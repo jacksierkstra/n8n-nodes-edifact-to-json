@@ -1,0 +1,67 @@
+{
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "IDE": {
+    "requires": 1,
+    "elements": [
+      "7495",
+      "C206",
+      "C082",
+      "4405",
+      "1222",
+      "C778",
+      "C240"
+    ]
+  },
+  "PCC": {
+    "requires": 0,
+    "elements": [
+      "C820",
+      "4522"
+    ]
+  },
+  "QTY": {
+    "requires": 1,
+    "elements": [
+      "C186"
+    ]
+  },
+  "TCC": {
+    "requires": 0,
+    "elements": [
+      "C200",
+      "C203",
+      "C528",
+      "C554"
+    ]
+  },
+  "CUX": {
+    "requires": 0,
+    "elements": [
+      "C504",
+      "C504",
+      "5402",
+      "6341"
+    ]
+  },
+  "DOC": {
+    "requires": 1,
+    "elements": [
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  }
+}

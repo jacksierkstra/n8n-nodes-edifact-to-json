@@ -8,7 +8,7 @@ export class EdifactParser {
         try {
             const reader = new Reader();
             const result = reader.parse(this.document);
-            const builder = new InterchangeBuilder(result, reader.separators, '');
+            const builder = new InterchangeBuilder(result, reader.separators, './specs/converted');
             return builder.interchange;
         } catch (error) {
             if (error instanceof Error) {
@@ -21,15 +21,5 @@ export class EdifactParser {
             throw error;
         }
     }
-
-    parseAsJson(): string {
-        return this.toJsonWithoutCircularRefs(this.parse());
-    }
-
-    private toJsonWithoutCircularRefs = (obj: any) => JSON.stringify(obj, (key, value) => {
-        // drop any "parent" property
-        if (key === 'parent') return undefined;
-        return value;
-    }, 2);
 
 }
