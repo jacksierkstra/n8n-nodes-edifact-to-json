@@ -1,3 +1,4 @@
+import path from 'path';
 import { EdifactParser } from './parser';
 
 function noop() {}
@@ -10,7 +11,8 @@ export class EdifactConversionService {
         console.error = noop;
 
         try {
-            const parser = new EdifactParser(edifact, {});
+            const specPath = path.join(path.resolve(__dirname), 'specs', 'd01b', 'converted');
+            const parser = new EdifactParser(edifact, { specPath: specPath });
             return parser.parse();
         } finally {
             console.warn = originalWarn;

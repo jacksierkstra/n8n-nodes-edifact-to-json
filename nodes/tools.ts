@@ -11,14 +11,15 @@ const persist = (spec: EdifactMessageSpecification, location: string) => {
     fs.writeFileSync(location, JSON.stringify(spec, null, 2));
 };
 
-const downloadSpecs = async () => {
+const version: string = "d01b";
 
-    const version: string = "d01b";
+const downloadSpecs = async () => {
 
     for (const typeName of MESSAGE_TYPES) {
         try {
-            const location: string = `./EdifactToJson/specs/${typeName}-${version}.json`;
-            if (!fs.existsSync(location)) {
+            const locationToDownload = path.join(__dirname, "EdifactToJson", "specs", version, `${typeName}.json`);
+            const fileExists = fs.existsSync(locationToDownload);
+            if (!fileExists) {
                 const structParser: MessageStructureParser = new UNECEMessageStructureParser(version, typeName);
                 const spec = await structParser.loadTypeSpec();
                 persist(spec, location);
@@ -36,12 +37,10 @@ const downloadSpecs = async () => {
 
 const convertSpecs = async () => {
 
-    const version: string = "d01b";
-
     for (const typeName of MESSAGE_TYPES) {
         try {
-            const jsonSpecFile: string = `./EdifactToJson/specs/${typeName}-${version}.json`;
-            await convertSpec(jsonSpecFile, typeName, version);
+            const specFile = path.join(path.resolve(__dirname), "EdifactToJson", "specs", version, `${typeName}.json`);
+            await convertSpec(specFile, typeName, version);
         } catch (error) {
             console.warn(`Could not load Message structure and segment/element definitions for message type ${typeName} of version ${version}. Reason: ${error.message}`);
             continue;
@@ -53,26 +52,25 @@ const convertSpec = async (specFileLocation: string, messageType: string, messag
 
     try {
         const exists = fs.existsSync(specFileLocation);
+
         if (exists) {
-            const spec = JSON.parse(fs.readFileSync(specFileLocation, "utf8"));
-            // const messageStructureDefinition = spec.messageStructureDefinition;
-            const messageStructDefFileName: string = spec.version + spec.release + "_" + spec.messageType + ".struct.json";
-            // const segmentTable = spec.segmentTable;
-            const segmentsFileName: string = spec.version + spec.release + "_" + spec.messageType + "." + Suffix.Segments + ".json";
-            // const elementTable = spec.elementTable;
-            const elementsFileName: string = spec.version + spec.release + "_" + spec.messageType + "." + Suffix.Elements + ".json";
+            const spec: EdifactMessageSpecification = JSON.parse(fs.readFileSync(specFileLocation, "utf8"));
+            const messageStructDefFileName: string = `${spec.version}${spec.release}_${spec.messageType}.struct.json`;
+            const segmentsFileName: string = `${spec.version}${spec.release}_${spec.messageType}.${Suffix.Segments}.json`;
+            const elementsFileName: string =  `${spec.version}${spec.release}_${spec.messageType}.${Suffix.Elements}.json`;
 
-            const structPath = path.join(__dirname, "EdifactToJson", 'specs', 'converted', messageStructDefFileName);
-            const segmentsPath = path.join(__dirname, "EdifactToJson", 'specs', 'converted', segmentsFileName);
-            const elementsPath = path.join(__dirname, "EdifactToJson", 'specs', 'converted', elementsFileName);
+            const structPath = path.join(__dirname, "EdifactToJson", 'specs', version, 'converted', messageStructDefFileName);
+            const segmentsPath = path.join(__dirname, "EdifactToJson", 'specs', version, 'converted', segmentsFileName);
+            const elementsPath = path.join(__dirname, "EdifactToJson", 'specs', version, 'converted', elementsFileName);
 
-            console.log(`Writing message structure definition to ${structPath}`);
-            console.log(`Writing segments definition to ${segmentsPath}`);
-            console.log(`Writing elements definition to ${elementsPath}`);
+            // console.log(`Writing message structure definition to ${structPath}`);
+            // console.log(`Writing segments definition to ${segmentsPath}`);
+            // console.log(`Writing elements definition to ${elementsPath}`);
 
             fs.writeFileSync(structPath, JSON.stringify(spec.messageStructureDefinition, null, 2));
             fs.writeFileSync(segmentsPath, JSON.stringify(spec.segmentTable.entries, null, 2));
             fs.writeFileSync(elementsPath, JSON.stringify(spec.elementTable.entries, null, 2));
+
         } else {
             console.warn(`File ${specFileLocation} does not exist. Skipping conversion for message type ${messageType} of version ${messageVersion}.`);
         }
@@ -83,12 +81,14 @@ const convertSpec = async (specFileLocation: string, messageType: string, messag
 
 
 // Run with `npx ts-node tools.ts`
-downloadSpecs()
-.then(() => {
+const main = async () => {
+    await downloadSpecs();
     console.log("All message specifications downloaded successfully.");
-});
-
-convertSpecs()
-.then(() => {
+    await convertSpecs();
     console.log("All message specifications converted successfully.");
+};
+
+main()
+    .catch((error) => {
+    console.error("An error occurred while running the script:", error);
 });
