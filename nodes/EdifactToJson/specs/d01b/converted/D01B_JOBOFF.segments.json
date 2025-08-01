@@ -1,0 +1,89 @@
+{
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "LOC": {
+    "requires": 1,
+    "elements": [
+      "3227",
+      "C517",
+      "C519",
+      "C553",
+      "5479"
+    ]
+  },
+  "ADR": {
+    "requires": 0,
+    "elements": [
+      "C817",
+      "C090",
+      "3164",
+      "3251",
+      "3207",
+      "C819",
+      "C517"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
+  "PTY": {
+    "requires": 1,
+    "elements": [
+      "4035",
+      "C585"
+    ]
+  },
+  "FTX": {
+    "requires": 1,
+    "elements": [
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "SAL": {
+    "requires": 0,
+    "elements": [
+      "C049"
+    ]
+  },
+  "DOC": {
+    "requires": 1,
+    "elements": [
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
+    ]
+  },
+  "RNG": {
+    "requires": 1,
+    "elements": [
+      "6167",
+      "C280"
+    ]
+  }
+}

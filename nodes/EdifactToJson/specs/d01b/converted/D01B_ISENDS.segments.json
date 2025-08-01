@@ -1,0 +1,156 @@
+{
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "ATT": {
+    "requires": 1,
+    "elements": [
+      "9017",
+      "C955",
+      "C956"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "MKS": {
+    "requires": 2,
+    "elements": [
+      "7293",
+      "C332",
+      "1229"
+    ]
+  },
+  "ADR": {
+    "requires": 0,
+    "elements": [
+      "C817",
+      "C090",
+      "3164",
+      "3251",
+      "3207",
+      "C819",
+      "C517"
+    ]
+  },
+  "PCD": {
+    "requires": 1,
+    "elements": [
+      "C501",
+      "4405"
+    ]
+  },
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "ICD": {
+    "requires": 2,
+    "elements": [
+      "C330",
+      "C331"
+    ]
+  },
+  "QRS": {
+    "requires": 1,
+    "elements": [
+      "7293",
+      "C811",
+      "C812"
+    ]
+  },
+  "GEI": {
+    "requires": 1,
+    "elements": [
+      "9649",
+      "C012",
+      "7187"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
+  "PRC": {
+    "requires": 0,
+    "elements": [
+      "C242",
+      "C830"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "RCS": {
+    "requires": 1,
+    "elements": [
+      "7293",
+      "C550",
+      "1229",
+      "3207"
+    ]
+  },
+  "RNG": {
+    "requires": 1,
+    "elements": [
+      "6167",
+      "C280"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "PNA": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C206",
+      "C082",
+      "3403",
+      "3397",
+      "C816",
+      "C816",
+      "C816",
+      "C816",
+      "C816",
+      "1229"
+    ]
+  },
+  "DOC": {
+    "requires": 1,
+    "elements": [
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
+    ]
+  },
+  "SEQ": {
+    "requires": 0,
+    "elements": [
+      "1229",
+      "C286"
+    ]
+  }
+}

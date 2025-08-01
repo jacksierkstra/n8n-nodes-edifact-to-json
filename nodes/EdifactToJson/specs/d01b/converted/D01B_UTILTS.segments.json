@@ -1,0 +1,205 @@
+{
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "CUX": {
+    "requires": 0,
+    "elements": [
+      "C504",
+      "C504",
+      "5402",
+      "6341"
+    ]
+  },
+  "CCI": {
+    "requires": 0,
+    "elements": [
+      "7059",
+      "C502",
+      "C240",
+      "4051"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "STS": {
+    "requires": 0,
+    "elements": [
+      "C601",
+      "C555",
+      "C556",
+      "C556",
+      "C556",
+      "C556",
+      "C556"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "NAD": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C082",
+      "C058",
+      "C080",
+      "C059",
+      "3164",
+      "C819",
+      "3251",
+      "3207"
+    ]
+  },
+  "MKS": {
+    "requires": 2,
+    "elements": [
+      "7293",
+      "C332",
+      "1229"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "CAV": {
+    "requires": 1,
+    "elements": [
+      "C889"
+    ]
+  },
+  "PIA": {
+    "requires": 2,
+    "elements": [
+      "4347",
+      "C212",
+      "C212",
+      "C212",
+      "C212",
+      "C212"
+    ]
+  },
+  "PRI": {
+    "requires": 0,
+    "elements": [
+      "C509",
+      "5213"
+    ]
+  },
+  "CNT": {
+    "requires": 1,
+    "elements": [
+      "C270"
+    ]
+  },
+  "IDE": {
+    "requires": 1,
+    "elements": [
+      "7495",
+      "C206",
+      "C082",
+      "4405",
+      "1222",
+      "C778",
+      "C240"
+    ]
+  },
+  "IMD": {
+    "requires": 0,
+    "elements": [
+      "7077",
+      "C272",
+      "C273",
+      "7383"
+    ]
+  },
+  "ALI": {
+    "requires": 0,
+    "elements": [
+      "3239",
+      "9213",
+      "4183",
+      "4183",
+      "4183",
+      "4183",
+      "4183"
+    ]
+  },
+  "LOC": {
+    "requires": 1,
+    "elements": [
+      "3227",
+      "C517",
+      "C519",
+      "C553",
+      "5479"
+    ]
+  },
+  "FTX": {
+    "requires": 1,
+    "elements": [
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
+    ]
+  },
+  "PRC": {
+    "requires": 0,
+    "elements": [
+      "C242",
+      "C830"
+    ]
+  },
+  "RNG": {
+    "requires": 1,
+    "elements": [
+      "6167",
+      "C280"
+    ]
+  },
+  "PCD": {
+    "requires": 1,
+    "elements": [
+      "C501",
+      "4405"
+    ]
+  },
+  "QTY": {
+    "requires": 1,
+    "elements": [
+      "C186"
+    ]
+  }
+}

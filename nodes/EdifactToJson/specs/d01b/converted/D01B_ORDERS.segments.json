@@ -1,0 +1,161 @@
+{
+  "RNG": {
+    "requires": 1,
+    "elements": [
+      "6167",
+      "C280"
+    ]
+  },
+  "PAI": {
+    "requires": 1,
+    "elements": [
+      "C534"
+    ]
+  },
+  "QTY": {
+    "requires": 1,
+    "elements": [
+      "C186"
+    ]
+  },
+  "ALC": {
+    "requires": 1,
+    "elements": [
+      "5463",
+      "C552",
+      "4471",
+      "1227",
+      "C214"
+    ]
+  },
+  "EQD": {
+    "requires": 1,
+    "elements": [
+      "8053",
+      "C237",
+      "C224",
+      "8077",
+      "8249",
+      "8169"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "MEA": {
+    "requires": 1,
+    "elements": [
+      "6311",
+      "C502",
+      "C174",
+      "7383"
+    ]
+  },
+  "RTE": {
+    "requires": 1,
+    "elements": [
+      "C128",
+      "4405"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "CUX": {
+    "requires": 0,
+    "elements": [
+      "C504",
+      "C504",
+      "5402",
+      "6341"
+    ]
+  },
+  "PCD": {
+    "requires": 1,
+    "elements": [
+      "C501",
+      "4405"
+    ]
+  },
+  "CCI": {
+    "requires": 0,
+    "elements": [
+      "7059",
+      "C502",
+      "C240",
+      "4051"
+    ]
+  },
+  "RCS": {
+    "requires": 1,
+    "elements": [
+      "7293",
+      "C550",
+      "1229",
+      "3207"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
+    ]
+  },
+  "TAX": {
+    "requires": 1,
+    "elements": [
+      "5283",
+      "C241",
+      "C533",
+      "5286",
+      "C243",
+      "5305",
+      "3446",
+      "1227"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "MTD": {
+    "requires": 1,
+    "elements": [
+      "7495",
+      "4513",
+      "3005",
+      "3009"
+    ]
+  },
+  "GIN": {
+    "requires": 2,
+    "elements": [
+      "7405",
+      "C208",
+      "C208",
+      "C208",
+      "C208",
+      "C208"
+    ]
+  },
+  "GIR": {
+    "requires": 2,
+    "elements": [
+      "7297",
+      "C206",
+      "C206",
+      "C206",
+      "C206",
+      "C206"
+    ]
+  }
+}

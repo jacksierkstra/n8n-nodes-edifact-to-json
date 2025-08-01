@@ -1,0 +1,328 @@
+{
+  "AGR": {
+    "requires": 0,
+    "elements": [
+      "C543",
+      "9419"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "RNG": {
+    "requires": 1,
+    "elements": [
+      "6167",
+      "C280"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "NAD": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C082",
+      "C058",
+      "C080",
+      "C059",
+      "3164",
+      "C819",
+      "3251",
+      "3207"
+    ]
+  },
+  "QTY": {
+    "requires": 1,
+    "elements": [
+      "C186"
+    ]
+  },
+  "DOC": {
+    "requires": 1,
+    "elements": [
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
+    ]
+  },
+  "SEQ": {
+    "requires": 0,
+    "elements": [
+      "1229",
+      "C286"
+    ]
+  },
+  "ALC": {
+    "requires": 1,
+    "elements": [
+      "5463",
+      "C552",
+      "4471",
+      "1227",
+      "C214"
+    ]
+  },
+  "TAX": {
+    "requires": 1,
+    "elements": [
+      "5283",
+      "C241",
+      "C533",
+      "5286",
+      "C243",
+      "5305",
+      "3446",
+      "1227"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "ALI": {
+    "requires": 0,
+    "elements": [
+      "3239",
+      "9213",
+      "4183",
+      "4183",
+      "4183",
+      "4183",
+      "4183"
+    ]
+  },
+  "REL": {
+    "requires": 1,
+    "elements": [
+      "9141",
+      "C941"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
+    ]
+  },
+  "PRI": {
+    "requires": 0,
+    "elements": [
+      "C509",
+      "5213"
+    ]
+  },
+  "PCD": {
+    "requires": 1,
+    "elements": [
+      "C501",
+      "4405"
+    ]
+  },
+  "IND": {
+    "requires": 0,
+    "elements": [
+      "C545",
+      "C546"
+    ]
+  },
+  "RTE": {
+    "requires": 1,
+    "elements": [
+      "C128",
+      "4405"
+    ]
+  },
+  "FOR": {
+    "requires": 1,
+    "elements": [
+      "9501",
+      "7402",
+      "9502",
+      "4440",
+      "C961"
+    ]
+  },
+  "PAI": {
+    "requires": 1,
+    "elements": [
+      "C534"
+    ]
+  },
+  "PAC": {
+    "requires": 0,
+    "elements": [
+      "7224",
+      "C531",
+      "C202",
+      "C402",
+      "C532"
+    ]
+  },
+  "FTX": {
+    "requires": 1,
+    "elements": [
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "CUX": {
+    "requires": 0,
+    "elements": [
+      "C504",
+      "C504",
+      "5402",
+      "6341"
+    ]
+  },
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "MEA": {
+    "requires": 1,
+    "elements": [
+      "6311",
+      "C502",
+      "C174",
+      "7383"
+    ]
+  },
+  "FII": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C078",
+      "C088",
+      "3207"
+    ]
+  },
+  "PAT": {
+    "requires": 1,
+    "elements": [
+      "4279",
+      "C110",
+      "C112"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
+  "TOD": {
+    "requires": 0,
+    "elements": [
+      "4055",
+      "4215",
+      "C100"
+    ]
+  },
+  "FSQ": {
+    "requires": 1,
+    "elements": [
+      "9507",
+      "9509",
+      "1050",
+      "9510",
+      "4440"
+    ]
+  },
+  "APR": {
+    "requires": 0,
+    "elements": [
+      "4043",
+      "C138",
+      "C960"
+    ]
+  },
+  "LIN": {
+    "requires": 0,
+    "elements": [
+      "1082",
+      "1229",
+      "C212",
+      "C829",
+      "1222",
+      "7083"
+    ]
+  },
+  "PIA": {
+    "requires": 2,
+    "elements": [
+      "4347",
+      "C212",
+      "C212",
+      "C212",
+      "C212",
+      "C212"
+    ]
+  },
+  "LOC": {
+    "requires": 1,
+    "elements": [
+      "3227",
+      "C517",
+      "C519",
+      "C553",
+      "5479"
+    ]
+  },
+  "GIN": {
+    "requires": 2,
+    "elements": [
+      "7405",
+      "C208",
+      "C208",
+      "C208",
+      "C208",
+      "C208"
+    ]
+  },
+  "PCI": {
+    "requires": 0,
+    "elements": [
+      "4233",
+      "C210",
+      "8275",
+      "C827"
+    ]
+  },
+  "IMD": {
+    "requires": 0,
+    "elements": [
+      "7077",
+      "C272",
+      "C273",
+      "7383"
+    ]
+  }
+}

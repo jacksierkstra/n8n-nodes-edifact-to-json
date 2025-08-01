@@ -5,8 +5,7 @@ import { EdifactConversionService } from "../EdifactToJson/EdifactConversionServ
 describe('Edifact parsing', () => {
 
   it('correctly parses a basic DESADV EDIFACT message into an Object structure', () => {
-  
-    // TODO find a message that conforms to the spec.
+
     const sampleEdifact = `UNA:+.? '
 UNB+UNOC:3+1234567891234:14+4321987654321:14+250725:1503+38190'
 UNH+3819000001+DESADV:D:01B:UN:EAN007'
@@ -36,6 +35,31 @@ UNZ+1+38190'`;
     expect(result.sender.id).toEqual('1234567891234');
     expect(result.receiver.id).toEqual('4321987654321');
     expect(result.date).toEqual('250725');
+
+  });
+
+  it('correctly parses a basic INSDES EDIFACT message into a JSON structure', () => {
+    
+    const sampleEdifact = `UNA:+.? '
+UNB+UNOA:1+SENDERID+RECEIVERID+250731:2035+000000000001'
+UNH+1+INSDES:D:01B:UN:1.1'
+BGM+351+INSDES1234+9'
+DTM+137:20250731:102'
+RFF+ON:123456'
+NAD+BY+5412345000013::9'
+NAD+DP+5412345000020::9'
+LIN+1++123456789:IN'
+QTY+12:100'
+UNS+S'
+UNT+10+1'
+UNZ+1+000000000001'`;
+
+    const service = new EdifactConversionService();
+    const result = service.parse(sampleEdifact);
+
+    expect(result.sender.id).toEqual('SENDERID');
+    expect(result.receiver.id).toEqual('RECEIVERID');
+    expect(result.date).toEqual('250731');
 
   });
 

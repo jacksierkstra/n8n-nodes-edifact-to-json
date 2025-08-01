@@ -1,0 +1,405 @@
+{
+  "1073": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "1082": {
+    "requires": 1,
+    "components": [
+      "an..6"
+    ]
+  },
+  "1225": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "1229": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3035": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3139": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3164": {
+    "requires": 0,
+    "components": [
+      "an..35"
+    ]
+  },
+  "3207": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3227": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3251": {
+    "requires": 0,
+    "components": [
+      "an..17"
+    ]
+  },
+  "3397": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3403": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "4343": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "4405": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "5047": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "5402": {
+    "requires": 0,
+    "components": [
+      "n..12"
+    ]
+  },
+  "5479": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "6341": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "9017": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "9280": {
+    "requires": 1,
+    "components": [
+      "an..35"
+    ]
+  },
+  "9282": {
+    "requires": 0,
+    "components": [
+      "an..35"
+    ]
+  },
+  "C206": {
+    "requires": 1,
+    "components": [
+      "an..35",
+      "an..3",
+      "an..3"
+    ]
+  },
+  "C082": {
+    "requires": 1,
+    "components": [
+      "an..35",
+      "an..17",
+      "an..3"
+    ]
+  },
+  "C816": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..70",
+      "an..3",
+      "an..3"
+    ]
+  },
+  "C056": {
+    "requires": 0,
+    "components": [
+      "an..17",
+      "an..35"
+    ]
+  },
+  "C955": {
+    "requires": 0,
+    "components": [
+      "an..17",
+      "an..17",
+      "an..3",
+      "an..70"
+    ]
+  },
+  "C956": {
+    "requires": 0,
+    "components": [
+      "an..17",
+      "an..17",
+      "an..3",
+      "an..256"
+    ]
+  },
+  "C078": {
+    "requires": 0,
+    "components": [
+      "an..35",
+      "an..35",
+      "an..35",
+      "an..3"
+    ]
+  },
+  "C088": {
+    "requires": 0,
+    "components": [
+      "an..11",
+      "an..17",
+      "an..3",
+      "an..17",
+      "an..17",
+      "an..3",
+      "an..70",
+      "an..70"
+    ]
+  },
+  "C507": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..35",
+      "an..3"
+    ]
+  },
+  "C516": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "n..35",
+      "an..3",
+      "an..3",
+      "an..3"
+    ]
+  },
+  "C529": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..17"
+    ]
+  },
+  "C076": {
+    "requires": 2,
+    "components": [
+      "an..512",
+      "an..3"
+    ]
+  },
+  "C817": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..3",
+      "an..3"
+    ]
+  },
+  "C090": {
+    "requires": 2,
+    "components": [
+      "an..3",
+      "an..70",
+      "an..70",
+      "an..70",
+      "an..70",
+      "an..70"
+    ]
+  },
+  "C819": {
+    "requires": 0,
+    "components": [
+      "an..9",
+      "an..17",
+      "an..3",
+      "an..70"
+    ]
+  },
+  "C517": {
+    "requires": 0,
+    "components": [
+      "an..25",
+      "an..17",
+      "an..3",
+      "an..256"
+    ]
+  },
+  "C506": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..70",
+      "an..6",
+      "an..35",
+      "an..6"
+    ]
+  },
+  "C504": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..3",
+      "an..3",
+      "n..4"
+    ]
+  },
+  "C186": {
+    "requires": 2,
+    "components": [
+      "an..3",
+      "an..35",
+      "an..3"
+    ]
+  },
+  "C534": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..3",
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..3"
+    ]
+  },
+  "C501": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "n..10",
+      "an..3",
+      "an..17",
+      "an..3"
+    ]
+  },
+  "C519": {
+    "requires": 0,
+    "components": [
+      "an..25",
+      "an..17",
+      "an..3",
+      "an..70"
+    ]
+  },
+  "C553": {
+    "requires": 0,
+    "components": [
+      "an..25",
+      "an..17",
+      "an..3",
+      "an..70"
+    ]
+  },
+  "C270": {
+    "requires": 2,
+    "components": [
+      "an..3",
+      "n..18",
+      "an..3"
+    ]
+  },
+  "C002": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C106": {
+    "requires": 0,
+    "components": [
+      "an..35",
+      "an..9",
+      "an..6"
+    ]
+  },
+  "C953": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C522": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C203": {
+    "requires": 1,
+    "components": [
+      "an..9",
+      "an..17",
+      "an..3",
+      "an..35",
+      "an..6",
+      "an..17",
+      "an..3",
+      "an..6",
+      "an..17",
+      "an..3"
+    ]
+  },
+  "C960": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  }
+}

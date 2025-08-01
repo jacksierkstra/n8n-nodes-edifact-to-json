@@ -1,0 +1,434 @@
+{
+  "1218": {
+    "requires": 0,
+    "components": [
+      "n..2"
+    ]
+  },
+  "1220": {
+    "requires": 0,
+    "components": [
+      "n..2"
+    ]
+  },
+  "1225": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "1229": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3035": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3153": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3164": {
+    "requires": 0,
+    "components": [
+      "an..35"
+    ]
+  },
+  "3207": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3251": {
+    "requires": 0,
+    "components": [
+      "an..17"
+    ]
+  },
+  "3397": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3403": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3453": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3493": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "3494": {
+    "requires": 0,
+    "components": [
+      "an..35"
+    ]
+  },
+  "3499": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "4343": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "4447": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "4451": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "4453": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "5047": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "7297": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "9003": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "9017": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "9035": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "9280": {
+    "requires": 1,
+    "components": [
+      "an..35"
+    ]
+  },
+  "9282": {
+    "requires": 0,
+    "components": [
+      "an..35"
+    ]
+  },
+  "C948": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C951": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35",
+      "an..35"
+    ]
+  },
+  "C950": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35",
+      "an..35"
+    ]
+  },
+  "C002": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C503": {
+    "requires": 0,
+    "components": [
+      "an..35",
+      "an..3",
+      "an..70",
+      "an..3",
+      "an..9",
+      "an..6"
+    ]
+  },
+  "C507": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..35",
+      "an..3"
+    ]
+  },
+  "C953": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C522": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C203": {
+    "requires": 1,
+    "components": [
+      "an..9",
+      "an..17",
+      "an..3",
+      "an..35",
+      "an..6",
+      "an..17",
+      "an..3",
+      "an..6",
+      "an..17",
+      "an..3"
+    ]
+  },
+  "C960": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C545": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..17",
+      "an..3"
+    ]
+  },
+  "C546": {
+    "requires": 1,
+    "components": [
+      "an..35",
+      "an..3"
+    ]
+  },
+  "C042": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "a..35"
+    ]
+  },
+  "C506": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..70",
+      "an..6",
+      "an..35",
+      "an..6"
+    ]
+  },
+  "C817": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..3",
+      "an..3"
+    ]
+  },
+  "C090": {
+    "requires": 2,
+    "components": [
+      "an..3",
+      "an..70",
+      "an..70",
+      "an..70",
+      "an..70",
+      "an..70"
+    ]
+  },
+  "C819": {
+    "requires": 0,
+    "components": [
+      "an..9",
+      "an..17",
+      "an..3",
+      "an..70"
+    ]
+  },
+  "C517": {
+    "requires": 0,
+    "components": [
+      "an..25",
+      "an..17",
+      "an..3",
+      "an..256"
+    ]
+  },
+  "C206": {
+    "requires": 1,
+    "components": [
+      "an..35",
+      "an..3",
+      "an..3"
+    ]
+  },
+  "C082": {
+    "requires": 1,
+    "components": [
+      "an..35",
+      "an..17",
+      "an..3"
+    ]
+  },
+  "C816": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..70",
+      "an..3",
+      "an..3"
+    ]
+  },
+  "C106": {
+    "requires": 0,
+    "components": [
+      "an..35",
+      "an..9",
+      "an..6"
+    ]
+  },
+  "C085": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C101": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C529": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..17"
+    ]
+  },
+  "C107": {
+    "requires": 1,
+    "components": [
+      "an..17",
+      "an..17",
+      "an..3"
+    ]
+  },
+  "C108": {
+    "requires": 1,
+    "components": [
+      "an..512",
+      "an..512",
+      "an..512",
+      "an..512",
+      "an..512"
+    ]
+  },
+  "C955": {
+    "requires": 0,
+    "components": [
+      "an..17",
+      "an..17",
+      "an..3",
+      "an..70"
+    ]
+  },
+  "C956": {
+    "requires": 0,
+    "components": [
+      "an..17",
+      "an..17",
+      "an..3",
+      "an..256"
+    ]
+  },
+  "C270": {
+    "requires": 2,
+    "components": [
+      "an..3",
+      "n..18",
+      "an..3"
+    ]
+  }
+}
