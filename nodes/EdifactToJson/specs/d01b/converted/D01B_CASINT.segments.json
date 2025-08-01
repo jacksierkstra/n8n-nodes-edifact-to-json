@@ -9,11 +9,50 @@
       "5479"
     ]
   },
-  "SEQ": {
+  "ATT": {
+    "requires": 1,
+    "elements": [
+      "9017",
+      "C955",
+      "C956"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "FTX": {
+    "requires": 1,
+    "elements": [
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "BGM": {
     "requires": 0,
     "elements": [
-      "1229",
-      "C286"
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
     ]
   },
   "NAD": {
@@ -30,60 +69,6 @@
       "3207"
     ]
   },
-  "FTX": {
-    "requires": 1,
-    "elements": [
-      "4451",
-      "4453",
-      "C107",
-      "C108",
-      "3453",
-      "4447"
-    ]
-  },
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
-  "FCA": {
-    "requires": 1,
-    "elements": [
-      "4471",
-      "C878"
-    ]
-  },
-  "BGM": {
-    "requires": 0,
-    "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
-    ]
-  },
-  "ATT": {
-    "requires": 1,
-    "elements": [
-      "9017",
-      "C955",
-      "C956"
-    ]
-  },
   "PRC": {
     "requires": 0,
     "elements": [
@@ -91,14 +76,13 @@
       "C830"
     ]
   },
-  "DOC": {
+  "MEA": {
     "requires": 1,
     "elements": [
-      "C002",
-      "C503",
-      "3153",
-      "1220",
-      "1218"
+      "6311",
+      "C502",
+      "C174",
+      "7383"
     ]
   },
   "EMP": {
@@ -112,20 +96,6 @@
       "9035"
     ]
   },
-  "MOA": {
-    "requires": 1,
-    "elements": [
-      "C516"
-    ]
-  },
-  "PAT": {
-    "requires": 1,
-    "elements": [
-      "4279",
-      "C110",
-      "C112"
-    ]
-  },
   "GIR": {
     "requires": 2,
     "elements": [
@@ -137,19 +107,49 @@
       "C206"
     ]
   },
-  "MEA": {
+  "DOC": {
     "requires": 1,
     "elements": [
-      "6311",
-      "C502",
-      "C174",
-      "7383"
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
+    ]
+  },
+  "SEQ": {
+    "requires": 0,
+    "elements": [
+      "1229",
+      "C286"
     ]
   },
   "COM": {
     "requires": 1,
     "elements": [
       "C076"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "FCA": {
+    "requires": 1,
+    "elements": [
+      "4471",
+      "C878"
+    ]
+  },
+  "PAT": {
+    "requires": 1,
+    "elements": [
+      "4279",
+      "C110",
+      "C112"
     ]
   }
 }

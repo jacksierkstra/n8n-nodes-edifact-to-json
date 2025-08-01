@@ -1,89 +1,29 @@
 {
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
-    ]
-  },
   "RFF": {
     "requires": 1,
     "elements": [
       "C506"
     ]
   },
-  "RCS": {
+  "FII": {
     "requires": 1,
     "elements": [
-      "7293",
-      "C550",
-      "1229",
+      "3035",
+      "C078",
+      "C088",
       "3207"
     ]
   },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
-    ]
-  },
-  "ARD": {
-    "requires": 0,
-    "elements": [
-      "C549",
-      "C008"
-    ]
-  },
-  "PAT": {
+  "DTM": {
     "requires": 1,
     "elements": [
-      "4279",
-      "C110",
-      "C112"
-    ]
-  },
-  "CUX": {
-    "requires": 0,
-    "elements": [
-      "C504",
-      "C504",
-      "5402",
-      "6341"
-    ]
-  },
-  "APR": {
-    "requires": 0,
-    "elements": [
-      "4043",
-      "C138",
-      "C960"
-    ]
-  },
-  "BII": {
-    "requires": 2,
-    "elements": [
-      "7429",
-      "C045",
-      "7140"
-    ]
-  },
-  "MOA": {
-    "requires": 1,
-    "elements": [
-      "C516"
+      "C507"
     ]
   },
   "COM": {
     "requires": 1,
     "elements": [
       "C076"
-    ]
-  },
-  "AUT": {
-    "requires": 1,
-    "elements": [
-      "9280",
-      "9282"
     ]
   },
   "FTX": {
@@ -97,16 +37,6 @@
       "4447"
     ]
   },
-  "DOC": {
-    "requires": 1,
-    "elements": [
-      "C002",
-      "C503",
-      "3153",
-      "1220",
-      "1218"
-    ]
-  },
   "LOC": {
     "requires": 1,
     "elements": [
@@ -117,11 +47,90 @@
       "5479"
     ]
   },
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "CUX": {
+    "requires": 0,
+    "elements": [
+      "C504",
+      "C504",
+      "5402",
+      "6341"
+    ]
+  },
+  "AUT": {
+    "requires": 1,
+    "elements": [
+      "9280",
+      "9282"
+    ]
+  },
   "IND": {
     "requires": 0,
     "elements": [
       "C545",
       "C546"
+    ]
+  },
+  "DOC": {
+    "requires": 1,
+    "elements": [
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
+    ]
+  },
+  "PAT": {
+    "requires": 1,
+    "elements": [
+      "4279",
+      "C110",
+      "C112"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "RCS": {
+    "requires": 1,
+    "elements": [
+      "7293",
+      "C550",
+      "1229",
+      "3207"
+    ]
+  },
+  "NAD": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C082",
+      "C058",
+      "C080",
+      "C059",
+      "3164",
+      "C819",
+      "3251",
+      "3207"
     ]
   },
   "TAX": {
@@ -143,36 +152,27 @@
       "C534"
     ]
   },
-  "BGM": {
+  "ARD": {
     "requires": 0,
     "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
+      "C549",
+      "C008"
     ]
   },
-  "FII": {
-    "requires": 1,
+  "BII": {
+    "requires": 2,
     "elements": [
-      "3035",
-      "C078",
-      "C088",
-      "3207"
+      "7429",
+      "C045",
+      "7140"
     ]
   },
-  "NAD": {
-    "requires": 1,
+  "APR": {
+    "requires": 0,
     "elements": [
-      "3035",
-      "C082",
-      "C058",
-      "C080",
-      "C059",
-      "3164",
-      "C819",
-      "3251",
-      "3207"
+      "4043",
+      "C138",
+      "C960"
     ]
   }
 }

@@ -6,7 +6,6 @@ describe('Edifact parsing', () => {
 
   it('correctly parses a basic DESADV EDIFACT message into an Object structure', () => {
 
-    // TODO find a message that conforms to the spec.
     const sampleEdifact = `UNA:+.? '
 UNB+UNOC:3+1234567891234:14+4321987654321:14+250725:1503+38190'
 UNH+3819000001+DESADV:D:01B:UN:EAN007'
@@ -39,8 +38,8 @@ UNZ+1+38190'`;
 
   });
 
-  it('correctly parses a basic DESADV EDIFACT message into a JSON structure', () => {
-    // TODO find a message that conforms to the spec.
+  it('correctly parses a basic INSDES EDIFACT message into a JSON structure', () => {
+    
     const sampleEdifact = `UNA:+.? '
 UNB+UNOA:1+SENDERID+RECEIVERID+250731:2035+000000000001'
 UNH+1+INSDES:D:01B:UN:1.1'
@@ -60,7 +59,7 @@ UNZ+1+000000000001'`;
 
     expect(result.sender.id).toEqual('SENDERID');
     expect(result.receiver.id).toEqual('RECEIVERID');
-    expect(result.date).toEqual('250725');
+    expect(result.date).toEqual('250731');
 
   });
 

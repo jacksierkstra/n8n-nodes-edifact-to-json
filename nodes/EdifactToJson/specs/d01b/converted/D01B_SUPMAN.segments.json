@@ -1,4 +1,22 @@
 {
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
   "NAD": {
     "requires": 1,
     "elements": [
@@ -13,11 +31,41 @@
       "3207"
     ]
   },
-  "REL": {
+  "MOA": {
     "requires": 1,
     "elements": [
-      "9141",
-      "C941"
+      "C516"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "FTX": {
+    "requires": 1,
+    "elements": [
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
+    ]
+  },
+  "CNT": {
+    "requires": 1,
+    "elements": [
+      "C270"
+    ]
+  },
+  "ATT": {
+    "requires": 1,
+    "elements": [
+      "9017",
+      "C955",
+      "C956"
     ]
   },
   "COT": {
@@ -28,32 +76,6 @@
       "C522",
       "C203",
       "C960"
-    ]
-  },
-  "CNT": {
-    "requires": 1,
-    "elements": [
-      "C270"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
-    ]
-  },
-  "ATT": {
-    "requires": 1,
-    "elements": [
-      "9017",
-      "C955",
-      "C956"
     ]
   },
   "PCD": {
@@ -78,29 +100,6 @@
       "C056"
     ]
   },
-  "GIS": {
-    "requires": 1,
-    "elements": [
-      "C529"
-    ]
-  },
-  "COM": {
-    "requires": 1,
-    "elements": [
-      "C076"
-    ]
-  },
-  "FTX": {
-    "requires": 1,
-    "elements": [
-      "4451",
-      "4453",
-      "C107",
-      "C108",
-      "3453",
-      "4447"
-    ]
-  },
   "MEM": {
     "requires": 1,
     "elements": [
@@ -121,15 +120,11 @@
       "6341"
     ]
   },
-  "EMP": {
+  "REL": {
     "requires": 1,
     "elements": [
-      "9003",
-      "C948",
-      "C951",
-      "C950",
-      "3494",
-      "9035"
+      "9141",
+      "C941"
     ]
   },
   "BGM": {
@@ -141,10 +136,15 @@
       "4343"
     ]
   },
-  "MOA": {
+  "EMP": {
     "requires": 1,
     "elements": [
-      "C516"
+      "9003",
+      "C948",
+      "C951",
+      "C950",
+      "3494",
+      "9035"
     ]
   },
   "AUT": {

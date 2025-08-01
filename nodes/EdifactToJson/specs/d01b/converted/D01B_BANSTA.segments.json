@@ -1,31 +1,39 @@
 {
+  "SEQ": {
+    "requires": 0,
+    "elements": [
+      "1229",
+      "C286"
+    ]
+  },
   "COM": {
     "requires": 1,
     "elements": [
       "C076"
     ]
   },
-  "PCD": {
-    "requires": 1,
-    "elements": [
-      "C501",
-      "4405"
-    ]
-  },
-  "BUS": {
+  "BGM": {
     "requires": 0,
     "elements": [
-      "C521",
-      "3279",
-      "4487",
-      "C551",
-      "4463"
+      "C002",
+      "C106",
+      "1225",
+      "4343"
     ]
   },
-  "DTM": {
+  "RFF": {
     "requires": 1,
     "elements": [
-      "C507"
+      "C506"
+    ]
+  },
+  "CUX": {
+    "requires": 0,
+    "elements": [
+      "C504",
+      "C504",
+      "5402",
+      "6341"
     ]
   },
   "FII": {
@@ -51,27 +59,20 @@
       "3207"
     ]
   },
-  "SEQ": {
-    "requires": 0,
+  "DTM": {
+    "requires": 1,
     "elements": [
-      "1229",
-      "C286"
+      "C507"
     ]
   },
-  "CUX": {
+  "BUS": {
     "requires": 0,
     "elements": [
-      "C504",
-      "C504",
-      "5402",
-      "6341"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
+      "C521",
+      "3279",
+      "4487",
+      "C551",
+      "4463"
     ]
   },
   "LIN": {
@@ -85,29 +86,17 @@
       "7083"
     ]
   },
-  "BGM": {
+  "CTA": {
     "requires": 0,
     "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
+      "3139",
+      "C056"
     ]
   },
   "MOA": {
     "requires": 1,
     "elements": [
       "C516"
-    ]
-  },
-  "DOC": {
-    "requires": 1,
-    "elements": [
-      "C002",
-      "C503",
-      "3153",
-      "1220",
-      "1218"
     ]
   },
   "FTX": {
@@ -121,16 +110,27 @@
       "4447"
     ]
   },
-  "RFF": {
+  "PCD": {
     "requires": 1,
     "elements": [
-      "C506"
+      "C501",
+      "4405"
     ]
   },
   "GIS": {
     "requires": 1,
     "elements": [
       "C529"
+    ]
+  },
+  "DOC": {
+    "requires": 1,
+    "elements": [
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
     ]
   },
   "CNT": {

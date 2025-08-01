@@ -1,23 +1,31 @@
 {
-  "BGM": {
-    "requires": 0,
-    "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
-    ]
-  },
   "MOA": {
     "requires": 1,
     "elements": [
       "C516"
     ]
   },
-  "DTM": {
-    "requires": 1,
+  "CUX": {
+    "requires": 0,
     "elements": [
-      "C507"
+      "C504",
+      "C504",
+      "5402",
+      "6341"
+    ]
+  },
+  "AGR": {
+    "requires": 0,
+    "elements": [
+      "C543",
+      "9419"
+    ]
+  },
+  "ARD": {
+    "requires": 0,
+    "elements": [
+      "C549",
+      "C008"
     ]
   },
   "EMP": {
@@ -31,6 +39,12 @@
       "9035"
     ]
   },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
   "LOC": {
     "requires": 1,
     "elements": [
@@ -41,27 +55,16 @@
       "5479"
     ]
   },
-  "CUX": {
-    "requires": 0,
-    "elements": [
-      "C504",
-      "C504",
-      "5402",
-      "6341"
-    ]
-  },
-  "ARD": {
-    "requires": 0,
-    "elements": [
-      "C549",
-      "C008"
-    ]
-  },
-  "PCD": {
+  "GIS": {
     "requires": 1,
     "elements": [
-      "C501",
-      "4405"
+      "C529"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
     ]
   },
   "PNA": {
@@ -80,32 +83,11 @@
       "1229"
     ]
   },
-  "ATT": {
-    "requires": 1,
-    "elements": [
-      "9017",
-      "C955",
-      "C956"
-    ]
-  },
-  "GIS": {
-    "requires": 1,
-    "elements": [
-      "C529"
-    ]
-  },
   "CTA": {
     "requires": 0,
     "elements": [
       "3139",
       "C056"
-    ]
-  },
-  "AGR": {
-    "requires": 0,
-    "elements": [
-      "C543",
-      "9419"
     ]
   },
   "FTX": {
@@ -119,10 +101,40 @@
       "4447"
     ]
   },
-  "RFF": {
+  "ATT": {
     "requires": 1,
     "elements": [
-      "C506"
+      "9017",
+      "C955",
+      "C956"
+    ]
+  },
+  "PCD": {
+    "requires": 1,
+    "elements": [
+      "C501",
+      "4405"
+    ]
+  },
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "IDE": {
+    "requires": 1,
+    "elements": [
+      "7495",
+      "C206",
+      "C082",
+      "4405",
+      "1222",
+      "C778",
+      "C240"
     ]
   },
   "IMD": {
@@ -139,18 +151,6 @@
     "elements": [
       "C330",
       "C331"
-    ]
-  },
-  "IDE": {
-    "requires": 1,
-    "elements": [
-      "7495",
-      "C206",
-      "C082",
-      "4405",
-      "1222",
-      "C778",
-      "C240"
     ]
   }
 }

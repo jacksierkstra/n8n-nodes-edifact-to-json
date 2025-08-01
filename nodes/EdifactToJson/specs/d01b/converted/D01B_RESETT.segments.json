@@ -1,19 +1,33 @@
 {
-  "FTX": {
+  "DTM": {
     "requires": 1,
     "elements": [
-      "4451",
-      "4453",
-      "C107",
-      "C108",
-      "3453",
-      "4447"
+      "C507"
     ]
   },
   "RFF": {
     "requires": 1,
     "elements": [
       "C506"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
     ]
   },
   "NAD": {
@@ -30,10 +44,10 @@
       "3207"
     ]
   },
-  "DTM": {
+  "PAI": {
     "requires": 1,
     "elements": [
-      "C507"
+      "C534"
     ]
   },
   "MOA": {
@@ -42,17 +56,15 @@
       "C516"
     ]
   },
-  "PAI": {
+  "FTX": {
     "requires": 1,
     "elements": [
-      "C534"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
     ]
   },
   "PCD": {
@@ -60,18 +72,6 @@
     "elements": [
       "C501",
       "4405"
-    ]
-  },
-  "GIS": {
-    "requires": 1,
-    "elements": [
-      "C529"
-    ]
-  },
-  "COM": {
-    "requires": 1,
-    "elements": [
-      "C076"
     ]
   },
   "CUX": {

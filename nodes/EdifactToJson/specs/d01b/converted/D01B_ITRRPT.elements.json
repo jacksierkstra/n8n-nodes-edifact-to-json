@@ -1,5 +1,23 @@
 {
+  "1082": {
+    "requires": 0,
+    "components": [
+      "an..6"
+    ]
+  },
+  "1222": {
+    "requires": 0,
+    "components": [
+      "n..2"
+    ]
+  },
   "1225": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "1229": {
     "requires": 0,
     "components": [
       "an..3"
@@ -173,6 +191,12 @@
       "an..3"
     ]
   },
+  "7083": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
   "7164": {
     "requires": 1,
     "components": [
@@ -183,6 +207,12 @@
     "requires": 0,
     "components": [
       "an..35"
+    ]
+  },
+  "7224": {
+    "requires": 0,
+    "components": [
+      "n..8"
     ]
   },
   "7297": {
@@ -215,6 +245,18 @@
       "an..3"
     ]
   },
+  "8053": {
+    "requires": 1,
+    "components": [
+      "an..3"
+    ]
+  },
+  "8077": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
   "8101": {
     "requires": 0,
     "components": [
@@ -227,7 +269,19 @@
       "an..10"
     ]
   },
+  "8169": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
   "8211": {
+    "requires": 0,
+    "components": [
+      "an..3"
+    ]
+  },
+  "8249": {
     "requires": 0,
     "components": [
       "an..3"
@@ -293,12 +347,63 @@
       "an..35"
     ]
   },
+  "C076": {
+    "requires": 2,
+    "components": [
+      "an..512",
+      "an..3"
+    ]
+  },
   "C507": {
     "requires": 1,
     "components": [
       "an..3",
       "an..35",
       "an..3"
+    ]
+  },
+  "C517": {
+    "requires": 0,
+    "components": [
+      "an..25",
+      "an..17",
+      "an..3",
+      "an..256"
+    ]
+  },
+  "C519": {
+    "requires": 0,
+    "components": [
+      "an..25",
+      "an..17",
+      "an..3",
+      "an..70"
+    ]
+  },
+  "C553": {
+    "requires": 0,
+    "components": [
+      "an..25",
+      "an..17",
+      "an..3",
+      "an..70"
+    ]
+  },
+  "C002": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C106": {
+    "requires": 0,
+    "components": [
+      "an..35",
+      "an..9",
+      "an..6"
     ]
   },
   "C220": {
@@ -342,78 +447,6 @@
       "an..3"
     ]
   },
-  "C504": {
-    "requires": 1,
-    "components": [
-      "an..3",
-      "an..3",
-      "an..3",
-      "n..4"
-    ]
-  },
-  "C517": {
-    "requires": 0,
-    "components": [
-      "an..25",
-      "an..17",
-      "an..3",
-      "an..256"
-    ]
-  },
-  "C519": {
-    "requires": 0,
-    "components": [
-      "an..25",
-      "an..17",
-      "an..3",
-      "an..70"
-    ]
-  },
-  "C553": {
-    "requires": 0,
-    "components": [
-      "an..25",
-      "an..17",
-      "an..3",
-      "an..70"
-    ]
-  },
-  "C502": {
-    "requires": 0,
-    "components": [
-      "an..3",
-      "an..3",
-      "an..17",
-      "an..70"
-    ]
-  },
-  "C174": {
-    "requires": 1,
-    "components": [
-      "an..3",
-      "an..18",
-      "n..18",
-      "n..18",
-      "n..2"
-    ]
-  },
-  "C002": {
-    "requires": 0,
-    "components": [
-      "an..3",
-      "an..17",
-      "an..3",
-      "an..35"
-    ]
-  },
-  "C106": {
-    "requires": 0,
-    "components": [
-      "an..35",
-      "an..9",
-      "an..6"
-    ]
-  },
   "C107": {
     "requires": 1,
     "components": [
@@ -430,6 +463,15 @@
       "an..512",
       "an..512",
       "an..512"
+    ]
+  },
+  "C504": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..3",
+      "an..3",
+      "n..4"
     ]
   },
   "C506": {
@@ -489,64 +531,12 @@
       "an..70"
     ]
   },
-  "C529": {
-    "requires": 1,
-    "components": [
-      "an..3",
-      "an..17",
-      "an..3",
-      "an..17"
-    ]
-  },
-  "C272": {
-    "requires": 0,
-    "components": [
-      "an..3",
-      "an..17",
-      "an..3"
-    ]
-  },
-  "C273": {
+  "C237": {
     "requires": 0,
     "components": [
       "an..17",
       "an..17",
       "an..3",
-      "an..256",
-      "an..256",
-      "an..3"
-    ]
-  },
-  "C100": {
-    "requires": 0,
-    "components": [
-      "an..3",
-      "an..17",
-      "an..3",
-      "an..70",
-      "an..70"
-    ]
-  },
-  "C215": {
-    "requires": 0,
-    "components": [
-      "an..3",
-      "an..17",
-      "an..3",
-      "an..35"
-    ]
-  },
-  "C208": {
-    "requires": 1,
-    "components": [
-      "an..35",
-      "an..35"
-    ]
-  },
-  "C076": {
-    "requires": 2,
-    "components": [
-      "an..512",
       "an..3"
     ]
   },
@@ -571,6 +561,35 @@
       "an..3",
       "an..17",
       "an..3"
+    ]
+  },
+  "C501": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "n..10",
+      "an..3",
+      "an..17",
+      "an..3"
+    ]
+  },
+  "C502": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..3",
+      "an..17",
+      "an..70"
+    ]
+  },
+  "C174": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..18",
+      "n..18",
+      "n..18",
+      "n..2"
     ]
   },
   "C564": {
@@ -600,13 +619,55 @@
       "an..35"
     ]
   },
-  "C501": {
+  "C529": {
     "requires": 1,
     "components": [
       "an..3",
-      "n..10",
+      "an..17",
+      "an..3",
+      "an..17"
+    ]
+  },
+  "C186": {
+    "requires": 2,
+    "components": [
+      "an..3",
+      "an..35",
+      "an..3"
+    ]
+  },
+  "C522": {
+    "requires": 1,
+    "components": [
+      "an..3",
       "an..3",
       "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C214": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35",
+      "an..35"
+    ]
+  },
+  "C208": {
+    "requires": 1,
+    "components": [
+      "an..35",
+      "an..35"
+    ]
+  },
+  "C270": {
+    "requires": 2,
+    "components": [
+      "an..3",
+      "n..18",
       "an..3"
     ]
   },
@@ -646,54 +707,19 @@
       "an..4"
     ]
   },
+  "C212": {
+    "requires": 0,
+    "components": [
+      "an..35",
+      "an..3",
+      "an..17",
+      "an..3"
+    ]
+  },
   "C056": {
     "requires": 0,
     "components": [
       "an..17",
-      "an..35"
-    ]
-  },
-  "C206": {
-    "requires": 1,
-    "components": [
-      "an..35",
-      "an..3",
-      "an..3"
-    ]
-  },
-  "C186": {
-    "requires": 2,
-    "components": [
-      "an..3",
-      "an..35",
-      "an..3"
-    ]
-  },
-  "C270": {
-    "requires": 2,
-    "components": [
-      "an..3",
-      "n..18",
-      "an..3"
-    ]
-  },
-  "C522": {
-    "requires": 1,
-    "components": [
-      "an..3",
-      "an..3",
-      "an..17",
-      "an..3",
-      "an..35"
-    ]
-  },
-  "C214": {
-    "requires": 0,
-    "components": [
-      "an..3",
-      "an..17",
-      "an..3",
-      "an..35",
       "an..35"
     ]
   },
@@ -707,12 +733,99 @@
       "an..3"
     ]
   },
-  "C212": {
+  "C100": {
     "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..70",
+      "an..70"
+    ]
+  },
+  "C224": {
+    "requires": 0,
+    "components": [
+      "an..10",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C829": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..6"
+    ]
+  },
+  "C215": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C272": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3"
+    ]
+  },
+  "C273": {
+    "requires": 0,
+    "components": [
+      "an..17",
+      "an..17",
+      "an..3",
+      "an..256",
+      "an..256",
+      "an..3"
+    ]
+  },
+  "C206": {
+    "requires": 1,
     "components": [
       "an..35",
       "an..3",
+      "an..3"
+    ]
+  },
+  "C531": {
+    "requires": 0,
+    "components": [
+      "an..3",
+      "an..3",
+      "an..3"
+    ]
+  },
+  "C202": {
+    "requires": 0,
+    "components": [
       "an..17",
+      "an..17",
+      "an..3",
+      "an..35"
+    ]
+  },
+  "C402": {
+    "requires": 2,
+    "components": [
+      "an..3",
+      "an..35",
+      "an..3",
+      "an..35",
+      "an..3"
+    ]
+  },
+  "C532": {
+    "requires": 0,
+    "components": [
+      "an..3",
       "an..3"
     ]
   }

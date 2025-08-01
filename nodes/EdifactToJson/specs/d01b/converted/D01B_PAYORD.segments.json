@@ -8,42 +8,10 @@
       "1229"
     ]
   },
-  "FII": {
+  "PAI": {
     "requires": 1,
     "elements": [
-      "3035",
-      "C078",
-      "C088",
-      "3207"
-    ]
-  },
-  "LOC": {
-    "requires": 1,
-    "elements": [
-      "3227",
-      "C517",
-      "C519",
-      "C553",
-      "5479"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
-    ]
-  },
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
+      "C534"
     ]
   },
   "FTX": {
@@ -57,25 +25,23 @@
       "4447"
     ]
   },
-  "BGM": {
-    "requires": 0,
-    "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
-    ]
-  },
-  "MOA": {
-    "requires": 1,
-    "elements": [
-      "C516"
-    ]
-  },
   "COM": {
     "requires": 1,
     "elements": [
       "C076"
+    ]
+  },
+  "AUT": {
+    "requires": 1,
+    "elements": [
+      "9280",
+      "9282"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
     ]
   },
   "NAD": {
@@ -92,6 +58,18 @@
       "3207"
     ]
   },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
   "CUX": {
     "requires": 0,
     "elements": [
@@ -99,35 +77,6 @@
       "C504",
       "5402",
       "6341"
-    ]
-  },
-  "AUT": {
-    "requires": 1,
-    "elements": [
-      "9280",
-      "9282"
-    ]
-  },
-  "RCS": {
-    "requires": 1,
-    "elements": [
-      "7293",
-      "C550",
-      "1229",
-      "3207"
-    ]
-  },
-  "GIS": {
-    "requires": 1,
-    "elements": [
-      "C529"
-    ]
-  },
-  "FCA": {
-    "requires": 1,
-    "elements": [
-      "4471",
-      "C878"
     ]
   },
   "DOC": {
@@ -150,10 +99,61 @@
       "4463"
     ]
   },
-  "PAI": {
+  "LOC": {
     "requires": 1,
     "elements": [
-      "C534"
+      "3227",
+      "C517",
+      "C519",
+      "C553",
+      "5479"
+    ]
+  },
+  "FCA": {
+    "requires": 1,
+    "elements": [
+      "4471",
+      "C878"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "RCS": {
+    "requires": 1,
+    "elements": [
+      "7293",
+      "C550",
+      "1229",
+      "3207"
+    ]
+  },
+  "FII": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C078",
+      "C088",
+      "3207"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
+    ]
+  },
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
     ]
   }
 }

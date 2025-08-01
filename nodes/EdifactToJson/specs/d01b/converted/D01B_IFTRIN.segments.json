@@ -1,71 +1,8 @@
 {
-  "PCD": {
-    "requires": 1,
-    "elements": [
-      "C501",
-      "4405"
-    ]
-  },
-  "EQN": {
-    "requires": 1,
-    "elements": [
-      "C523"
-    ]
-  },
-  "LOC": {
-    "requires": 1,
-    "elements": [
-      "3227",
-      "C517",
-      "C519",
-      "C553",
-      "5479"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
-    ]
-  },
-  "MEA": {
-    "requires": 1,
-    "elements": [
-      "6311",
-      "C502",
-      "C174",
-      "7383"
-    ]
-  },
-  "TCC": {
-    "requires": 0,
-    "elements": [
-      "C200",
-      "C203",
-      "C528",
-      "C554"
-    ]
-  },
-  "CUX": {
-    "requires": 0,
-    "elements": [
-      "C504",
-      "C504",
-      "5402",
-      "6341"
-    ]
-  },
   "DTM": {
     "requires": 1,
     "elements": [
       "C507"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
     ]
   },
   "BGM": {
@@ -77,10 +14,10 @@
       "4343"
     ]
   },
-  "QTY": {
+  "RFF": {
     "requires": 1,
     "elements": [
-      "C186"
+      "C506"
     ]
   },
   "FTX": {
@@ -94,17 +31,11 @@
       "4447"
     ]
   },
-  "MOA": {
-    "requires": 1,
-    "elements": [
-      "C516"
-    ]
-  },
-  "PRI": {
+  "CTA": {
     "requires": 0,
     "elements": [
-      "C509",
-      "5213"
+      "3139",
+      "C056"
     ]
   },
   "NAD": {
@@ -127,6 +58,16 @@
       "C076"
     ]
   },
+  "LOC": {
+    "requires": 1,
+    "elements": [
+      "3227",
+      "C517",
+      "C519",
+      "C553",
+      "5479"
+    ]
+  },
   "TDT": {
     "requires": 1,
     "elements": [
@@ -139,6 +80,65 @@
       "C401",
       "C222",
       "8281"
+    ]
+  },
+  "TCC": {
+    "requires": 0,
+    "elements": [
+      "C200",
+      "C203",
+      "C528",
+      "C554"
+    ]
+  },
+  "MEA": {
+    "requires": 1,
+    "elements": [
+      "6311",
+      "C502",
+      "C174",
+      "7383"
+    ]
+  },
+  "EQN": {
+    "requires": 1,
+    "elements": [
+      "C523"
+    ]
+  },
+  "PRI": {
+    "requires": 0,
+    "elements": [
+      "C509",
+      "5213"
+    ]
+  },
+  "PCD": {
+    "requires": 1,
+    "elements": [
+      "C501",
+      "4405"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "CUX": {
+    "requires": 0,
+    "elements": [
+      "C504",
+      "C504",
+      "5402",
+      "6341"
+    ]
+  },
+  "QTY": {
+    "requires": 1,
+    "elements": [
+      "C186"
     ]
   }
 }

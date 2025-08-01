@@ -1,32 +1,14 @@
 {
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
-  "IMD": {
-    "requires": 0,
-    "elements": [
-      "7077",
-      "C272",
-      "C273",
-      "7383"
-    ]
-  },
-  "BGM": {
-    "requires": 0,
-    "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
-    ]
-  },
   "DTM": {
     "requires": 1,
     "elements": [
       "C507"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
     ]
   },
   "MEA": {
@@ -36,16 +18,6 @@
       "C502",
       "C174",
       "7383"
-    ]
-  },
-  "LOC": {
-    "requires": 1,
-    "elements": [
-      "3227",
-      "C517",
-      "C519",
-      "C553",
-      "5479"
     ]
   },
   "TDT": {
@@ -73,10 +45,35 @@
       "7083"
     ]
   },
+  "IMD": {
+    "requires": 0,
+    "elements": [
+      "7077",
+      "C272",
+      "C273",
+      "7383"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
+    ]
+  },
   "QTY": {
     "requires": 1,
     "elements": [
       "C186"
+    ]
+  },
+  "LOC": {
+    "requires": 1,
+    "elements": [
+      "3227",
+      "C517",
+      "C519",
+      "C553",
+      "5479"
     ]
   },
   "NAD": {
@@ -93,10 +90,13 @@
       "3207"
     ]
   },
-  "GIS": {
-    "requires": 1,
+  "BGM": {
+    "requires": 0,
     "elements": [
-      "C529"
+      "C002",
+      "C106",
+      "1225",
+      "4343"
     ]
   }
 }

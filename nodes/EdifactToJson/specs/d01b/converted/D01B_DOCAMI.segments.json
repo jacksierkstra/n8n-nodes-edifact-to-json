@@ -1,23 +1,4 @@
 {
-  "COM": {
-    "requires": 1,
-    "elements": [
-      "C076"
-    ]
-  },
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
-    ]
-  },
   "BGM": {
     "requires": 0,
     "elements": [
@@ -27,44 +8,10 @@
       "4343"
     ]
   },
-  "RFF": {
+  "DTM": {
     "requires": 1,
     "elements": [
-      "C506"
-    ]
-  },
-  "AUT": {
-    "requires": 1,
-    "elements": [
-      "9280",
-      "9282"
-    ]
-  },
-  "FTX": {
-    "requires": 1,
-    "elements": [
-      "4451",
-      "4453",
-      "C107",
-      "C108",
-      "3453",
-      "4447"
-    ]
-  },
-  "FCA": {
-    "requires": 1,
-    "elements": [
-      "4471",
-      "C878"
-    ]
-  },
-  "FII": {
-    "requires": 1,
-    "elements": [
-      "3035",
-      "C078",
-      "C088",
-      "3207"
+      "C507"
     ]
   },
   "NAD": {
@@ -81,10 +28,25 @@
       "3207"
     ]
   },
-  "MOA": {
+  "AUT": {
     "requires": 1,
     "elements": [
-      "C516"
+      "9280",
+      "9282"
+    ]
+  },
+  "FCA": {
+    "requires": 1,
+    "elements": [
+      "4471",
+      "C878"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
     ]
   },
   "TSR": {
@@ -96,6 +58,38 @@
       "C703"
     ]
   },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "FTX": {
+    "requires": 1,
+    "elements": [
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
+    ]
+  },
+  "FII": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C078",
+      "C088",
+      "3207"
+    ]
+  },
   "LOC": {
     "requires": 1,
     "elements": [
@@ -104,6 +98,12 @@
       "C519",
       "C553",
       "5479"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
     ]
   }
 }

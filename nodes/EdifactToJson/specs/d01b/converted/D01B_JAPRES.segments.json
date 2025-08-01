@@ -1,18 +1,46 @@
 {
-  "DTM": {
-    "requires": 1,
+  "ADR": {
+    "requires": 0,
     "elements": [
-      "C507"
+      "C817",
+      "C090",
+      "3164",
+      "3251",
+      "3207",
+      "C819",
+      "C517"
     ]
   },
-  "LOC": {
+  "RFF": {
     "requires": 1,
     "elements": [
-      "3227",
-      "C517",
-      "C519",
-      "C553",
-      "5479"
+      "C506"
+    ]
+  },
+  "NAT": {
+    "requires": 1,
+    "elements": [
+      "3493",
+      "C042"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
+    ]
+  },
+  "RNG": {
+    "requires": 1,
+    "elements": [
+      "6167",
+      "C280"
     ]
   },
   "FTX": {
@@ -26,83 +54,16 @@
       "4447"
     ]
   },
-  "PDI": {
-    "requires": 0,
-    "elements": [
-      "3499",
-      "C085",
-      "C101"
-    ]
-  },
   "COM": {
     "requires": 1,
     "elements": [
       "C076"
     ]
   },
-  "PNA": {
+  "DTM": {
     "requires": 1,
     "elements": [
-      "3035",
-      "C206",
-      "C082",
-      "3403",
-      "3397",
-      "C816",
-      "C816",
-      "C816",
-      "C816",
-      "C816",
-      "1229"
-    ]
-  },
-  "ATT": {
-    "requires": 1,
-    "elements": [
-      "9017",
-      "C955",
-      "C956"
-    ]
-  },
-  "GIS": {
-    "requires": 1,
-    "elements": [
-      "C529"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
-  "SAL": {
-    "requires": 0,
-    "elements": [
-      "C049"
-    ]
-  },
-  "MOA": {
-    "requires": 1,
-    "elements": [
-      "C516"
-    ]
-  },
-  "RNG": {
-    "requires": 1,
-    "elements": [
-      "6167",
-      "C280"
-    ]
-  },
-  "DOC": {
-    "requires": 1,
-    "elements": [
-      "C002",
-      "C503",
-      "3153",
-      "1220",
-      "1218"
+      "C507"
     ]
   },
   "BGM": {
@@ -112,13 +73,6 @@
       "C106",
       "1225",
       "4343"
-    ]
-  },
-  "PTY": {
-    "requires": 1,
-    "elements": [
-      "4035",
-      "C585"
     ]
   },
   "LAN": {
@@ -139,6 +93,58 @@
       "9035"
     ]
   },
+  "LOC": {
+    "requires": 1,
+    "elements": [
+      "3227",
+      "C517",
+      "C519",
+      "C553",
+      "5479"
+    ]
+  },
+  "DOC": {
+    "requires": 1,
+    "elements": [
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
+    ]
+  },
+  "PDI": {
+    "requires": 0,
+    "elements": [
+      "3499",
+      "C085",
+      "C101"
+    ]
+  },
+  "ATT": {
+    "requires": 1,
+    "elements": [
+      "9017",
+      "C955",
+      "C956"
+    ]
+  },
+  "PNA": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C206",
+      "C082",
+      "3403",
+      "3397",
+      "C816",
+      "C816",
+      "C816",
+      "C816",
+      "C816",
+      "1229"
+    ]
+  },
   "CTA": {
     "requires": 0,
     "elements": [
@@ -146,23 +152,17 @@
       "C056"
     ]
   },
-  "NAT": {
-    "requires": 1,
-    "elements": [
-      "3493",
-      "C042"
-    ]
-  },
-  "ADR": {
+  "SAL": {
     "requires": 0,
     "elements": [
-      "C817",
-      "C090",
-      "3164",
-      "3251",
-      "3207",
-      "C819",
-      "C517"
+      "C049"
+    ]
+  },
+  "PTY": {
+    "requires": 1,
+    "elements": [
+      "4035",
+      "C585"
     ]
   }
 }

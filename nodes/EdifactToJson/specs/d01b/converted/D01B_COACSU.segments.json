@@ -1,70 +1,4 @@
 {
-  "MOA": {
-    "requires": 1,
-    "elements": [
-      "C516"
-    ]
-  },
-  "PCD": {
-    "requires": 1,
-    "elements": [
-      "C501",
-      "4405"
-    ]
-  },
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
-    ]
-  },
-  "PAI": {
-    "requires": 1,
-    "elements": [
-      "C534"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
-    ]
-  },
-  "FTX": {
-    "requires": 1,
-    "elements": [
-      "4451",
-      "4453",
-      "C107",
-      "C108",
-      "3453",
-      "4447"
-    ]
-  },
-  "AJT": {
-    "requires": 1,
-    "elements": [
-      "4465",
-      "1082"
-    ]
-  },
-  "DOC": {
-    "requires": 1,
-    "elements": [
-      "C002",
-      "C503",
-      "3153",
-      "1220",
-      "1218"
-    ]
-  },
   "NAD": {
     "requires": 1,
     "elements": [
@@ -79,13 +13,85 @@
       "3207"
     ]
   },
-  "CUX": {
+  "FII": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C078",
+      "C088",
+      "3207"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "STS": {
     "requires": 0,
     "elements": [
-      "C504",
-      "C504",
-      "5402",
-      "6341"
+      "C601",
+      "C555",
+      "C556",
+      "C556",
+      "C556",
+      "C556",
+      "C556"
+    ]
+  },
+  "CNT": {
+    "requires": 1,
+    "elements": [
+      "C270"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "PYT": {
+    "requires": 1,
+    "elements": [
+      "4279",
+      "C019",
+      "2475",
+      "2009",
+      "2151",
+      "2152"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
+  "QTY": {
+    "requires": 1,
+    "elements": [
+      "C186"
+    ]
+  },
+  "PAI": {
+    "requires": 1,
+    "elements": [
+      "C534"
+    ]
+  },
+  "AJT": {
+    "requires": 1,
+    "elements": [
+      "4465",
+      "1082"
     ]
   },
   "BGM": {
@@ -110,13 +116,14 @@
       "1227"
     ]
   },
-  "FII": {
+  "DOC": {
     "requires": 1,
     "elements": [
-      "3035",
-      "C078",
-      "C088",
-      "3207"
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
     ]
   },
   "ALI": {
@@ -131,45 +138,38 @@
       "4183"
     ]
   },
-  "QTY": {
+  "FTX": {
     "requires": 1,
     "elements": [
-      "C186"
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
     ]
   },
-  "PYT": {
-    "requires": 1,
-    "elements": [
-      "4279",
-      "C019",
-      "2475",
-      "2009",
-      "2151",
-      "2152"
-    ]
-  },
-  "STS": {
+  "CTA": {
     "requires": 0,
     "elements": [
-      "C601",
-      "C555",
-      "C556",
-      "C556",
-      "C556",
-      "C556",
-      "C556"
+      "3139",
+      "C056"
     ]
   },
-  "CNT": {
-    "requires": 1,
+  "CUX": {
+    "requires": 0,
     "elements": [
-      "C270"
+      "C504",
+      "C504",
+      "5402",
+      "6341"
     ]
   },
-  "COM": {
+  "PCD": {
     "requires": 1,
     "elements": [
-      "C076"
+      "C501",
+      "4405"
     ]
   }
 }

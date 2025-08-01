@@ -1,4 +1,11 @@
 {
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
   "LOC": {
     "requires": 1,
     "elements": [
@@ -9,48 +16,16 @@
       "5479"
     ]
   },
-  "FII": {
-    "requires": 1,
-    "elements": [
-      "3035",
-      "C078",
-      "C088",
-      "3207"
-    ]
-  },
-  "DMS": {
-    "requires": 0,
-    "elements": [
-      "C106",
-      "C002",
-      "7240"
-    ]
-  },
-  "MEA": {
-    "requires": 1,
-    "elements": [
-      "6311",
-      "C502",
-      "C174",
-      "7383"
-    ]
-  },
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
-    ]
-  },
   "GIS": {
     "requires": 1,
     "elements": [
       "C529"
     ]
   },
-  "MOA": {
+  "DTM": {
     "requires": 1,
     "elements": [
-      "C516"
+      "C507"
     ]
   },
   "NAD": {
@@ -67,24 +42,6 @@
       "3207"
     ]
   },
-  "LIN": {
-    "requires": 0,
-    "elements": [
-      "1082",
-      "1229",
-      "C212",
-      "C829",
-      "1222",
-      "7083"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
-    ]
-  },
   "PCD": {
     "requires": 1,
     "elements": [
@@ -98,6 +55,64 @@
       "C076"
     ]
   },
+  "DMS": {
+    "requires": 0,
+    "elements": [
+      "C106",
+      "C002",
+      "7240"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "PAI": {
+    "requires": 1,
+    "elements": [
+      "C534"
+    ]
+  },
+  "MEA": {
+    "requires": 1,
+    "elements": [
+      "6311",
+      "C502",
+      "C174",
+      "7383"
+    ]
+  },
+  "FII": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C078",
+      "C088",
+      "3207"
+    ]
+  },
+  "AUT": {
+    "requires": 1,
+    "elements": [
+      "9280",
+      "9282"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "ARD": {
+    "requires": 0,
+    "elements": [
+      "C549",
+      "C008"
+    ]
+  },
   "BGM": {
     "requires": 0,
     "elements": [
@@ -107,16 +122,15 @@
       "4343"
     ]
   },
-  "PAI": {
-    "requires": 1,
+  "LIN": {
+    "requires": 0,
     "elements": [
-      "C534"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
+      "1082",
+      "1229",
+      "C212",
+      "C829",
+      "1222",
+      "7083"
     ]
   },
   "CNT": {
@@ -134,20 +148,6 @@
       "C108",
       "3453",
       "4447"
-    ]
-  },
-  "AUT": {
-    "requires": 1,
-    "elements": [
-      "9280",
-      "9282"
-    ]
-  },
-  "ARD": {
-    "requires": 0,
-    "elements": [
-      "C549",
-      "C008"
     ]
   }
 }

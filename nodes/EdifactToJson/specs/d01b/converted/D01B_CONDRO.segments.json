@@ -5,87 +5,13 @@
       "C507"
     ]
   },
-  "FTX": {
-    "requires": 1,
-    "elements": [
-      "4451",
-      "4453",
-      "C107",
-      "C108",
-      "3453",
-      "4447"
-    ]
-  },
-  "CTA": {
+  "INP": {
     "requires": 0,
     "elements": [
-      "3139",
-      "C056"
-    ]
-  },
-  "QTY": {
-    "requires": 1,
-    "elements": [
-      "C186"
-    ]
-  },
-  "AGR": {
-    "requires": 0,
-    "elements": [
-      "C543",
-      "9419"
-    ]
-  },
-  "BII": {
-    "requires": 2,
-    "elements": [
-      "7429",
-      "C045",
-      "7140"
-    ]
-  },
-  "BGM": {
-    "requires": 0,
-    "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
-    ]
-  },
-  "EFI": {
-    "requires": 1,
-    "elements": [
-      "C077",
-      "C099",
-      "1050",
-      "9450"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
-  "LOC": {
-    "requires": 1,
-    "elements": [
-      "3227",
-      "C517",
-      "C519",
-      "C553",
-      "5479"
-    ]
-  },
-  "DOC": {
-    "requires": 1,
-    "elements": [
-      "C002",
-      "C503",
-      "3153",
-      "1220",
-      "1218"
+      "C849",
+      "C522",
+      "C850",
+      "1229"
     ]
   },
   "MEA": {
@@ -97,49 +23,16 @@
       "7383"
     ]
   },
-  "CED": {
-    "requires": 2,
-    "elements": [
-      "1501",
-      "C079",
-      "9448"
-    ]
-  },
-  "GIS": {
+  "RFF": {
     "requires": 1,
     "elements": [
-      "C529"
+      "C506"
     ]
   },
-  "INP": {
-    "requires": 0,
-    "elements": [
-      "C849",
-      "C522",
-      "C850",
-      "1229"
-    ]
-  },
-  "COM": {
+  "QTY": {
     "requires": 1,
     "elements": [
-      "C076"
-    ]
-  },
-  "IMD": {
-    "requires": 0,
-    "elements": [
-      "7077",
-      "C272",
-      "C273",
-      "7383"
-    ]
-  },
-  "DIM": {
-    "requires": 2,
-    "elements": [
-      "6145",
-      "C211"
+      "C186"
     ]
   },
   "NAD": {
@@ -156,11 +49,118 @@
       "3207"
     ]
   },
+  "DOC": {
+    "requires": 1,
+    "elements": [
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
+    ]
+  },
+  "FTX": {
+    "requires": 1,
+    "elements": [
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
+    ]
+  },
+  "AGR": {
+    "requires": 0,
+    "elements": [
+      "C543",
+      "9419"
+    ]
+  },
+  "LOC": {
+    "requires": 1,
+    "elements": [
+      "3227",
+      "C517",
+      "C519",
+      "C553",
+      "5479"
+    ]
+  },
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "IMD": {
+    "requires": 0,
+    "elements": [
+      "7077",
+      "C272",
+      "C273",
+      "7383"
+    ]
+  },
+  "EFI": {
+    "requires": 1,
+    "elements": [
+      "C077",
+      "C099",
+      "1050",
+      "9450"
+    ]
+  },
+  "CED": {
+    "requires": 2,
+    "elements": [
+      "1501",
+      "C079",
+      "9448"
+    ]
+  },
+  "DIM": {
+    "requires": 2,
+    "elements": [
+      "6145",
+      "C211"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
   "AUT": {
     "requires": 1,
     "elements": [
       "9280",
       "9282"
+    ]
+  },
+  "BII": {
+    "requires": 2,
+    "elements": [
+      "7429",
+      "C045",
+      "7140"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
     ]
   }
 }

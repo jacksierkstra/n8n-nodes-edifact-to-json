@@ -5,12 +5,6 @@
       "C507"
     ]
   },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
   "FTX": {
     "requires": 1,
     "elements": [
@@ -22,13 +16,10 @@
       "4447"
     ]
   },
-  "MEA": {
+  "COM": {
     "requires": 1,
     "elements": [
-      "6311",
-      "C502",
-      "C174",
-      "7383"
+      "C076"
     ]
   },
   "NAD": {
@@ -45,11 +36,10 @@
       "3207"
     ]
   },
-  "CTA": {
-    "requires": 0,
+  "RFF": {
+    "requires": 1,
     "elements": [
-      "3139",
-      "C056"
+      "C506"
     ]
   },
   "LOC": {
@@ -62,12 +52,6 @@
       "5479"
     ]
   },
-  "QTY": {
-    "requires": 1,
-    "elements": [
-      "C186"
-    ]
-  },
   "BGM": {
     "requires": 0,
     "elements": [
@@ -75,12 +59,6 @@
       "C106",
       "1225",
       "4343"
-    ]
-  },
-  "COM": {
-    "requires": 1,
-    "elements": [
-      "C076"
     ]
   },
   "TDT": {
@@ -95,6 +73,28 @@
       "C401",
       "C222",
       "8281"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "QTY": {
+    "requires": 1,
+    "elements": [
+      "C186"
+    ]
+  },
+  "MEA": {
+    "requires": 1,
+    "elements": [
+      "6311",
+      "C502",
+      "C174",
+      "7383"
     ]
   }
 }

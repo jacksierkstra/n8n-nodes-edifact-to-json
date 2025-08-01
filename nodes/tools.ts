@@ -12,19 +12,20 @@ const persist = (spec: EdifactMessageSpecification, location: string) => {
 };
 
 const version: string = "d01b";
+const downloadPath: string = path.join(__dirname, "EdifactToJson", "specs", version);
 
 const downloadSpecs = async () => {
 
     for (const typeName of MESSAGE_TYPES) {
         try {
-            const locationToDownload = path.join(__dirname, "EdifactToJson", "specs", version, `${typeName}.json`);
+            const locationToDownload = path.join(downloadPath, `${typeName}.json`);
             const fileExists = fs.existsSync(locationToDownload);
             if (!fileExists) {
                 const structParser: MessageStructureParser = new UNECEMessageStructureParser(version, typeName);
                 const spec = await structParser.loadTypeSpec();
-                persist(spec, location);
+                persist(spec, locationToDownload);
             } else {
-                console.log(`Message specification for ${typeName} of version ${version} already exists at ${location}. Skipping download.`);
+                console.log(`Message specification for ${typeName} of version ${version} already exists at ${locationToDownload}. Skipping download.`);
                 continue;
             }
         } catch (error) {
@@ -39,7 +40,7 @@ const convertSpecs = async () => {
 
     for (const typeName of MESSAGE_TYPES) {
         try {
-            const specFile = path.join(path.resolve(__dirname), "EdifactToJson", "specs", version, `${typeName}.json`);
+            const specFile = path.join(downloadPath, `${typeName}.json`);
             await convertSpec(specFile, typeName, version);
         } catch (error) {
             console.warn(`Could not load Message structure and segment/element definitions for message type ${typeName} of version ${version}. Reason: ${error.message}`);
@@ -63,14 +64,9 @@ const convertSpec = async (specFileLocation: string, messageType: string, messag
             const segmentsPath = path.join(__dirname, "EdifactToJson", 'specs', version, 'converted', segmentsFileName);
             const elementsPath = path.join(__dirname, "EdifactToJson", 'specs', version, 'converted', elementsFileName);
 
-            // console.log(`Writing message structure definition to ${structPath}`);
-            // console.log(`Writing segments definition to ${segmentsPath}`);
-            // console.log(`Writing elements definition to ${elementsPath}`);
-
             fs.writeFileSync(structPath, JSON.stringify(spec.messageStructureDefinition, null, 2));
             fs.writeFileSync(segmentsPath, JSON.stringify(spec.segmentTable.entries, null, 2));
             fs.writeFileSync(elementsPath, JSON.stringify(spec.elementTable.entries, null, 2));
-
         } else {
             console.warn(`File ${specFileLocation} does not exist. Skipping conversion for message type ${messageType} of version ${messageVersion}.`);
         }

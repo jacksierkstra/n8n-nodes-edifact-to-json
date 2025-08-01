@@ -83,11 +83,66 @@
       "an..3"
     ]
   },
-  "C076": {
-    "requires": 2,
+  "C107": {
+    "requires": 1,
+    "components": [
+      "an..17",
+      "an..17",
+      "an..3"
+    ]
+  },
+  "C108": {
+    "requires": 1,
     "components": [
       "an..512",
+      "an..512",
+      "an..512",
+      "an..512",
+      "an..512"
+    ]
+  },
+  "C529": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..17",
+      "an..3",
+      "an..17"
+    ]
+  },
+  "C501": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "n..10",
+      "an..3",
+      "an..17",
       "an..3"
+    ]
+  },
+  "C506": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..70",
+      "an..6",
+      "an..35",
+      "an..6"
+    ]
+  },
+  "C507": {
+    "requires": 1,
+    "components": [
+      "an..3",
+      "an..35",
+      "an..3"
+    ]
+  },
+  "C056": {
+    "requires": 0,
+    "components": [
+      "an..17",
+      "an..35"
     ]
   },
   "C517": {
@@ -115,61 +170,6 @@
       "an..17",
       "an..3",
       "an..70"
-    ]
-  },
-  "C516": {
-    "requires": 1,
-    "components": [
-      "an..3",
-      "n..35",
-      "an..3",
-      "an..3",
-      "an..3"
-    ]
-  },
-  "C507": {
-    "requires": 1,
-    "components": [
-      "an..3",
-      "an..35",
-      "an..3"
-    ]
-  },
-  "C504": {
-    "requires": 1,
-    "components": [
-      "an..3",
-      "an..3",
-      "an..3",
-      "n..4"
-    ]
-  },
-  "C501": {
-    "requires": 1,
-    "components": [
-      "an..3",
-      "n..10",
-      "an..3",
-      "an..17",
-      "an..3"
-    ]
-  },
-  "C107": {
-    "requires": 1,
-    "components": [
-      "an..17",
-      "an..17",
-      "an..3"
-    ]
-  },
-  "C108": {
-    "requires": 1,
-    "components": [
-      "an..512",
-      "an..512",
-      "an..512",
-      "an..512",
-      "an..512"
     ]
   },
   "C082": {
@@ -219,30 +219,30 @@
       "an..70"
     ]
   },
-  "C529": {
+  "C504": {
     "requires": 1,
     "components": [
       "an..3",
-      "an..17",
       "an..3",
-      "an..17"
+      "an..3",
+      "n..4"
     ]
   },
-  "C506": {
+  "C516": {
     "requires": 1,
     "components": [
       "an..3",
-      "an..70",
-      "an..6",
-      "an..35",
-      "an..6"
+      "n..35",
+      "an..3",
+      "an..3",
+      "an..3"
     ]
   },
-  "C056": {
-    "requires": 0,
+  "C076": {
+    "requires": 2,
     "components": [
-      "an..17",
-      "an..35"
+      "an..512",
+      "an..3"
     ]
   }
 }

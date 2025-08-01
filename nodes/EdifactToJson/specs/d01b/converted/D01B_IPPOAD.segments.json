@@ -1,17 +1,65 @@
 {
-  "QTY": {
+  "PCD": {
     "requires": 1,
     "elements": [
-      "C186"
+      "C501",
+      "4405"
     ]
   },
-  "BGM": {
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "CUX": {
     "requires": 0,
     "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
+      "C504",
+      "C504",
+      "5402",
+      "6341"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
+  "COD": {
+    "requires": 0,
+    "elements": [
+      "C823",
+      "C824"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "QRS": {
+    "requires": 1,
+    "elements": [
+      "7293",
+      "C811",
+      "C812"
+    ]
+  },
+  "GEI": {
+    "requires": 1,
+    "elements": [
+      "9649",
+      "C012",
+      "7187"
     ]
   },
   "IDE": {
@@ -26,46 +74,21 @@
       "C240"
     ]
   },
-  "EFI": {
+  "QTY": {
     "requires": 1,
     "elements": [
-      "C077",
-      "C099",
-      "1050",
-      "9450"
+      "C186"
     ]
   },
-  "RFF": {
+  "FTX": {
     "requires": 1,
     "elements": [
-      "C506"
-    ]
-  },
-  "GEI": {
-    "requires": 1,
-    "elements": [
-      "9649",
-      "C012",
-      "7187"
-    ]
-  },
-  "ICD": {
-    "requires": 2,
-    "elements": [
-      "C330",
-      "C331"
-    ]
-  },
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
-    ]
-  },
-  "MOA": {
-    "requires": 1,
-    "elements": [
-      "C516"
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
     ]
   },
   "ATT": {
@@ -74,14 +97,6 @@
       "9017",
       "C955",
       "C956"
-    ]
-  },
-  "QRS": {
-    "requires": 1,
-    "elements": [
-      "7293",
-      "C811",
-      "C812"
     ]
   },
   "ADR": {
@@ -96,76 +111,6 @@
       "C517"
     ]
   },
-  "PCD": {
-    "requires": 1,
-    "elements": [
-      "C501",
-      "4405"
-    ]
-  },
-  "COM": {
-    "requires": 1,
-    "elements": [
-      "C076"
-    ]
-  },
-  "FTX": {
-    "requires": 1,
-    "elements": [
-      "4451",
-      "4453",
-      "C107",
-      "C108",
-      "3453",
-      "4447"
-    ]
-  },
-  "PCC": {
-    "requires": 0,
-    "elements": [
-      "C820",
-      "4522"
-    ]
-  },
-  "SEQ": {
-    "requires": 0,
-    "elements": [
-      "1229",
-      "C286"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
-    ]
-  },
-  "EMP": {
-    "requires": 1,
-    "elements": [
-      "9003",
-      "C948",
-      "C951",
-      "C950",
-      "3494",
-      "9035"
-    ]
-  },
-  "ROD": {
-    "requires": 0,
-    "elements": [
-      "C851",
-      "C852"
-    ]
-  },
-  "COD": {
-    "requires": 0,
-    "elements": [
-      "C823",
-      "C824"
-    ]
-  },
   "IMD": {
     "requires": 0,
     "elements": [
@@ -175,22 +120,11 @@
       "7383"
     ]
   },
-  "MEA": {
-    "requires": 1,
-    "elements": [
-      "6311",
-      "C502",
-      "C174",
-      "7383"
-    ]
-  },
-  "CUX": {
+  "CTA": {
     "requires": 0,
     "elements": [
-      "C504",
-      "C504",
-      "5402",
-      "6341"
+      "3139",
+      "C056"
     ]
   },
   "LOC": {
@@ -203,14 +137,20 @@
       "5479"
     ]
   },
-  "EVE": {
+  "EFI": {
+    "requires": 1,
+    "elements": [
+      "C077",
+      "C099",
+      "1050",
+      "9450"
+    ]
+  },
+  "PCC": {
     "requires": 0,
     "elements": [
-      "9635",
-      "C004",
-      "C030",
-      "C063",
-      "1229"
+      "C820",
+      "4522"
     ]
   },
   "PNA": {
@@ -229,6 +169,36 @@
       "1229"
     ]
   },
+  "MEA": {
+    "requires": 1,
+    "elements": [
+      "6311",
+      "C502",
+      "C174",
+      "7383"
+    ]
+  },
+  "EMP": {
+    "requires": 1,
+    "elements": [
+      "9003",
+      "C948",
+      "C951",
+      "C950",
+      "3494",
+      "9035"
+    ]
+  },
+  "EVE": {
+    "requires": 0,
+    "elements": [
+      "9635",
+      "C004",
+      "C030",
+      "C063",
+      "1229"
+    ]
+  },
   "FII": {
     "requires": 1,
     "elements": [
@@ -236,6 +206,36 @@
       "C078",
       "C088",
       "3207"
+    ]
+  },
+  "SEQ": {
+    "requires": 0,
+    "elements": [
+      "1229",
+      "C286"
+    ]
+  },
+  "ICD": {
+    "requires": 2,
+    "elements": [
+      "C330",
+      "C331"
+    ]
+  },
+  "ROD": {
+    "requires": 0,
+    "elements": [
+      "C851",
+      "C852"
+    ]
+  },
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
     ]
   },
   "PYT": {

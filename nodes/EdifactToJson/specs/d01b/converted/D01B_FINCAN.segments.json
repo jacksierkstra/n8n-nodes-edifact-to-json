@@ -1,25 +1,9 @@
 {
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
-    ]
-  },
-  "COM": {
-    "requires": 1,
-    "elements": [
-      "C076"
-    ]
-  },
-  "LIN": {
+  "CTA": {
     "requires": 0,
     "elements": [
-      "1082",
-      "1229",
-      "C212",
-      "C829",
-      "1222",
-      "7083"
+      "3139",
+      "C056"
     ]
   },
   "NAD": {
@@ -36,6 +20,38 @@
       "3207"
     ]
   },
+  "FII": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C078",
+      "C088",
+      "3207"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "LIN": {
+    "requires": 0,
+    "elements": [
+      "1082",
+      "1229",
+      "C212",
+      "C829",
+      "1222",
+      "7083"
+    ]
+  },
   "BGM": {
     "requires": 0,
     "elements": [
@@ -45,12 +61,6 @@
       "4343"
     ]
   },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
   "AUT": {
     "requires": 1,
     "elements": [
@@ -58,17 +68,10 @@
       "9282"
     ]
   },
-  "CNT": {
+  "COM": {
     "requires": 1,
     "elements": [
-      "C270"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
+      "C076"
     ]
   },
   "BUS": {
@@ -81,13 +84,10 @@
       "4463"
     ]
   },
-  "FII": {
+  "CNT": {
     "requires": 1,
     "elements": [
-      "3035",
-      "C078",
-      "C088",
-      "3207"
+      "C270"
     ]
   }
 }

@@ -1,4 +1,57 @@
 {
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "SGP": {
+    "requires": 1,
+    "elements": [
+      "C237",
+      "7224"
+    ]
+  },
+  "MEA": {
+    "requires": 1,
+    "elements": [
+      "6311",
+      "C502",
+      "C174",
+      "7383"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "LOC": {
+    "requires": 1,
+    "elements": [
+      "3227",
+      "C517",
+      "C519",
+      "C553",
+      "5479"
+    ]
+  },
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
   "NAD": {
     "requires": 1,
     "elements": [
@@ -11,32 +64,6 @@
       "C819",
       "3251",
       "3207"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
-    ]
-  },
-  "COM": {
-    "requires": 1,
-    "elements": [
-      "C076"
-    ]
-  },
-  "SGP": {
-    "requires": 1,
-    "elements": [
-      "C237",
-      "7224"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
     ]
   },
   "DGS": {
@@ -57,19 +84,11 @@
       "8211"
     ]
   },
-  "MEA": {
-    "requires": 1,
+  "CTA": {
+    "requires": 0,
     "elements": [
-      "6311",
-      "C502",
-      "C174",
-      "7383"
-    ]
-  },
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
+      "3139",
+      "C056"
     ]
   },
   "GOR": {
@@ -80,25 +99,6 @@
       "C232",
       "C232",
       "C232"
-    ]
-  },
-  "LOC": {
-    "requires": 1,
-    "elements": [
-      "3227",
-      "C517",
-      "C519",
-      "C553",
-      "5479"
-    ]
-  },
-  "BGM": {
-    "requires": 0,
-    "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
     ]
   },
   "TDT": {

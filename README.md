@@ -26,12 +26,6 @@ This node requires n8n version 1.0.0 or higher.
     * Provide the EDIFACT message as a string.
 * **Binary Property Name (visible when Input Type is Binary):**
     * Specify the name of the binary property (e.g., `data`, `file`) that contains the EDIFACT data.
-* **Has UNA Segment?:**
-    * `true` (default): Detects delimiters from the `UNA` segment.
-    * `false`: Requires manual input of `Custom Delimiter Characters`.
-* **Custom Delimiter Characters (visible when Has UNA Segment? is false):**
-    * Enter the 6 EDIFACT delimiter characters in order: `component`, `data element`, `decimal`, `release`, `blank space`, `segment terminator`.
-    * Example: `:+.? '`
 
 ### Example Workflow:
 1.  **Start Node:** Use a "Manual Trigger" or "Webhook" node.

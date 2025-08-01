@@ -1,12 +1,6 @@
 {
   "segmentTable": {
     "entries": {
-      "DTM": {
-        "requires": 1,
-        "elements": [
-          "C507"
-        ]
-      },
       "FII": {
         "requires": 1,
         "elements": [
@@ -22,11 +16,19 @@
           "C506"
         ]
       },
-      "CTA": {
+      "DTM": {
+        "requires": 1,
+        "elements": [
+          "C507"
+        ]
+      },
+      "BGM": {
         "requires": 0,
         "elements": [
-          "3139",
-          "C056"
+          "C002",
+          "C106",
+          "1225",
+          "4343"
         ]
       },
       "COM": {
@@ -42,6 +44,13 @@
           "9282"
         ]
       },
+      "CTA": {
+        "requires": 0,
+        "elements": [
+          "3139",
+          "C056"
+        ]
+      },
       "NAD": {
         "requires": 1,
         "elements": [
@@ -54,15 +63,6 @@
           "C819",
           "3251",
           "3207"
-        ]
-      },
-      "BGM": {
-        "requires": 0,
-        "elements": [
-          "C002",
-          "C106",
-          "1225",
-          "4343"
         ]
       }
     }
@@ -123,14 +123,6 @@
           "an..35"
         ]
       },
-      "C507": {
-        "requires": 1,
-        "components": [
-          "an..3",
-          "an..35",
-          "an..3"
-        ]
-      },
       "C078": {
         "requires": 0,
         "components": [
@@ -163,11 +155,29 @@
           "an..6"
         ]
       },
-      "C056": {
+      "C507": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..35",
+          "an..3"
+        ]
+      },
+      "C002": {
         "requires": 0,
         "components": [
+          "an..3",
           "an..17",
+          "an..3",
           "an..35"
+        ]
+      },
+      "C106": {
+        "requires": 0,
+        "components": [
+          "an..35",
+          "an..9",
+          "an..6"
         ]
       },
       "C076": {
@@ -175,6 +185,13 @@
         "components": [
           "an..512",
           "an..3"
+        ]
+      },
+      "C056": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..35"
         ]
       },
       "C082": {
@@ -222,23 +239,6 @@
           "an..17",
           "an..3",
           "an..70"
-        ]
-      },
-      "C002": {
-        "requires": 0,
-        "components": [
-          "an..3",
-          "an..17",
-          "an..3",
-          "an..35"
-        ]
-      },
-      "C106": {
-        "requires": 0,
-        "components": [
-          "an..35",
-          "an..9",
-          "an..6"
         ]
       }
     }

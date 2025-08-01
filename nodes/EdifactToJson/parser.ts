@@ -10,7 +10,7 @@ export class EdifactParser {
 
     parse(): Edifact {
         try {
-            const reader = new Reader();
+            const reader = new Reader(this.opts.specPath);
             const result = reader.parse(this.document);
             const builder = new InterchangeBuilder(result, reader.separators, this.opts.specPath);
             return builder.interchange;

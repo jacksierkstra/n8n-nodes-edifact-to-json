@@ -1,4 +1,13 @@
 {
+  "EFI": {
+    "requires": 1,
+    "elements": [
+      "C077",
+      "C099",
+      "1050",
+      "9450"
+    ]
+  },
   "MOA": {
     "requires": 1,
     "elements": [
@@ -11,100 +20,13 @@
       "C507"
     ]
   },
-  "STA": {
+  "RCS": {
     "requires": 1,
     "elements": [
-      "6331",
-      "C527"
-    ]
-  },
-  "CAV": {
-    "requires": 1,
-    "elements": [
-      "C889"
-    ]
-  },
-  "EFI": {
-    "requires": 1,
-    "elements": [
-      "C077",
-      "C099",
-      "1050",
-      "9450"
-    ]
-  },
-  "ADR": {
-    "requires": 0,
-    "elements": [
-      "C817",
-      "C090",
-      "3164",
-      "3251",
-      "3207",
-      "C819",
-      "C517"
-    ]
-  },
-  "LIN": {
-    "requires": 0,
-    "elements": [
-      "1082",
+      "7293",
+      "C550",
       "1229",
-      "C212",
-      "C829",
-      "1222",
-      "7083"
-    ]
-  },
-  "IMD": {
-    "requires": 0,
-    "elements": [
-      "7077",
-      "C272",
-      "C273",
-      "7383"
-    ]
-  },
-  "CCI": {
-    "requires": 0,
-    "elements": [
-      "7059",
-      "C502",
-      "C240",
-      "4051"
-    ]
-  },
-  "CNT": {
-    "requires": 1,
-    "elements": [
-      "C270"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
-  "PCD": {
-    "requires": 1,
-    "elements": [
-      "C501",
-      "4405"
-    ]
-  },
-  "PRC": {
-    "requires": 0,
-    "elements": [
-      "C242",
-      "C830"
-    ]
-  },
-  "REL": {
-    "requires": 1,
-    "elements": [
-      "9141",
-      "C941"
+      "3207"
     ]
   },
   "QTY": {
@@ -124,29 +46,45 @@
       "4447"
     ]
   },
-  "CED": {
-    "requires": 2,
-    "elements": [
-      "1501",
-      "C079",
-      "9448"
-    ]
-  },
-  "BGM": {
+  "LIN": {
     "requires": 0,
     "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
+      "1082",
+      "1229",
+      "C212",
+      "C829",
+      "1222",
+      "7083"
     ]
   },
-  "ATT": {
+  "CAV": {
     "requires": 1,
     "elements": [
-      "9017",
-      "C955",
-      "C956"
+      "C889"
+    ]
+  },
+  "IMD": {
+    "requires": 0,
+    "elements": [
+      "7077",
+      "C272",
+      "C273",
+      "7383"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "CCI": {
+    "requires": 0,
+    "elements": [
+      "7059",
+      "C502",
+      "C240",
+      "4051"
     ]
   },
   "CTA": {
@@ -154,15 +92,6 @@
     "elements": [
       "3139",
       "C056"
-    ]
-  },
-  "RCS": {
-    "requires": 1,
-    "elements": [
-      "7293",
-      "C550",
-      "1229",
-      "3207"
     ]
   },
   "IDE": {
@@ -175,6 +104,75 @@
       "1222",
       "C778",
       "C240"
+    ]
+  },
+  "CNT": {
+    "requires": 1,
+    "elements": [
+      "C270"
+    ]
+  },
+  "ADR": {
+    "requires": 0,
+    "elements": [
+      "C817",
+      "C090",
+      "3164",
+      "3251",
+      "3207",
+      "C819",
+      "C517"
+    ]
+  },
+  "PCD": {
+    "requires": 1,
+    "elements": [
+      "C501",
+      "4405"
+    ]
+  },
+  "ATT": {
+    "requires": 1,
+    "elements": [
+      "9017",
+      "C955",
+      "C956"
+    ]
+  },
+  "STA": {
+    "requires": 1,
+    "elements": [
+      "6331",
+      "C527"
+    ]
+  },
+  "PRI": {
+    "requires": 0,
+    "elements": [
+      "C509",
+      "5213"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
+  "CUX": {
+    "requires": 0,
+    "elements": [
+      "C504",
+      "C504",
+      "5402",
+      "6341"
+    ]
+  },
+  "PRC": {
+    "requires": 0,
+    "elements": [
+      "C242",
+      "C830"
     ]
   },
   "PNA": {
@@ -193,26 +191,28 @@
       "1229"
     ]
   },
-  "COM": {
+  "REL": {
     "requires": 1,
     "elements": [
-      "C076"
+      "9141",
+      "C941"
     ]
   },
-  "PRI": {
-    "requires": 0,
+  "CED": {
+    "requires": 2,
     "elements": [
-      "C509",
-      "5213"
+      "1501",
+      "C079",
+      "9448"
     ]
   },
-  "CUX": {
+  "BGM": {
     "requires": 0,
     "elements": [
-      "C504",
-      "C504",
-      "5402",
-      "6341"
+      "C002",
+      "C106",
+      "1225",
+      "4343"
     ]
   }
 }

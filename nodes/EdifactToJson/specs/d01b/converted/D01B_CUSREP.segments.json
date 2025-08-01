@@ -1,13 +1,18 @@
 {
-  "FTX": {
+  "DOC": {
     "requires": 1,
     "elements": [
-      "4451",
-      "4453",
-      "C107",
-      "C108",
-      "3453",
-      "4447"
+      "C002",
+      "C503",
+      "3153",
+      "1220",
+      "1218"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
     ]
   },
   "NAD": {
@@ -24,17 +29,16 @@
       "3207"
     ]
   },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
-    ]
-  },
-  "DTM": {
+  "POC": {
     "requires": 1,
     "elements": [
-      "C507"
+      "C525"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
     ]
   },
   "BGM": {
@@ -46,19 +50,21 @@
       "4343"
     ]
   },
-  "FII": {
+  "MOA": {
     "requires": 1,
     "elements": [
-      "3035",
-      "C078",
-      "C088",
-      "3207"
+      "C516"
     ]
   },
-  "COM": {
+  "EQD": {
     "requires": 1,
     "elements": [
-      "C076"
+      "8053",
+      "C237",
+      "C224",
+      "8077",
+      "8249",
+      "8169"
     ]
   },
   "QTY": {
@@ -80,6 +86,23 @@
       "1227"
     ]
   },
+  "FTX": {
+    "requires": 1,
+    "elements": [
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
   "LOC": {
     "requires": 1,
     "elements": [
@@ -90,54 +113,17 @@
       "5479"
     ]
   },
-  "MEA": {
-    "requires": 1,
+  "CTA": {
+    "requires": 0,
     "elements": [
-      "6311",
-      "C502",
-      "C174",
-      "7383"
+      "3139",
+      "C056"
     ]
   },
-  "EQN": {
+  "TPL": {
     "requires": 1,
     "elements": [
-      "C523"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
-  "AUT": {
-    "requires": 1,
-    "elements": [
-      "9280",
-      "9282"
-    ]
-  },
-  "POC": {
-    "requires": 1,
-    "elements": [
-      "C525"
-    ]
-  },
-  "DOC": {
-    "requires": 1,
-    "elements": [
-      "C002",
-      "C503",
-      "3153",
-      "1220",
-      "1218"
-    ]
-  },
-  "GIS": {
-    "requires": 1,
-    "elements": [
-      "C529"
+      "C222"
     ]
   },
   "TDT": {
@@ -154,6 +140,36 @@
       "8281"
     ]
   },
+  "EQN": {
+    "requires": 1,
+    "elements": [
+      "C523"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
+    ]
+  },
+  "FII": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C078",
+      "C088",
+      "3207"
+    ]
+  },
+  "MEA": {
+    "requires": 1,
+    "elements": [
+      "6311",
+      "C502",
+      "C174",
+      "7383"
+    ]
+  },
   "STS": {
     "requires": 0,
     "elements": [
@@ -166,27 +182,11 @@
       "C556"
     ]
   },
-  "TPL": {
+  "AUT": {
     "requires": 1,
     "elements": [
-      "C222"
-    ]
-  },
-  "EQD": {
-    "requires": 1,
-    "elements": [
-      "8053",
-      "C237",
-      "C224",
-      "8077",
-      "8249",
-      "8169"
-    ]
-  },
-  "MOA": {
-    "requires": 1,
-    "elements": [
-      "C516"
+      "9280",
+      "9282"
     ]
   }
 }

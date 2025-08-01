@@ -1,25 +1,4 @@
 {
-  "QTY": {
-    "requires": 1,
-    "elements": [
-      "C186"
-    ]
-  },
-  "IMD": {
-    "requires": 0,
-    "elements": [
-      "7077",
-      "C272",
-      "C273",
-      "7383"
-    ]
-  },
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
-    ]
-  },
   "SCC": {
     "requires": 1,
     "elements": [
@@ -28,11 +7,10 @@
       "C329"
     ]
   },
-  "IND": {
-    "requires": 0,
+  "DTM": {
+    "requires": 1,
     "elements": [
-      "C545",
-      "C546"
+      "C507"
     ]
   },
   "LIN": {
@@ -46,47 +24,20 @@
       "7083"
     ]
   },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
-  "CED": {
-    "requires": 2,
-    "elements": [
-      "1501",
-      "C079",
-      "9448"
-    ]
-  },
-  "GIS": {
-    "requires": 1,
-    "elements": [
-      "C529"
-    ]
-  },
-  "MOA": {
-    "requires": 1,
-    "elements": [
-      "C516"
-    ]
-  },
-  "BII": {
-    "requires": 2,
-    "elements": [
-      "7429",
-      "C045",
-      "7140"
-    ]
-  },
-  "CCI": {
+  "IND": {
     "requires": 0,
     "elements": [
-      "7059",
-      "C502",
-      "C240",
-      "4051"
+      "C545",
+      "C546"
+    ]
+  },
+  "IMD": {
+    "requires": 0,
+    "elements": [
+      "7077",
+      "C272",
+      "C273",
+      "7383"
     ]
   },
   "COM": {
@@ -111,16 +62,10 @@
       "1229"
     ]
   },
-  "STS": {
-    "requires": 0,
+  "MOA": {
+    "requires": 1,
     "elements": [
-      "C601",
-      "C555",
-      "C556",
-      "C556",
-      "C556",
-      "C556",
-      "C556"
+      "C516"
     ]
   },
   "GIR": {
@@ -134,20 +79,82 @@
       "C206"
     ]
   },
-  "RTE": {
+  "PCD": {
     "requires": 1,
     "elements": [
-      "C128",
+      "C501",
       "4405"
     ]
   },
-  "BGM": {
+  "ADR": {
     "requires": 0,
     "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
+      "C817",
+      "C090",
+      "3164",
+      "3251",
+      "3207",
+      "C819",
+      "C517"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "STS": {
+    "requires": 0,
+    "elements": [
+      "C601",
+      "C555",
+      "C556",
+      "C556",
+      "C556",
+      "C556",
+      "C556"
+    ]
+  },
+  "BII": {
+    "requires": 2,
+    "elements": [
+      "7429",
+      "C045",
+      "7140"
+    ]
+  },
+  "EFI": {
+    "requires": 1,
+    "elements": [
+      "C077",
+      "C099",
+      "1050",
+      "9450"
+    ]
+  },
+  "FTX": {
+    "requires": 1,
+    "elements": [
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
     ]
   },
   "REL": {
@@ -166,27 +173,21 @@
       "3207"
     ]
   },
-  "EFI": {
-    "requires": 1,
-    "elements": [
-      "C077",
-      "C099",
-      "1050",
-      "9450"
-    ]
-  },
-  "PCD": {
-    "requires": 1,
-    "elements": [
-      "C501",
-      "4405"
-    ]
-  },
-  "CTA": {
+  "CCI": {
     "requires": 0,
     "elements": [
-      "3139",
-      "C056"
+      "7059",
+      "C502",
+      "C240",
+      "4051"
+    ]
+  },
+  "CED": {
+    "requires": 2,
+    "elements": [
+      "1501",
+      "C079",
+      "9448"
     ]
   },
   "PRI": {
@@ -196,33 +197,32 @@
       "5213"
     ]
   },
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "QTY": {
+    "requires": 1,
+    "elements": [
+      "C186"
+    ]
+  },
+  "RTE": {
+    "requires": 1,
+    "elements": [
+      "C128",
+      "4405"
+    ]
+  },
   "CNT": {
     "requires": 1,
     "elements": [
       "C270"
-    ]
-  },
-  "ADR": {
-    "requires": 0,
-    "elements": [
-      "C817",
-      "C090",
-      "3164",
-      "3251",
-      "3207",
-      "C819",
-      "C517"
-    ]
-  },
-  "FTX": {
-    "requires": 1,
-    "elements": [
-      "4451",
-      "4453",
-      "C107",
-      "C108",
-      "3453",
-      "4447"
     ]
   }
 }

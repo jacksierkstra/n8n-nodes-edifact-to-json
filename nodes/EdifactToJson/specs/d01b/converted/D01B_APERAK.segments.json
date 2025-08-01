@@ -29,10 +29,10 @@
       "4447"
     ]
   },
-  "DTM": {
+  "COM": {
     "requires": 1,
     "elements": [
-      "C507"
+      "C076"
     ]
   },
   "CNT": {
@@ -47,16 +47,10 @@
       "C506"
     ]
   },
-  "ERC": {
+  "DTM": {
     "requires": 1,
     "elements": [
-      "C901"
-    ]
-  },
-  "COM": {
-    "requires": 1,
-    "elements": [
-      "C076"
+      "C507"
     ]
   },
   "NAD": {
@@ -71,6 +65,12 @@
       "C819",
       "3251",
       "3207"
+    ]
+  },
+  "ERC": {
+    "requires": 1,
+    "elements": [
+      "C901"
     ]
   },
   "CTA": {

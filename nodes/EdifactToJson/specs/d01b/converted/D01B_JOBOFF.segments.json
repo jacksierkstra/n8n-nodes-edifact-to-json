@@ -1,79 +1,14 @@
 {
-  "NAT": {
-    "requires": 1,
-    "elements": [
-      "3493",
-      "C042"
-    ]
-  },
-  "DTM": {
-    "requires": 1,
-    "elements": [
-      "C507"
-    ]
-  },
-  "COM": {
-    "requires": 1,
-    "elements": [
-      "C076"
-    ]
-  },
-  "PDI": {
-    "requires": 0,
-    "elements": [
-      "3499",
-      "C085",
-      "C101"
-    ]
-  },
-  "PNA": {
-    "requires": 1,
-    "elements": [
-      "3035",
-      "C206",
-      "C082",
-      "3403",
-      "3397",
-      "C816",
-      "C816",
-      "C816",
-      "C816",
-      "C816",
-      "1229"
-    ]
-  },
-  "GIS": {
-    "requires": 1,
-    "elements": [
-      "C529"
-    ]
-  },
   "MOA": {
     "requires": 1,
     "elements": [
       "C516"
     ]
   },
-  "FTX": {
+  "RFF": {
     "requires": 1,
     "elements": [
-      "4451",
-      "4453",
-      "C107",
-      "C108",
-      "3453",
-      "4447"
-    ]
-  },
-  "EMP": {
-    "requires": 1,
-    "elements": [
-      "9003",
-      "C948",
-      "C951",
-      "C950",
-      "3494",
-      "9035"
+      "C506"
     ]
   },
   "LOC": {
@@ -84,32 +19,6 @@
       "C519",
       "C553",
       "5479"
-    ]
-  },
-  "PTY": {
-    "requires": 1,
-    "elements": [
-      "4035",
-      "C585"
-    ]
-  },
-  "RFF": {
-    "requires": 1,
-    "elements": [
-      "C506"
-    ]
-  },
-  "QTY": {
-    "requires": 1,
-    "elements": [
-      "C186"
-    ]
-  },
-  "RNG": {
-    "requires": 1,
-    "elements": [
-      "6167",
-      "C280"
     ]
   },
   "ADR": {
@@ -124,50 +33,40 @@
       "C517"
     ]
   },
-  "ATT": {
+  "COM": {
     "requires": 1,
     "elements": [
-      "9017",
-      "C955",
-      "C956"
+      "C076"
     ]
   },
-  "BGM": {
-    "requires": 0,
-    "elements": [
-      "C002",
-      "C106",
-      "1225",
-      "4343"
-    ]
-  },
-  "CTA": {
-    "requires": 0,
-    "elements": [
-      "3139",
-      "C056"
-    ]
-  },
-  "LAN": {
+  "PTY": {
     "requires": 1,
     "elements": [
-      "3455",
-      "C508"
+      "4035",
+      "C585"
+    ]
+  },
+  "FTX": {
+    "requires": 1,
+    "elements": [
+      "4451",
+      "4453",
+      "C107",
+      "C108",
+      "3453",
+      "4447"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
     ]
   },
   "SAL": {
     "requires": 0,
     "elements": [
       "C049"
-    ]
-  },
-  "RCS": {
-    "requires": 1,
-    "elements": [
-      "7293",
-      "C550",
-      "1229",
-      "3207"
     ]
   },
   "DOC": {
@@ -178,6 +77,13 @@
       "3153",
       "1220",
       "1218"
+    ]
+  },
+  "RNG": {
+    "requires": 1,
+    "elements": [
+      "6167",
+      "C280"
     ]
   }
 }
