@@ -1,4 +1,4 @@
-import { InputResolver } from '../EdifactToJson/InputResolver';
+import { InputResolver } from '../EdifactToJson/input';
 import { NodeOperationError } from 'n8n-workflow';
 import type { IExecuteFunctions, INodeExecutionData } from 'n8n-workflow';
 

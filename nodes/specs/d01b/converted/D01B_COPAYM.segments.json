@@ -1,0 +1,161 @@
+{
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
+    ]
+  },
+  "ADR": {
+    "requires": 0,
+    "elements": [
+      "C817",
+      "C090",
+      "3164",
+      "3251",
+      "3207",
+      "C819",
+      "C517"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "ATT": {
+    "requires": 1,
+    "elements": [
+      "9017",
+      "C955",
+      "C956"
+    ]
+  },
+  "PNA": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C206",
+      "C082",
+      "3403",
+      "3397",
+      "C816",
+      "C816",
+      "C816",
+      "C816",
+      "C816",
+      "1229"
+    ]
+  },
+  "CUX": {
+    "requires": 0,
+    "elements": [
+      "C504",
+      "C504",
+      "5402",
+      "6341"
+    ]
+  },
+  "COM": {
+    "requires": 1,
+    "elements": [
+      "C076"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "CTA": {
+    "requires": 0,
+    "elements": [
+      "3139",
+      "C056"
+    ]
+  },
+  "QTY": {
+    "requires": 1,
+    "elements": [
+      "C186"
+    ]
+  },
+  "PCD": {
+    "requires": 1,
+    "elements": [
+      "C501",
+      "4405"
+    ]
+  },
+  "CNT": {
+    "requires": 1,
+    "elements": [
+      "C270"
+    ]
+  },
+  "LOC": {
+    "requires": 1,
+    "elements": [
+      "3227",
+      "C517",
+      "C519",
+      "C553",
+      "5479"
+    ]
+  },
+  "DLI": {
+    "requires": 2,
+    "elements": [
+      "1073",
+      "1082"
+    ]
+  },
+  "COT": {
+    "requires": 1,
+    "elements": [
+      "5047",
+      "C953",
+      "C522",
+      "C203",
+      "C960"
+    ]
+  },
+  "AUT": {
+    "requires": 1,
+    "elements": [
+      "9280",
+      "9282"
+    ]
+  },
+  "PAI": {
+    "requires": 1,
+    "elements": [
+      "C534"
+    ]
+  },
+  "FII": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C078",
+      "C088",
+      "3207"
+    ]
+  }
+}

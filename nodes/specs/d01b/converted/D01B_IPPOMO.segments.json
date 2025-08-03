@@ -1,0 +1,81 @@
+{
+  "BGM": {
+    "requires": 0,
+    "elements": [
+      "C002",
+      "C106",
+      "1225",
+      "4343"
+    ]
+  },
+  "SEQ": {
+    "requires": 0,
+    "elements": [
+      "1229",
+      "C286"
+    ]
+  },
+  "GIS": {
+    "requires": 1,
+    "elements": [
+      "C529"
+    ]
+  },
+  "ICD": {
+    "requires": 2,
+    "elements": [
+      "C330",
+      "C331"
+    ]
+  },
+  "DTM": {
+    "requires": 1,
+    "elements": [
+      "C507"
+    ]
+  },
+  "ATT": {
+    "requires": 1,
+    "elements": [
+      "9017",
+      "C955",
+      "C956"
+    ]
+  },
+  "PNA": {
+    "requires": 1,
+    "elements": [
+      "3035",
+      "C206",
+      "C082",
+      "3403",
+      "3397",
+      "C816",
+      "C816",
+      "C816",
+      "C816",
+      "C816",
+      "1229"
+    ]
+  },
+  "RFF": {
+    "requires": 1,
+    "elements": [
+      "C506"
+    ]
+  },
+  "MOA": {
+    "requires": 1,
+    "elements": [
+      "C516"
+    ]
+  },
+  "QRS": {
+    "requires": 1,
+    "elements": [
+      "7293",
+      "C811",
+      "C812"
+    ]
+  }
+}

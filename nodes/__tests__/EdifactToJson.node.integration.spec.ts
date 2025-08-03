@@ -1,5 +1,5 @@
 
-import { EdifactConversionService } from "../EdifactToJson/EdifactConversionService";
+import { EdifactConversionService } from "../EdifactToJson/conversion";
 
 
 describe('Edifact parsing', () => {
