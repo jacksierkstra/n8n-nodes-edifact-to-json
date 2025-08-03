@@ -1,4 +1,4 @@
-import { EdifactConversionService } from '../EdifactToJson/conversion';
+import { EdifactConversionService } from "../conversion";
 
 describe('EdifactConversionService', () => {
   it('parses a simple EDIFACT message', () => {

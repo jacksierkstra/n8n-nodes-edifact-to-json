@@ -1,6 +1,6 @@
-import { InputResolver } from '../EdifactToJson/input';
 import { NodeOperationError } from 'n8n-workflow';
 import type { IExecuteFunctions, INodeExecutionData } from 'n8n-workflow';
+import { InputResolver } from '../input';
 
 describe('InputResolver', () => {
   it('returns the string parameter when mainInputType is string', async () => {
