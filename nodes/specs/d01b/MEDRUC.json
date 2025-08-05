@@ -1,0 +1,2316 @@
+{
+  "segmentTable": {
+    "entries": {
+      "MOA": {
+        "requires": 1,
+        "elements": [
+          "C516"
+        ]
+      },
+      "FTX": {
+        "requires": 1,
+        "elements": [
+          "4451",
+          "4453",
+          "C107",
+          "C108",
+          "3453",
+          "4447"
+        ]
+      },
+      "REL": {
+        "requires": 1,
+        "elements": [
+          "9141",
+          "C941"
+        ]
+      },
+      "SEQ": {
+        "requires": 0,
+        "elements": [
+          "1229",
+          "C286"
+        ]
+      },
+      "PDI": {
+        "requires": 0,
+        "elements": [
+          "3499",
+          "C085",
+          "C101"
+        ]
+      },
+      "CUX": {
+        "requires": 0,
+        "elements": [
+          "C504",
+          "C504",
+          "5402",
+          "6341"
+        ]
+      },
+      "DTM": {
+        "requires": 1,
+        "elements": [
+          "C507"
+        ]
+      },
+      "TAX": {
+        "requires": 1,
+        "elements": [
+          "5283",
+          "C241",
+          "C533",
+          "5286",
+          "C243",
+          "5305",
+          "3446",
+          "1227"
+        ]
+      },
+      "RFF": {
+        "requires": 1,
+        "elements": [
+          "C506"
+        ]
+      },
+      "BGM": {
+        "requires": 0,
+        "elements": [
+          "C002",
+          "C106",
+          "1225",
+          "4343"
+        ]
+      },
+      "STS": {
+        "requires": 0,
+        "elements": [
+          "C601",
+          "C555",
+          "C556",
+          "C556",
+          "C556",
+          "C556",
+          "C556"
+        ]
+      },
+      "FII": {
+        "requires": 1,
+        "elements": [
+          "3035",
+          "C078",
+          "C088",
+          "3207"
+        ]
+      },
+      "AGR": {
+        "requires": 0,
+        "elements": [
+          "C543",
+          "9419"
+        ]
+      },
+      "COM": {
+        "requires": 1,
+        "elements": [
+          "C076"
+        ]
+      },
+      "NAT": {
+        "requires": 1,
+        "elements": [
+          "3493",
+          "C042"
+        ]
+      },
+      "PNA": {
+        "requires": 1,
+        "elements": [
+          "3035",
+          "C206",
+          "C082",
+          "3403",
+          "3397",
+          "C816",
+          "C816",
+          "C816",
+          "C816",
+          "C816",
+          "1229"
+        ]
+      },
+      "ADR": {
+        "requires": 0,
+        "elements": [
+          "C817",
+          "C090",
+          "3164",
+          "3251",
+          "3207",
+          "C819",
+          "C517"
+        ]
+      },
+      "SPR": {
+        "requires": 1,
+        "elements": [
+          "7293",
+          "3079",
+          "C844"
+        ]
+      },
+      "QUA": {
+        "requires": 1,
+        "elements": [
+          "9037",
+          "C950"
+        ]
+      },
+      "DOC": {
+        "requires": 1,
+        "elements": [
+          "C002",
+          "C503",
+          "3153",
+          "1220",
+          "1218"
+        ]
+      },
+      "GIS": {
+        "requires": 1,
+        "elements": [
+          "C529"
+        ]
+      },
+      "RCS": {
+        "requires": 1,
+        "elements": [
+          "7293",
+          "C550",
+          "1229",
+          "3207"
+        ]
+      },
+      "LAN": {
+        "requires": 1,
+        "elements": [
+          "3455",
+          "C508"
+        ]
+      },
+      "CTA": {
+        "requires": 0,
+        "elements": [
+          "3139",
+          "C056"
+        ]
+      },
+      "EMP": {
+        "requires": 1,
+        "elements": [
+          "9003",
+          "C948",
+          "C951",
+          "C950",
+          "3494",
+          "9035"
+        ]
+      },
+      "CNT": {
+        "requires": 1,
+        "elements": [
+          "C270"
+        ]
+      },
+      "HAN": {
+        "requires": 0,
+        "elements": [
+          "C524",
+          "C218"
+        ]
+      },
+      "IMD": {
+        "requires": 0,
+        "elements": [
+          "7077",
+          "C272",
+          "C273",
+          "7383"
+        ]
+      },
+      "QTY": {
+        "requires": 1,
+        "elements": [
+          "C186"
+        ]
+      },
+      "ICD": {
+        "requires": 2,
+        "elements": [
+          "C330",
+          "C331"
+        ]
+      },
+      "LOC": {
+        "requires": 1,
+        "elements": [
+          "3227",
+          "C517",
+          "C519",
+          "C553",
+          "5479"
+        ]
+      },
+      "RSL": {
+        "requires": 1,
+        "elements": [
+          "6087",
+          "6077",
+          "C831",
+          "C831",
+          "C848",
+          "6079"
+        ]
+      },
+      "PAS": {
+        "requires": 1,
+        "elements": [
+          "9443",
+          "C839",
+          "C840",
+          "C841"
+        ]
+      },
+      "FCA": {
+        "requires": 1,
+        "elements": [
+          "4471",
+          "C878"
+        ]
+      },
+      "PRC": {
+        "requires": 0,
+        "elements": [
+          "C242",
+          "C830"
+        ]
+      },
+      "CIN": {
+        "requires": 1,
+        "elements": [
+          "6415",
+          "C836",
+          "C837"
+        ]
+      },
+      "PAC": {
+        "requires": 0,
+        "elements": [
+          "7224",
+          "C531",
+          "C202",
+          "C402",
+          "C532"
+        ]
+      },
+      "PCD": {
+        "requires": 1,
+        "elements": [
+          "C501",
+          "4405"
+        ]
+      },
+      "EQD": {
+        "requires": 1,
+        "elements": [
+          "8053",
+          "C237",
+          "C224",
+          "8077",
+          "8249",
+          "8169"
+        ]
+      },
+      "TMD": {
+        "requires": 0,
+        "elements": [
+          "C219",
+          "8332",
+          "8341"
+        ]
+      },
+      "CLI": {
+        "requires": 1,
+        "elements": [
+          "9441",
+          "C828"
+        ]
+      },
+      "TSR": {
+        "requires": 0,
+        "elements": [
+          "C536",
+          "C233",
+          "C537",
+          "C703"
+        ]
+      },
+      "TDT": {
+        "requires": 1,
+        "elements": [
+          "8051",
+          "8028",
+          "C220",
+          "C228",
+          "C040",
+          "8101",
+          "C401",
+          "C222",
+          "8281"
+        ]
+      },
+      "TCC": {
+        "requires": 0,
+        "elements": [
+          "C200",
+          "C203",
+          "C528",
+          "C554"
+        ]
+      },
+      "AUT": {
+        "requires": 1,
+        "elements": [
+          "9280",
+          "9282"
+        ]
+      }
+    }
+  },
+  "elementTable": {
+    "entries": {
+      "1218": {
+        "requires": 0,
+        "components": [
+          "n..2"
+        ]
+      },
+      "1220": {
+        "requires": 0,
+        "components": [
+          "n..2"
+        ]
+      },
+      "1225": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "1227": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "1229": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3035": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3079": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3139": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3153": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3164": {
+        "requires": 0,
+        "components": [
+          "an..35"
+        ]
+      },
+      "3207": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3227": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3251": {
+        "requires": 0,
+        "components": [
+          "an..17"
+        ]
+      },
+      "3397": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3403": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3446": {
+        "requires": 0,
+        "components": [
+          "an..20"
+        ]
+      },
+      "3453": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3455": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3493": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "3494": {
+        "requires": 0,
+        "components": [
+          "an..35"
+        ]
+      },
+      "3499": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4343": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4405": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4447": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4451": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4453": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "4471": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "5283": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "5286": {
+        "requires": 0,
+        "components": [
+          "an..15"
+        ]
+      },
+      "5305": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "5402": {
+        "requires": 0,
+        "components": [
+          "n..12"
+        ]
+      },
+      "5479": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "6077": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "6079": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "6087": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "6341": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "6415": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "7077": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "7224": {
+        "requires": 0,
+        "components": [
+          "n..8"
+        ]
+      },
+      "7293": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "7383": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "8028": {
+        "requires": 0,
+        "components": [
+          "an..17"
+        ]
+      },
+      "8051": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "8053": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "8077": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "8101": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "8169": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "8249": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "8281": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "8332": {
+        "requires": 0,
+        "components": [
+          "an..26"
+        ]
+      },
+      "8341": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9003": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9035": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9037": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9141": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9280": {
+        "requires": 1,
+        "components": [
+          "an..35"
+        ]
+      },
+      "9282": {
+        "requires": 0,
+        "components": [
+          "an..35"
+        ]
+      },
+      "9419": {
+        "requires": 0,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9441": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "9443": {
+        "requires": 1,
+        "components": [
+          "an..3"
+        ]
+      },
+      "C516": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "n..35",
+          "an..3",
+          "an..3",
+          "an..3"
+        ]
+      },
+      "C107": {
+        "requires": 1,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C108": {
+        "requires": 1,
+        "components": [
+          "an..512",
+          "an..512",
+          "an..512",
+          "an..512",
+          "an..512"
+        ]
+      },
+      "C941": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C286": {
+        "requires": 1,
+        "components": [
+          "an..10",
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C085": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C101": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C504": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..3",
+          "an..3",
+          "n..4"
+        ]
+      },
+      "C507": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..35",
+          "an..3"
+        ]
+      },
+      "C241": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C533": {
+        "requires": 1,
+        "components": [
+          "an..6",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C243": {
+        "requires": 0,
+        "components": [
+          "an..7",
+          "an..17",
+          "an..3",
+          "an..17",
+          "an..12",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C506": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..70",
+          "an..6",
+          "an..35",
+          "an..6"
+        ]
+      },
+      "C002": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C106": {
+        "requires": 0,
+        "components": [
+          "an..35",
+          "an..9",
+          "an..6"
+        ]
+      },
+      "C601": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C555": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C556": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..256"
+        ]
+      },
+      "C078": {
+        "requires": 0,
+        "components": [
+          "an..35",
+          "an..35",
+          "an..35",
+          "an..3"
+        ]
+      },
+      "C088": {
+        "requires": 0,
+        "components": [
+          "an..11",
+          "an..17",
+          "an..3",
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..70",
+          "an..70"
+        ]
+      },
+      "C543": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C076": {
+        "requires": 2,
+        "components": [
+          "an..512",
+          "an..3"
+        ]
+      },
+      "C042": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "a..35"
+        ]
+      },
+      "C206": {
+        "requires": 1,
+        "components": [
+          "an..35",
+          "an..3",
+          "an..3"
+        ]
+      },
+      "C082": {
+        "requires": 1,
+        "components": [
+          "an..35",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C816": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..70",
+          "an..3",
+          "an..3"
+        ]
+      },
+      "C817": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..3",
+          "an..3"
+        ]
+      },
+      "C090": {
+        "requires": 2,
+        "components": [
+          "an..3",
+          "an..70",
+          "an..70",
+          "an..70",
+          "an..70",
+          "an..70"
+        ]
+      },
+      "C819": {
+        "requires": 0,
+        "components": [
+          "an..9",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C517": {
+        "requires": 0,
+        "components": [
+          "an..25",
+          "an..17",
+          "an..3",
+          "an..256"
+        ]
+      },
+      "C844": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C950": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35",
+          "an..35"
+        ]
+      },
+      "C503": {
+        "requires": 0,
+        "components": [
+          "an..35",
+          "an..3",
+          "an..70",
+          "an..3",
+          "an..9",
+          "an..6"
+        ]
+      },
+      "C529": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..17"
+        ]
+      },
+      "C550": {
+        "requires": 1,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C508": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C056": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..35"
+        ]
+      },
+      "C948": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C951": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35",
+          "an..35"
+        ]
+      },
+      "C270": {
+        "requires": 2,
+        "components": [
+          "an..3",
+          "n..18",
+          "an..3"
+        ]
+      },
+      "C524": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C218": {
+        "requires": 0,
+        "components": [
+          "an..7",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C272": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C273": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..256",
+          "an..256",
+          "an..3"
+        ]
+      },
+      "C186": {
+        "requires": 2,
+        "components": [
+          "an..3",
+          "an..35",
+          "an..3"
+        ]
+      },
+      "C330": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C331": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..35",
+          "an..35"
+        ]
+      },
+      "C519": {
+        "requires": 0,
+        "components": [
+          "an..25",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C553": {
+        "requires": 0,
+        "components": [
+          "an..25",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C831": {
+        "requires": 0,
+        "components": [
+          "an..18",
+          "an..3",
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C848": {
+        "requires": 0,
+        "components": [
+          "an..8",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C839": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C840": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C841": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C878": {
+        "requires": 1,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..35",
+          "an..3"
+        ]
+      },
+      "C242": {
+        "requires": 1,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..35",
+          "an..35"
+        ]
+      },
+      "C830": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C836": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C837": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C531": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..3",
+          "an..3"
+        ]
+      },
+      "C202": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C402": {
+        "requires": 2,
+        "components": [
+          "an..3",
+          "an..35",
+          "an..3",
+          "an..35",
+          "an..3"
+        ]
+      },
+      "C532": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..3"
+        ]
+      },
+      "C501": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "n..10",
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C237": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..3"
+        ]
+      },
+      "C224": {
+        "requires": 0,
+        "components": [
+          "an..10",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C219": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C828": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..70"
+        ]
+      },
+      "C536": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C233": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3",
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C537": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C703": {
+        "requires": 1,
+        "components": [
+          "an..3",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C220": {
+        "requires": 0,
+        "components": [
+          "an..3",
+          "an..17"
+        ]
+      },
+      "C228": {
+        "requires": 0,
+        "components": [
+          "an..8",
+          "an..17"
+        ]
+      },
+      "C040": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C401": {
+        "requires": 2,
+        "components": [
+          "an..3",
+          "an..3",
+          "an..17"
+        ]
+      },
+      "C222": {
+        "requires": 0,
+        "components": [
+          "an..9",
+          "an..17",
+          "an..3",
+          "an..35",
+          "an..3"
+        ]
+      },
+      "C200": {
+        "requires": 0,
+        "components": [
+          "an..17",
+          "an..17",
+          "an..3",
+          "an..26",
+          "an..3",
+          "an..35"
+        ]
+      },
+      "C203": {
+        "requires": 1,
+        "components": [
+          "an..9",
+          "an..17",
+          "an..3",
+          "an..35",
+          "an..6",
+          "an..17",
+          "an..3",
+          "an..6",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C528": {
+        "requires": 0,
+        "components": [
+          "an..18",
+          "an..17",
+          "an..3"
+        ]
+      },
+      "C554": {
+        "requires": 0,
+        "components": [
+          "an..9",
+          "an..17",
+          "an..3"
+        ]
+      }
+    }
+  },
+  "messageStructureDefinition": [
+    {
+      "content": "UNH",
+      "mandatory": true,
+      "repetition": 1,
+      "data": [
+        "D01B",
+        "MEDRUC"
+      ],
+      "section": "header"
+    },
+    {
+      "content": "BGM",
+      "mandatory": true,
+      "repetition": 1
+    },
+    {
+      "content": "DTM",
+      "mandatory": false,
+      "repetition": 9
+    },
+    {
+      "content": "RFF",
+      "mandatory": false,
+      "repetition": 9
+    },
+    {
+      "content": "FTX",
+      "mandatory": false,
+      "repetition": 9
+    },
+    {
+      "content": "CUX",
+      "mandatory": false,
+      "repetition": 1
+    },
+    {
+      "content": "CNT",
+      "mandatory": false,
+      "repetition": 9
+    },
+    {
+      "content": [
+        {
+          "content": "MOA",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "TAX",
+          "mandatory": false,
+          "repetition": 1
+        }
+      ],
+      "mandatory": false,
+      "repetition": 9,
+      "name": "Segment group 1"
+    },
+    {
+      "content": [
+        {
+          "content": "PNA",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "SEQ",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "ADR",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "CTA",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "COM",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "RFF",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "REL",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "NAT",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "LAN",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "SPR",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "EMP",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "QUA",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "DTM",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "STS",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "RCS",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "PDI",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "FII",
+          "mandatory": false,
+          "repetition": 9
+        }
+      ],
+      "mandatory": false,
+      "repetition": 999,
+      "name": "Segment group 2"
+    },
+    {
+      "content": [
+        {
+          "content": "AGR",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "SEQ",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "RFF",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "DTM",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": [
+            {
+              "content": "ICD",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "FTX",
+              "mandatory": false,
+              "repetition": 9
+            }
+          ],
+          "mandatory": false,
+          "repetition": 99,
+          "name": "Segment group 4"
+        }
+      ],
+      "mandatory": false,
+      "repetition": 999,
+      "name": "Segment group 3"
+    },
+    {
+      "content": [
+        {
+          "content": "DOC",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "DTM",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": [
+            {
+              "content": "PNA",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "ADR",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "STS",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "RCS",
+              "mandatory": false,
+              "repetition": 9
+            }
+          ],
+          "mandatory": false,
+          "repetition": 9,
+          "name": "Segment group 6"
+        }
+      ],
+      "mandatory": false,
+      "repetition": 99,
+      "name": "Segment group 5"
+    },
+    {
+      "content": [
+        {
+          "content": "FCA",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "GIS",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": "RFF",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "DTM",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "FTX",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "AGR",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": "DOC",
+          "mandatory": false,
+          "repetition": 9
+        },
+        {
+          "content": [
+            {
+              "content": "MOA",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "TAX",
+              "mandatory": false,
+              "repetition": 1
+            }
+          ],
+          "mandatory": false,
+          "repetition": 99,
+          "name": "Segment group 8"
+        },
+        {
+          "content": [
+            {
+              "content": "RCS",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "FTX",
+              "mandatory": false,
+              "repetition": 9
+            }
+          ],
+          "mandatory": false,
+          "repetition": 99,
+          "name": "Segment group 9"
+        },
+        {
+          "content": [
+            {
+              "content": "PNA",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "RFF",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "ADR",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "COM",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "DTM",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "PDI",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "RSL",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "NAT",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "LAN",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "HAN",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "REL",
+              "mandatory": false,
+              "repetition": 1
+            }
+          ],
+          "mandatory": false,
+          "repetition": 999,
+          "name": "Segment group 10"
+        },
+        {
+          "content": [
+            {
+              "content": "PRC",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "GIS",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "STS",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "IMD",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "CIN",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "PNA",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "DTM",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "RFF",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "FTX",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "QTY",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "PCD",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": [
+                {
+                  "content": "PAS",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "LOC",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "DTM",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "RFF",
+                  "mandatory": false,
+                  "repetition": 9
+                }
+              ],
+              "mandatory": false,
+              "repetition": 99,
+              "name": "Segment group 12"
+            },
+            {
+              "content": [
+                {
+                  "content": "MOA",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "TAX",
+                  "mandatory": false,
+                  "repetition": 1
+                }
+              ],
+              "mandatory": false,
+              "repetition": 99,
+              "name": "Segment group 13"
+            },
+            {
+              "content": [
+                {
+                  "content": "RCS",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "FTX",
+                  "mandatory": false,
+                  "repetition": 9
+                }
+              ],
+              "mandatory": false,
+              "repetition": 99,
+              "name": "Segment group 14"
+            },
+            {
+              "content": [
+                {
+                  "content": "CLI",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "GIS",
+                  "mandatory": false,
+                  "repetition": 1
+                },
+                {
+                  "content": "IMD",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "CIN",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "PNA",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "DTM",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "RFF",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "FTX",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "QTY",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "PCD",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "PAC",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": [
+                    {
+                      "content": "MOA",
+                      "mandatory": true,
+                      "repetition": 1
+                    },
+                    {
+                      "content": "TAX",
+                      "mandatory": false,
+                      "repetition": 1
+                    }
+                  ],
+                  "mandatory": false,
+                  "repetition": 99,
+                  "name": "Segment group 16"
+                },
+                {
+                  "content": [
+                    {
+                      "content": "RCS",
+                      "mandatory": true,
+                      "repetition": 1
+                    },
+                    {
+                      "content": "FTX",
+                      "mandatory": false,
+                      "repetition": 9
+                    }
+                  ],
+                  "mandatory": false,
+                  "repetition": 99,
+                  "name": "Segment group 17"
+                },
+                {
+                  "content": [
+                    {
+                      "content": "EQD",
+                      "mandatory": true,
+                      "repetition": 1
+                    },
+                    {
+                      "content": "SEQ",
+                      "mandatory": false,
+                      "repetition": 1
+                    }
+                  ],
+                  "mandatory": false,
+                  "repetition": 99,
+                  "name": "Segment group 18"
+                }
+              ],
+              "mandatory": false,
+              "repetition": 999,
+              "name": "Segment group 15"
+            }
+          ],
+          "mandatory": false,
+          "repetition": 999,
+          "name": "Segment group 11"
+        }
+      ],
+      "mandatory": false,
+      "repetition": 999,
+      "name": "Segment group 7"
+    },
+    {
+      "content": [
+        {
+          "content": "TMD",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "SEQ",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "GIS",
+          "mandatory": false,
+          "repetition": 1
+        },
+        {
+          "content": "FTX",
+          "mandatory": false,
+          "repetition": 99
+        },
+        {
+          "content": [
+            {
+              "content": "TDT",
+              "mandatory": true,
+              "repetition": 1
+            },
+            {
+              "content": "GIS",
+              "mandatory": false,
+              "repetition": 1
+            },
+            {
+              "content": "IMD",
+              "mandatory": false,
+              "repetition": 9
+            },
+            {
+              "content": "PNA",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "RFF",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "FTX",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "CIN",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": "QTY",
+              "mandatory": false,
+              "repetition": 99
+            },
+            {
+              "content": [
+                {
+                  "content": "ADR",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "DTM",
+                  "mandatory": false,
+                  "repetition": 9
+                }
+              ],
+              "mandatory": false,
+              "repetition": 99,
+              "name": "Segment group 21"
+            },
+            {
+              "content": [
+                {
+                  "content": "TSR",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "FTX",
+                  "mandatory": false,
+                  "repetition": 9
+                }
+              ],
+              "mandatory": false,
+              "repetition": 99,
+              "name": "Segment group 22"
+            },
+            {
+              "content": [
+                {
+                  "content": "TCC",
+                  "mandatory": true,
+                  "repetition": 1
+                },
+                {
+                  "content": "GIS",
+                  "mandatory": false,
+                  "repetition": 1
+                },
+                {
+                  "content": "IMD",
+                  "mandatory": false,
+                  "repetition": 9
+                },
+                {
+                  "content": "DTM",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "RFF",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "FTX",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "QTY",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": "PCD",
+                  "mandatory": false,
+                  "repetition": 99
+                },
+                {
+                  "content": [
+                    {
+                      "content": "MOA",
+                      "mandatory": true,
+                      "repetition": 1
+                    },
+                    {
+                      "content": "TAX",
+                      "mandatory": false,
+                      "repetition": 1
+                    }
+                  ],
+                  "mandatory": false,
+                  "repetition": 99,
+                  "name": "Segment group 24"
+                },
+                {
+                  "content": [
+                    {
+                      "content": "TSR",
+                      "mandatory": true,
+                      "repetition": 1
+                    },
+                    {
+                      "content": "FTX",
+                      "mandatory": false,
+                      "repetition": 9
+                    }
+                  ],
+                  "mandatory": false,
+                  "repetition": 99,
+                  "name": "Segment group 25"
+                }
+              ],
+              "mandatory": false,
+              "repetition": 999,
+              "name": "Segment group 23"
+            }
+          ],
+          "mandatory": false,
+          "repetition": 999,
+          "name": "Segment group 20"
+        }
+      ],
+      "mandatory": false,
+      "repetition": 999,
+      "name": "Segment group 19"
+    },
+    {
+      "content": [
+        {
+          "content": "AUT",
+          "mandatory": true,
+          "repetition": 1
+        },
+        {
+          "content": "DTM",
+          "mandatory": false,
+          "repetition": 9
+        }
+      ],
+      "mandatory": false,
+      "repetition": 9,
+      "name": "Segment group 26"
+    },
+    {
+      "content": "UNT",
+      "mandatory": true,
+      "repetition": 1
+    }
+  ],
+  "messageType": "MEDRUC",
+  "version": "D",
+  "release": "01B",
+  "controllingAgency": "UN"
+}
